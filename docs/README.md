@@ -1,5 +1,3 @@
-# 学习资料整理
-
 ## 架构
 * [首席架构师眼里的架构本质](https://mp.weixin.qq.com/s?__biz=MzA3MDg5MTEzMA==&mid=2648234349&idx=1&sn=fd5c0c344639767b482b0e8229abe531)
 * [架构设计（1）-谈谈架构-什么是真正的架构设计？](https://blog.csdn.net/hguisu/article/details/78258430)
@@ -44,7 +42,7 @@
 * [《吊打面试官》系列-消息队列基础](https://juejin.im/post/5dd3ff85e51d453fe34dfcc5)
 * [《吊打面试官》系列-分布式事务、重复消费、顺序消费](https://juejin.im/post/5dda9e7e6fb9a07aae2a3778)
 * [《浅入浅出》-RocketMQ](https://juejin.im/post/5de3c8026fb9a07194761641)
-* Kafka
+### Kafka
   > Broker、Topic下 分区(Partition)（一主多备，天然分布式，单分区写入有序）、消费者组、偏移量(offset)（消费者可指定读取）、消息日志等概念。
   消息传递、存储、流处理3大主要功能。
   * [全网最通俗易懂的Kafka入门！ - 掘金](https://juejin.im/post/5de706d66fb9a0164f292242)
@@ -85,30 +83,30 @@
   * [国外大佬给出的三种处理异常的套路！](https://mp.weixin.qq.com/s/XTiFc2DwAVWE3CYa2Im1qw)
   > 有三种处理异常的基本模式：转换（translate）、重试（retry）和恢复（recover）。
 
-* JDK 7
+### JDK 7
  * [深入理解 Java try-with-resource 语法糖](https://juejin.im/entry/57f73e81bf22ec00647dacd0)
-* JDK 8
+### JDK 8
   * [Java8 Lambda表达式详解手册及实例](https://mp.weixin.qq.com/s?__biz=Mzg3NjIxMjA1Ng==&mid=2247484017&idx=2&sn=ad82d72b9efa2e800d01137749a5de16)
   * [Lambda VS 内部类](https://github.com/CarpenterLee/JavaLambdaInternals/blob/master/2-Lambda%20and%20Anonymous%20Classes(II).md)
   * [使用Stream API优化代码](https://juejin.im/post/5d8226d4e51d453c135c5b9a)
   * [Java8 中用法优雅的 Stream，性能也"优雅"吗？](https://mp.weixin.qq.com/s?__biz=MzU0MzQ5MDA0Mw==&mid=2247486142&idx=2&sn=2d9aa6b43a0314d35377a125ac2f13d7)
   * [聊聊 Java8 以后各个版本的新特性](https://juejin.im/post/5d5950806fb9a06b0a277412#heading-47)
-* JDK 8 +
+### JDK 8 +
   * [Java 9的模块化--壮士断"腕"的涅槃](https://zhuanlan.zhihu.com/p/24800180)
-* 阿里巴巴
+### 阿里巴巴
   * [【阿里巴巴-王超】消灭 Java 代码的“坏味道”](https://mp.weixin.qq.com/s?__biz=MzU4NzU0MDIzOQ==&mid=2247487714&idx=1&sn=8f9de656a4abe236b16415e6ecaa5f9d)
   * [《阿里巴巴Java开发手册1.5.0华山版》 PDF](https://ghost.oss.sherlocky.com/learning/java/Java%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C-%E5%8D%8E%E5%B1%B1%E7%89%88-1.5.0.pdf)
   * [阿里巴巴Java开发手册IDE插件](https://yq.aliyun.com/articles/224817?utm_content=m_32519)
   * [JAVA核心知识点整理.pdf](https://ghost.oss.sherlocky.com/learning/java/JAVA%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E6%95%B4%E7%90%86.pdf)
-* 反射
+### 反射
   * [Class.forName和ClassLoader的区别](https://www.cnblogs.com/jimoer/p/9185662.html)
-* 重写和重载
+### 重写和重载
   * [细说 Java Overload 与 Override 差别](https://mp.weixin.qq.com/s?__biz=MjM5NzMyMjAwMA==&mid=2651484817&idx=1&sn=8807daa4aa95d8c044c73c9e860988e6)
   * [英文原文](https://software.rajivprab.com/2019/08/14/nuances-of-overloading-and-overriding-in-java/)
-* 序列化
+### 序列化
   * [【原创】（译）Java 序列化魔法方法及使用示例](https://juejin.im/post/5d7206c5f265da03ab427181)
   * [FastJson稍微使用不当就会导致StackOverflow](https://mp.weixin.qq.com/s?__biz=MzI3NzE0NjcwMg==&mid=2650125098&idx=1&sn=2390567e228e1257af3d4b6090c7065d)
-* 集合
+### 集合
   * [==为什么阿里巴巴禁止在 foreach 循环里进行元素的 remove/add 操作==](https://mp.weixin.qq.com/s/0NF3dT4hTD2WdFaHFe6b_g)
   * [《吊打面试官》系列-HashMap](https://juejin.im/post/5dee6f54f265da33ba5a79c8)
   * [《吊打面试官》系列-ConcurrentHashMap & Hashtable](https://juejin.im/post/5df8d7346fb9a015ff64eaf9)
@@ -153,7 +151,7 @@
   * [你知道如何安全正确的关闭线程池吗？](https://mp.weixin.qq.com/s?__biz=MzU3NzczMTAzMg==&mid=2247485650&idx=1&sn=9182c3d618ce868999025f1875b3c370)
   * [面试官：为什么《阿里巴巴Java开发手册》上要禁止使用Executors来创建线程池](https://juejin.im/post/5dd72e226fb9a04c352df756)
   * [为什么阿里巴巴要禁用Executors创建线程池？](https://juejin.im/post/5dc41c165188257bad4d9e69)
-* JVM
+### JVM
   * [深入了解Java之类加载和案例分析](http://itfeifei.win/2017/03/14/%E6%B7%B1%E5%85%A5%E4%BA%86%E8%A7%A3Java%E4%B9%8B%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%92%8C%E6%A1%88%E4%BE%8B%E5%88%86%E6%9E%90/)
   * [面试官问类加载器的双亲委派，你应该这样回答，100分！](https://mp.weixin.qq.com/s?__biz=MzU5ODUwNzY1Nw==&mid=2247484936&idx=1&sn=32cb67042521bceb94ee5163e3e513e8)
   * [死磕Java内部类（一篇就够）](https://juejin.im/post/5d0821315188254c434686c8)
@@ -170,7 +168,7 @@
   * [OutOfMemoryError系列（2）: GC overhead limit exceeded](https://blog.csdn.net/renfufei/article/details/77585294)
   * [jvm优化必知系列——监控工具](https://my.oschina.net/u/1859679/blog/1552290)
   * [既然JVM有Full GC，为什么还会出现OutOfMemoryError?](https://mp.weixin.qq.com/s?__biz=MzIwMzY1OTU1NQ==&mid=2247487133&idx=2&sn=f0eaffdbec9852d5cf2bd19d12703b29)
-* 动态代理
+### 动态代理
   * [java中动态代理实现机制](https://yq.aliyun.com/articles/35985)
   * [CGLib动态代理原理及实现](https://my.oschina.net/mifans/blog/783470)
   * [Spring AOP动态代理原理与实现方式 （转）](http://www.tuicool.com/articles/jMzmQj)
@@ -188,7 +186,7 @@
 * [Spring思维导图，让Spring不再难懂（ioc篇）](https://my.oschina.net/u/3080373/blog/903341)
 * [Spring中获取request的几种方法，及其线程安全性分析](https://www.cnblogs.com/kismetv/p/8757260.html)
 * [我这样回答了Spring 5的新特性，面试官对我刮目相看](https://mp.weixin.qq.com/s/Mt3w49YhNU8plvzuGYuTPQ)
-* SpringBoot
+### SpringBoot
   * [自己的SpringBoot学习记录](https://gitee.com/sherlocky/springboot2-learning)
   * [spring-boot-plus](https://springboot.plus/guide/)
   * [SpringBoot集成Redis来实现缓存技术方案](https://my.oschina.net/feinik/blog/1023601)
@@ -199,12 +197,12 @@
   * [一起来学SpringBoot -- 唐亚峰](https://blog.battcn.com/categories/SpringBoot/)
   * [纯洁的微笑 - SpringBoot 系列文章](http://www.ityouknow.com/spring-boot.html)
   * [Springboot 优雅停止服务的几种方法](https://www.cnblogs.com/huangqingshi/p/11370291.html)
-* Shiro
+### Shiro
   * [并发登录人数控制——《跟我学Shiro》](https://www.iteye.com/blog/jinnianshilongnian-2039760)
-* Spring Boot Admin
+### Spring Boot Admin
   * [使用 spring-boot-admin 对 Spring Boot 服务进行监控](http://www.ityouknow.com/springboot/2018/02/11/spring-boot-admin.html)
   * [spring-boot-admin](https://github.com/codecentric/spring-boot-admin)
-* SpringCloud
+### SpringCloud
   * [面试官：兄弟，说说 Spring Cloud 的核心架构原理吧](https://mp.weixin.qq.com/s?__biz=MzI4NDY5Mjc1Mg==&mid=2247489127&idx=2&sn=5cba4e2c5e38e7706691014ec9379665)
   * [一起来学SpringCloud -- 唐亚峰](https://blog.battcn.com/categories/SpringCloud/)
   * [纯洁的微笑 - SpringCloud 系列文章](http://www.ityouknow.com/spring-cloud.html)
@@ -270,12 +268,12 @@
 * [如何基于 MySQL 主从模式搭建上万并发的系统架构？](https://my.oschina.net/u/4205711/blog/3104493)
 * [不用找了，大厂在用的分库分表方案，都在这了！](https://mp.weixin.qq.com/s?__biz=MzUzMTA2NTU2Ng==&mid=2247487697&idx=1&sn=05c90f0436500d9ea8f68555b07155e3)
 * [MySQL的COUNT(*)语句](https://mp.weixin.qq.com/s?__biz=MzI3NzE0NjcwMg==&mid=2650124956&idx=1&sn=3bce85cdc1768f71b4332ba8f25278b0)
-* 索引
+### 索引
   * [如何理解并正确使用MySql索引](https://my.oschina.net/feinik/blog/1305784)
   * [[慢查优化]建索引时注意字段选择性 & 范围查询注意组合索引的字段顺序](https://my.oschina.net/zhengyun/blog/162985) 
   * [为什么MySQL用B+树做索引](https://mp.weixin.qq.com/s?__biz=MzI3NzE0NjcwMg==&mid=2650125030&idx=1&sn=1c2a09a80547159b336e7ea25d7f4955)
 
-* MyBatis 
+### MyBatis 
   * [别怕看源码,一张图搞定Mybatis的Mapper原理-肥朝](https://www.jianshu.com/p/419ce7b5c1ce)
   > ![MybatisMapper时序图](https://ghost.oss.sherlocky.com/FoB0EZUy5htr0RZ1Q7yoIfRIJ5Eu-halo)
   * [mybatis思维导图，让mybatis不再难懂（一）](https://my.oschina.net/u/3080373/blog/880501)
@@ -285,16 +283,16 @@
   * [Mybatis常见面试题总结及答案](https://mp.weixin.qq.com/s/g2VxzeZhJngy4Q-WZCw4EQ)
  > 原地址： [Mybatis常见面试题总结](https://blog.csdn.net/a745233700/article/details/80977133)
 
-* wier 数据库分析系列博文
+### wier 数据库分析系列博文
   * [DB——数据的读取和存储方式](https://my.oschina.net/u/1859679/blog/1581379)
   * [Sql优化器究竟帮你做了哪些工作？](https://my.oschina.net/u/1859679/blog/1586098)
   * [什么是DB的三星索引](https://my.oschina.net/u/1859679/blog/1589575)
   * [如何预估索引性能？](https://my.oschina.net/u/1859679/blog/1592538)
-* 锁
+### 锁
 > 查看死锁：```show engine innodb status;```
 
-  * [Mysql死锁如何排查：insert on duplicate死锁一次排查分析过程](https://juejin.im/post/5d483e66518825052734b15a)
-* [数据库分库分表](http://www.cnblogs.com/405845829qq/p/7552736.html)
+ * [Mysql死锁如何排查：insert on duplicate死锁一次排查分析过程](https://juejin.im/post/5d483e66518825052734b15a)
+ * [数据库分库分表](http://www.cnblogs.com/405845829qq/p/7552736.html)
 
 ## Nginx
 * [Nginx 相关介绍(Nginx是什么?能干嘛?)](https://www.cnblogs.com/wcwnina/p/8728391.html)
