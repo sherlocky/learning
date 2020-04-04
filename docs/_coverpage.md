@@ -1,4 +1,4 @@
-![logo](//ghost.oss.sherlocky.com/FmSG3ngZuvRvQn7muJMRmUamjEti-thumb)
+![logo](//ghost.oss.sherlocky.com/Fo58f32lahSftASkDjWsWwmrCmw_-thumb)
 
 # 学习资料整理
 
