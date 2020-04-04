@@ -12,7 +12,6 @@
 </head>
 <body>
   <nav>
-    <a href="#/">learning</a>
     <a href="//halo.sherlocky.com/">博客</a>
   </nav>
   <div id="app">加载中...</div>
@@ -26,6 +25,7 @@
       markdown: {
         renderer: {
           code: function(code, lang) {
+			// markdown 支持 mermaid
             if (lang === "mermaid") {
               return (
                 '<div class="mermaid">' + mermaid.render(lang, code) + "</div>"
