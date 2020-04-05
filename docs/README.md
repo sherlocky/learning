@@ -35,6 +35,11 @@
 * [free-programming-books](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books-zh.md)
 * [牛人自制“神器”，2017 最新 Web 开发者成长路线图](https://www.oschina.net/news/82966/web-developer-roadmap-in-2017?winzoom=1)
 
+## 画图
+* [标准流程图符号和用法](https://www.edrawsoft.com/cn/flowchart-symbols.php)
+* [draw.io画图工具](https://app.diagrams.net/)
+* [ProcessOn在线画图工具](https://www.processon.com/)
+
 ## 消息队列
 > 常见3大应用场景：异步、削峰（填谷）、解耦。
 
@@ -52,6 +57,7 @@
   * [带你涨姿势是认识一下Kafka Producer](https://mp.weixin.qq.com/s?__biz=MzU2NDg0OTgyMA==&mid=2247484698&idx=1&sn=886292c24485cca9f1f828f3b325fef5)
   * [带你涨姿势的认识一下Kafka之消费者](https://mp.weixin.qq.com/s?__biz=MzU3NzczMTAzMg==&mid=2247486105&idx=1&sn=760f131c0a339d1b8e3554870a2b5c0b)
 ### RocketMQ
+  * [RocketMQ 的事务消息](https://halo.sherlocky.com/archives/rocketmq-tx-msg)
   * [【官方】RocketMQ事务消息的设计](http://rocketmq.apache.org/rocketmq/the-design-of-transactional-message/)
   * [【官方】RocketMQ事务消息使用示例](http://rocketmq.apache.org/docs/transaction-example/)  
   * [RocketMQ事务消息学习及刨坑过程](https://blog.51cto.com/14230003/2446308)
