@@ -53,7 +53,7 @@
   * [带你涨姿势的认识一下Kafka之消费者](https://mp.weixin.qq.com/s?__biz=MzU3NzczMTAzMg==&mid=2247486105&idx=1&sn=760f131c0a339d1b8e3554870a2b5c0b)
 ### RocketMQ
   * [【官方】RocketMQ事务消息的设计](http://rocketmq.apache.org/rocketmq/the-design-of-transactional-message/)
-  * [【官方】](http://rocketmq.apache.org/docs/transaction-example/)  
+  * [【官方】RocketMQ事务消息使用示例](http://rocketmq.apache.org/docs/transaction-example/)  
   * [RocketMQ事务消息学习及刨坑过程](https://blog.51cto.com/14230003/2446308)
   * [RocketMq事务消息](https://www.jianshu.com/p/c26b3af5880f)
 
