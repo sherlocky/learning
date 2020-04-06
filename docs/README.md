@@ -85,6 +85,7 @@
 * [大厂Redis 性能优化的 13 条军规！收好了](https://mp.weixin.qq.com/s?__biz=MzIwMzY1OTU1NQ==&mid=2247488891&idx=2&sn=3f476920be9ce1485f4e28f565eca108)
 
 ## Java
+* [高效Effective Java第3版-中文在线](https://sjsdfg.github.io/effective-java-3rd-chinese/#/)
 * [细思极恐-你真的会写java吗](http://lrwinx.github.io/2017/03/04/%E7%BB%86%E6%80%9D%E6%9E%81%E6%81%90-%E4%BD%A0%E7%9C%9F%E7%9A%84%E4%BC%9A%E5%86%99java%E5%90%97/)
 * [如何优雅的将DTO转化成BO](https://blog.csdn.net/lw7551/article/details/62426579)
 * [Java 编程技巧之数据结构](https://mp.weixin.qq.com/s?__biz=MzIxNjA5MTM2MA==&mid=2652436181&idx=1&sn=c663d709965f652a91b3baba208f2aa3)
