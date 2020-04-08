@@ -293,7 +293,8 @@
   * 小型业务选择M-S 即可；
   * 复杂、重要业务硬件足够选 MHA，其次选PXC；
   * 复杂、重要业务单硬件不足，选M-M，需设立开发、运维规范。
-  > MySQL第三方高可用架构：MHA 消耗资源大，健壮性强，前期投入大，后期维护成本小 （日志补偿）https://blog.csdn.net/wzy0623/article/details/81304654
+  > MySQL第三方高可用架构：MHA 消耗资源大，健壮性强，前期投入大，后期维护成本小 （日志补偿）  
+  可参考：[使用MHA实现MySQL主从复制高可用](https://blog.csdn.net/wzy0623/article/details/81304654)
 
 ### MyBatis 
   * [别怕看源码,一张图搞定Mybatis的Mapper原理-肥朝](https://www.jianshu.com/p/419ce7b5c1ce)
