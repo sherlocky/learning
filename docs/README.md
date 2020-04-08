@@ -284,6 +284,14 @@
   * [[慢查优化]建索引时注意字段选择性 & 范围查询注意组合索引的字段顺序](https://my.oschina.net/zhengyun/blog/162985) 
   * [为什么MySQL用B+树做索引](https://mp.weixin.qq.com/s?__biz=MzI3NzE0NjcwMg==&mid=2650125030&idx=1&sn=1c2a09a80547159b336e7ea25d7f4955)
 
+### MySQL 日志
+  * [MySQL探秘(四):InnoDB的磁盘文件及落盘机制](https://www.jianshu.com/p/e546ea1fc067)
+  * [Mysql Redo Log日志](https://blog.csdn.net/longgeqiaojie304/article/details/98869707)
+  * [MySQL Binlog--事务日志和BINLOG落盘参数对磁盘IO的影响](https://www.cnblogs.com/gaogao67/p/11023837.html)
+  * [MySQL binlog相关分析](https://www.cnblogs.com/geaozhang/p/7401416.html)
+  * [MySQL 的"双1设置"-数据安全的关键参数（案例分享）](https://www.cnblogs.com/kevingrace/p/10441086.html)
+  * [mysql的断电恢复能力](https://www.jianshu.com/p/a32762bb11be)
+
 ### 分库分表
   * [sharding JDBC --> sharding sphere](https://shardingsphere.apache.org/document/current/cn/quick-start/sharding-jdbc-quick-start/)
   * [不用找了，大厂在用的分库分表方案，都在这了！](https://mp.weixin.qq.com/s?__biz=MzUzMTA2NTU2Ng==&mid=2247487697&idx=1&sn=05c90f0436500d9ea8f68555b07155e3)
