@@ -278,12 +278,22 @@
 * [MySQL 8.0+ WITH 语法(Common Table Expressions - CTE)](https://gblog.sherlocky.com/mysql-8-cte/)
 * [面试官问：MySQL的自增ID用完了，怎么办？](https://mp.weixin.qq.com/s?__biz=MzIwMzY1OTU1NQ==&mid=2247487265&idx=1&sn=46029e2d4c630635fd7636141dd90d23)
 * [如何基于 MySQL 主从模式搭建上万并发的系统架构？](https://my.oschina.net/u/4205711/blog/3104493)
-* [不用找了，大厂在用的分库分表方案，都在这了！](https://mp.weixin.qq.com/s?__biz=MzUzMTA2NTU2Ng==&mid=2247487697&idx=1&sn=05c90f0436500d9ea8f68555b07155e3)
 * [MySQL的COUNT(*)语句](https://mp.weixin.qq.com/s?__biz=MzI3NzE0NjcwMg==&mid=2650124956&idx=1&sn=3bce85cdc1768f71b4332ba8f25278b0)
 ### 索引
   * [如何理解并正确使用MySql索引](https://my.oschina.net/feinik/blog/1305784)
   * [[慢查优化]建索引时注意字段选择性 & 范围查询注意组合索引的字段顺序](https://my.oschina.net/zhengyun/blog/162985) 
   * [为什么MySQL用B+树做索引](https://mp.weixin.qq.com/s?__biz=MzI3NzE0NjcwMg==&mid=2650125030&idx=1&sn=1c2a09a80547159b336e7ea25d7f4955)
+
+### 分库分表
+  * [sharding JDBC --> sharding sphere](https://shardingsphere.apache.org/document/current/cn/quick-start/sharding-jdbc-quick-start/)
+  * [不用找了，大厂在用的分库分表方案，都在这了！](https://mp.weixin.qq.com/s?__biz=MzUzMTA2NTU2Ng==&mid=2247487697&idx=1&sn=05c90f0436500d9ea8f68555b07155e3)
+  * [数据库分库分表](http://www.cnblogs.com/405845829qq/p/7552736.html)
+
+### mysql 高可用
+  * 小型业务选择M-S 即可；
+  * 复杂、重要业务硬件足够选 MHA，其次选PXC；
+  * 复杂、重要业务单硬件不足，选M-M，需设立开发、运维规范。
+  > MySQL第三方高可用架构：MHA 消耗资源大，健壮性强，前期投入大，后期维护成本小 （日志补偿）https://blog.csdn.net/wzy0623/article/details/81304654
 
 ### MyBatis 
   * [别怕看源码,一张图搞定Mybatis的Mapper原理-肥朝](https://www.jianshu.com/p/419ce7b5c1ce)
@@ -304,7 +314,6 @@
 > 查看死锁：```show engine innodb status;```
 
  * [Mysql死锁如何排查：insert on duplicate死锁一次排查分析过程](https://juejin.im/post/5d483e66518825052734b15a)
- * [数据库分库分表](http://www.cnblogs.com/405845829qq/p/7552736.html)
 
 ## Nginx
 * [Nginx 相关介绍(Nginx是什么?能干嘛?)](https://www.cnblogs.com/wcwnina/p/8728391.html)
