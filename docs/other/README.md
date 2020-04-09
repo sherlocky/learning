@@ -1,0 +1,38 @@
+# 其他
+
+* [free-programming-books](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books-zh.md)
+* [干货收藏 | Java程序员必备的一些流程图](https://mp.weixin.qq.com/s/oTE_hbJtI_n6XTx9jj8w9A)
+* [牛人自制“神器”，2017 最新 Web 开发者成长路线图](https://www.oschina.net/news/82966/web-developer-roadmap-in-2017?winzoom=1)
+
+## 技术
+* [先来半打分布式调度系统/框架](https://my.oschina.net/gitosc/blog/894187)
+* [一些优秀的网络爬虫工具](https://my.oschina.net/gitosc/blog/880554)
+* [YAML](http://www.ruanyifeng.com/blog/2016/07/yaml.html?f=tt)
+* [浅谈微服务之API网关](https://cloud.tencent.com/developer/news/257354)
+* [微服务部署：蓝绿部署、滚动部署、灰度发布、金丝雀发布](https://www.jianshu.com/p/022685baba7d)
+* [RBAC权限管理（基于角色的访问控制方法）](https://my.oschina.net/zjllovecode/blog/1601002)
+* [浅析VO、DTO、DO、PO的概念、区别和用处（POJO）](https://www.cnblogs.com/qixuejia/p/4390086.html)
+* [如何设计一个安全的对外接口](https://my.oschina.net/OutOfMemory/blog/3131916)
+
+## 画图
+* [标准流程图符号和用法](https://www.edrawsoft.com/cn/flowchart-symbols.php)
+* [draw.io画图工具](https://app.diagrams.net/)
+* [ProcessOn在线画图工具](https://www.processon.com/)
+
+## 磨刀不误砍柴工
+* [Code Review最佳实践](https://www.cnblogs.com/dotey/p/11216430.html)
+
+## 支付
+* [Spring MVC+Spring+MyBatis实现支付宝扫码支付功能（图文详解）](https://mp.weixin.qq.com/s?__biz=MzU0MzQ5MDA0Mw==&mid=2247488039&idx=1&sn=9bb5ba8db210fabf0871e9997152984d)
+
+## Android
+* [你逃不掉的APK安装原理](https://www.jianshu.com/p/d2a550a953e0)
+
+## 机器学习
+* [机器学习必备手册](https://yq.aliyun.com/articles/221644?utm_content=m_33150)
+* [适合入门的8个趣味机器学习项目](https://yq.aliyun.com/articles/221708?utm_content=m_33352)
+* [漫画：什么是中台？](https://mp.weixin.qq.com/s?__biz=MzIxMjE5MTE1Nw==&mid=2653199744&idx=1&sn=dceaa1a3b68277471985489fb9afebba)
+  > 业务中台、技术中台、数据中台、算法中台  
+  项目 0 -> 1 无需中台  
+  项目 1 -> N 适合中台  
+  项目 N -> N + 1 势在必行
