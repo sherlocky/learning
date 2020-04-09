@@ -9,4 +9,4 @@
 
 [GitHub](//github.com/y836097668/learning/)
 [博客](//halo.sherlocky.com/)
-[戳我开始~](/java/)
+[戳我开始~](/interview/)

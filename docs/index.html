@@ -15,10 +15,11 @@
     <a href="//halo.sherlocky.com/">博客</a>
   </nav>
   <div id="app">加载中...</div>
+  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>    
   <script>
     window.$docsify = {
       name: '学习资料整理',
-      repo: 'https://github.com/y836097668/learning',
+      repo: 'https://github.com/y836097668/learning/',
       coverpage: true,
 	  loadSidebar: true,
       subMaxLevel: 3,
@@ -39,11 +40,24 @@
       // 全文搜索
       search: {
         maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-        paths: ['/'], // or 'auto'
-        placeholder: 'Type to search',
-        noData: 'No Results!',
-        depth: 2// 搜索标题的最大层级, 1 - 6
-      }      
+        paths: 'auto',
+        placeholder: '输入开始搜索...',
+        noData: '暂无结果',
+        depth: 3// 搜索标题的最大层级, 1 - 6
+      },
+	  plugins: [
+		EditOnGithubPlugin.create(
+			'https://github.com/y836097668/learning/tree/master/docs/',
+			null,
+			function(file) {
+			  if (file.indexOf('en') === -1) {
+				return '编辑'
+			  } else {
+				return 'edit on Github'
+			  }
+			}
+		)
+      ]
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
@@ -57,5 +71,7 @@
   <script>
       mermaid.initialize({ startOnLoad: false });
   </script>
+  <script src="//unpkg.com/docsify-copy-code"></script>  
+  <script src="//unpkg.com/browse/medium-zoom/dist/medium-zoom.min.js"></script>
 </body>
 </html>
