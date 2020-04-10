@@ -14,11 +14,6 @@
 * [浅析VO、DTO、DO、PO的概念、区别和用处（POJO）](https://www.cnblogs.com/qixuejia/p/4390086.html)
 * [如何设计一个安全的对外接口](https://my.oschina.net/OutOfMemory/blog/3131916)
 
-## 画图
-* [标准流程图符号和用法](https://www.edrawsoft.com/cn/flowchart-symbols.php)
-* [draw.io画图工具](https://app.diagrams.net/)
-* [ProcessOn在线画图工具](https://www.processon.com/)
-
 ## 磨刀不误砍柴工
 * [Code Review最佳实践](https://www.cnblogs.com/dotey/p/11216430.html)
 
