@@ -93,6 +93,11 @@
   * [为什么阿里巴巴要禁用Executors创建线程池？](https://juejin.im/post/5dc41c165188257bad4d9e69)
   * [一文搞懂 ThreadLocal 原理](https://mp.weixin.qq.com/s?__biz=MzU1NTkwODE4Mw==&mid=2247485019&idx=2&sn=979554c738be748c771050f04ebc7ef7)
   
+## 锁
+  * [面试官问：说说你对 Java 中锁以及 sychronized 实现机制的理解](https://blog.yoodb.com/yoodb/article/detail/1600)
+  * [Java性能之synchronized锁的优化](https://www.bbsmax.com/A/l1dyZB69ze/)
+  * [Synchronized 关键字使用、底层原理、JDK1.6 之后的底层优化](https://zhuanlan.zhihu.com/p/47692708)
+  
 ## JMM
   * [Java对象都是在堆上分配空间吗？答案竟然是...](https://mp.weixin.qq.com/s?__biz=MzU1NTkwODE4Mw==&mid=2247485006&idx=1&sn=85d6fa16c224fe93cf167f4d44d432ee)
   > 热点监测、JIT编译(Just In Time)、逃逸分析、标量替换、栈上分配
