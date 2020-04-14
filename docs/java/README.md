@@ -69,6 +69,9 @@
   * [并发容器 - 基于SkipList的Map和Set](https://juejin.im/post/58caa1a8ac502e005889d36b)
   
 ## 多线程
+  * [【电子书】深入浅出Java多线程](http://concurrent.redspider.group/article/01/1.html)
+  > 备用地址：https://redspider.gitbook.io/concurrent/
+
   * [并发Bug之源有三，请睁大眼睛看清它们](https://mp.weixin.qq.com/s?__biz=Mzg3NjIxMjA1Ng==&mid=2247483941&idx=1&sn=d700824e4039cc487ea930857ec2b5c1)
   * [可见性有序性，Happens-before来搞定](https://mp.weixin.qq.com/s?__biz=Mzg3NjIxMjA1Ng==&mid=2247483947&idx=1&sn=3e8024b80dcccb36747b4b885e21cd69)
   * [解决原子性问题？你首先需要的是宏观理解](https://mp.weixin.qq.com/s?__biz=Mzg3NjIxMjA1Ng==&mid=2247483951&idx=1&sn=e3dc49445b430cf3b6f9b0202af2f7a8)
