@@ -95,6 +95,7 @@
   
 ## JMM
   * [Java对象都是在堆上分配空间吗？答案竟然是...](https://mp.weixin.qq.com/s?__biz=MzU1NTkwODE4Mw==&mid=2247485006&idx=1&sn=85d6fa16c224fe93cf167f4d44d432ee)
+  > 热点监测、JIT编译(Just In Time)、逃逸分析、标量替换、栈上分配
   * [面试必问的 volatile，你真的理解了吗](https://mp.weixin.qq.com/s?__biz=MzU1NTkwODE4Mw==&mid=2247484982&idx=2&sn=be0c717ffe0974a9323fed651b893128)
   * [Java并发编程：volatile关键字解析](http://www.importnew.com/18126.html)
   
