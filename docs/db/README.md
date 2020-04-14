@@ -54,6 +54,7 @@
   * [Mybatis面试 18 问](/archives/mybatis)
   * [Mybatis常见面试题总结及答案](https://mp.weixin.qq.com/s/g2VxzeZhJngy4Q-WZCw4EQ)
     > 原地址： [Mybatis常见面试题总结](https://blog.csdn.net/a745233700/article/details/80977133)
+  * [Mybatis源码讲解（三）-- SqlSession](https://mp.weixin.qq.com/s?__biz=MzU3NzczMTAzMg==&mid=2247487402&idx=1&sn=f805e2141f2ef953bdb31218ef75a9ba)
 
 ## wier 数据库分析系列博文
   * [DB——数据的读取和存储方式](https://my.oschina.net/u/1859679/blog/1581379)
