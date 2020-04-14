@@ -4,6 +4,7 @@
 * [如何优雅的将DTO转化成BO](https://blog.csdn.net/lw7551/article/details/62426579)
 * [Java 编程技巧之数据结构](https://mp.weixin.qq.com/s?__biz=MzIxNjA5MTM2MA==&mid=2652436181&idx=1&sn=c663d709965f652a91b3baba208f2aa3)
 * [正确的打日志姿势](http://lrwinx.github.io/2018/01/25/正确的打日志姿势/)
+* [撸个注解（Annotation）有什么难的](https://mp.weixin.qq.com/s?__biz=MzU1NTkwODE4Mw==&mid=2247485045&idx=2&sn=447ab489635289ef5bb089efb7f1830e)
 
 ## J2SE
   * [String hashCode 方法为什么选择数字31作为乘子](http://www.tianxiaobo.com/2018/01/18/String-hashCode-方法为什么选择数字31作为乘子/)
@@ -19,6 +20,7 @@
   * [使用Stream API优化代码](https://juejin.im/post/5d8226d4e51d453c135c5b9a)
   * [Java8 中用法优雅的 Stream，性能也"优雅"吗？](https://mp.weixin.qq.com/s?__biz=MzU0MzQ5MDA0Mw==&mid=2247486142&idx=2&sn=2d9aa6b43a0314d35377a125ac2f13d7)
   * [聊聊 Java8 以后各个版本的新特性](https://juejin.im/post/5d5950806fb9a06b0a277412#heading-47)
+  * [别用 Date 了，来试试 LocalDate、LocalTime、LocalDateTime](https://mp.weixin.qq.com/s?__biz=MzU1NTkwODE4Mw==&mid=2247484960&idx=2&sn=b8142c4ffd9fde8e38702890708047ca)
   
 ## JDK 8 +
   * [Java 9的模块化--壮士断"腕"的涅槃](https://zhuanlan.zhihu.com/p/24800180)
@@ -75,7 +77,7 @@
   * [Java 线程状态之 RUNNABLE](https://my.oschina.net/goldenshaw/blog/705397)
   * [计算机程序的思维逻辑 (75) - 并发容器 - 基于 SkipList 的 Map 和 Set](https://juejin.im/post/58caa1a8ac502e005889d36b)
   * [深入理解java线程池—ThreadPoolExecutor](http://www.jianshu.com/p/ade771d2c9c0)
-  * [Java并发编程：volatile关键字解析](http://www.importnew.com/18126.html)
+
   * [JAVA多线程系列目录（43篇）](http://www.cnblogs.com/skywang12345/p/java_threads_category.html)
   * [【Java 并发笔记】Unsafe 相关整理](https://www.jianshu.com/p/2e5b92d0962e)
   * [Thread详解](https://www.cnblogs.com/waterystone/p/4920007.html)
@@ -86,6 +88,12 @@
   * [你知道如何安全正确的关闭线程池吗？](https://mp.weixin.qq.com/s?__biz=MzU3NzczMTAzMg==&mid=2247485650&idx=1&sn=9182c3d618ce868999025f1875b3c370)
   * [面试官：为什么《阿里巴巴Java开发手册》上要禁止使用Executors来创建线程池](https://juejin.im/post/5dd72e226fb9a04c352df756)
   * [为什么阿里巴巴要禁用Executors创建线程池？](https://juejin.im/post/5dc41c165188257bad4d9e69)
+  * [一文搞懂 ThreadLocal 原理](https://mp.weixin.qq.com/s?__biz=MzU1NTkwODE4Mw==&mid=2247485019&idx=2&sn=979554c738be748c771050f04ebc7ef7)
+  
+## JMM
+  * [Java对象都是在堆上分配空间吗？答案竟然是...](https://mp.weixin.qq.com/s?__biz=MzU1NTkwODE4Mw==&mid=2247485006&idx=1&sn=85d6fa16c224fe93cf167f4d44d432ee)
+  * [面试必问的 volatile，你真的理解了吗](https://mp.weixin.qq.com/s?__biz=MzU1NTkwODE4Mw==&mid=2247484982&idx=2&sn=be0c717ffe0974a9323fed651b893128)
+  * [Java并发编程：volatile关键字解析](http://www.importnew.com/18126.html)
   
 ## JVM
   * [深入了解Java之类加载和案例分析](http://itfeifei.win/2017/03/14/%E6%B7%B1%E5%85%A5%E4%BA%86%E8%A7%A3Java%E4%B9%8B%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%92%8C%E6%A1%88%E4%BE%8B%E5%88%86%E6%9E%90/)

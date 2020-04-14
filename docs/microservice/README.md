@@ -26,3 +26,6 @@
 
   > ![](https://ghost.oss.sherlocky.com/8/de/274eb6351bdf85a64e4ce1a4b9f65.png)
   > ![](https://ghost.oss.sherlocky.com/8/1c/b1ddd7ae9abdda6d7d6b1c1878b60.jpg)
+  
+## 分布式任务
+* [6大分布式定时任务对比](https://blog.csdn.net/u012394095/article/details/79470904)

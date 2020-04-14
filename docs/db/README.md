@@ -1,19 +1,24 @@
 # 数据库
+* [MySQL 是怎样运行的：从根儿上理解 MySQL](https://juejin.im/book/5bffcbc9f265da614b11b731/section/5c238f0851882521eb44c51f)
 * [MySQL 忘记密码，该怎么办？](https://mp.weixin.qq.com/s?__biz=MzI4NDY5Mjc1Mg==&mid=2247488938&idx=2&sn=919f345ea5dfa6a4b2f5e042c94d4d19)
-* [【值得收藏】一份非常完整的Mysql规范](https://www.jianshu.com/p/d7d57b6fb7dd)
-* [58同城MySql38条军规](http://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651959906&idx=1&sn=2cbdc66cfb5b53cf4327a1e0d18d9b4a)
 * [高性能MySQL（第3版）.pdf](https://ghost.oss.sherlocky.com/learning/mysql/%E9%AB%98%E6%80%A7%E8%83%BDMySQL%EF%BC%88%E7%AC%AC3%E7%89%88%EF%BC%89.pdf)
-* [面试官问，为什么建议MySQL列属性尽量用 NOT NULL ？](https://mp.weixin.qq.com/s?__biz=MzIwMzY1OTU1NQ==&mid=2247486868&idx=1&sn=b3b17886e89f696c2a0e4aa593329554)
-* [项目中常用的19条MySQL优化](https://segmentfault.com/a/1190000012155267)
-> 知乎链接，暂无法访问：[项目中常用的19条MySQL优化](https://zhuanlan.zhihu.com/p/49888088)
-* [按照这30条建议优化SQL，性能绝对不会太差](https://mp.weixin.qq.com/s?__biz=Mzg3NjIxMjA1Ng==&mid=2247484182&idx=1&sn=776c152b7bff8df6c176cadfc620d9df)
 * [超全面的MySQL语句加锁分析](https://mp.weixin.qq.com/s?__biz=MzIxMjE5MTE1Nw==&mid=2653198050&idx=2&sn=68a6594ac35976532ad6a0eec6dc06dd)
 * [年薪50万的DBA必须了解的MySQL锁和事务](https://mp.weixin.qq.com/s?__biz=MzI4NTA1MDEwNg==&mid=2650779014&idx=1&sn=05ceda0ad2c54a4c7d3983692b8c0789)
-* [MySQL 是怎样运行的：从根儿上理解 MySQL](https://juejin.im/book/5bffcbc9f265da614b11b731/section/5c238f0851882521eb44c51f)
-* [MySQL 8.0+ WITH 语法(Common Table Expressions - CTE)](https://gblog.sherlocky.com/mysql-8-cte/)
 * [面试官问：MySQL的自增ID用完了，怎么办？](https://mp.weixin.qq.com/s?__biz=MzIwMzY1OTU1NQ==&mid=2247487265&idx=1&sn=46029e2d4c630635fd7636141dd90d23)
 * [如何基于 MySQL 主从模式搭建上万并发的系统架构？](https://my.oschina.net/u/4205711/blog/3104493)
 * [MySQL的COUNT(*)语句](https://mp.weixin.qq.com/s?__biz=MzI3NzE0NjcwMg==&mid=2650124956&idx=1&sn=3bce85cdc1768f71b4332ba8f25278b0)
+* [MySQL 8.0+ WITH 语法(Common Table Expressions - CTE)](https://gblog.sherlocky.com/mysql-8-cte/)
+
+## 规范
+* [【值得收藏】一份非常完整的Mysql规范](https://www.jianshu.com/p/d7d57b6fb7dd)
+* [58同城MySql38条军规](http://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651959906&idx=1&sn=2cbdc66cfb5b53cf4327a1e0d18d9b4a)
+* [面试官问，为什么建议MySQL列属性尽量用 NOT NULL ？](https://mp.weixin.qq.com/s?__biz=MzIwMzY1OTU1NQ==&mid=2247486868&idx=1&sn=b3b17886e89f696c2a0e4aa593329554)
+
+## 优化
+* [MySQL 优化实施方案](https://www.cnblogs.com/clsn/p/8214048.html)
+* [项目中常用的19条MySQL优化](https://segmentfault.com/a/1190000012155267)
+> 知乎链接，暂无法访问：[项目中常用的19条MySQL优化](https://zhuanlan.zhihu.com/p/49888088)
+* [按照这30条建议优化SQL，性能绝对不会太差](https://mp.weixin.qq.com/s?__biz=Mzg3NjIxMjA1Ng==&mid=2247484182&idx=1&sn=776c152b7bff8df6c176cadfc620d9df)
 
 ## 索引
   * [如何理解并正确使用MySql索引](https://my.oschina.net/feinik/blog/1305784)

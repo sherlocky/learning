@@ -16,4 +16,4 @@
 * [当 Redis 发生高延迟时，到底发生了什么](https://mp.weixin.qq.com/s?__biz=Mzg2NjE5NDQyOA==&mid=2247483922&idx=1&sn=1dd95a66d654cfd4aee7c31280aef1eb)
 * [秒杀系统的艺术](https://juejin.im/post/5d84e21f6fb9a06ac8248149)
 * [《吊打面试官》系列-秒杀系统设计](https://juejin.im/post/5dd09f5af265da0be72aacbd)
-* [大厂Redis 性能优化的 13 条军规！收好了](https://mp.weixin.qq.com/s?__biz=MzIwMzY1OTU1NQ==&mid=2247488891&idx=2&sn=3f476920be9ce1485f4e28f565eca108)
+* [《大厂内部资料》Redis 性能优化的 13 条军规！全网首发](https://mp.weixin.qq.com/s?__biz=MzU1NTkwODE4Mw==&mid=2247484916&idx=1&sn=d49ea56a1725aa140fc222266c1fc32f)
