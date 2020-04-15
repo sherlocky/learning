@@ -3,6 +3,9 @@
 * [干货收藏 | Java程序员必备的一些流程图](https://mp.weixin.qq.com/s/oTE_hbJtI_n6XTx9jj8w9A)
 * [牛人自制“神器”，2017 最新 Web 开发者成长路线图](https://www.oschina.net/news/82966/web-developer-roadmap-in-2017?winzoom=1)
 
+## 搜索引擎
+* [倒排索引/全文搜索基本原理](https://www.cnblogs.com/gered/p/9561710.html)
+
 ## 技术
 * [先来半打分布式调度系统/框架](https://my.oschina.net/gitosc/blog/894187)
 * [一些优秀的网络爬虫工具](https://my.oschina.net/gitosc/blog/880554)

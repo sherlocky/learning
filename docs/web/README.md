@@ -12,6 +12,7 @@ https://www.ietf.org/rfc/rfc1034.txt
 
 ## 前端
 * [如何设计好的RESTful API](https://mp.weixin.qq.com/s?__biz=Mzg3NjIxMjA1Ng==&mid=2247483661&idx=1&sn=048af6543c7baf6cefa691f80587b4c3)
+* [RESTful API设计规范](https://www.cnblogs.com/mayite/p/9798913.html)
 * [干掉状态：从session到token](http://mp.weixin.qq.com/s?__biz=MzAxOTc0NzExNg==&mid=2665513566&idx=1&sn=a2688cadbe9c8042ff1abbdf04a8bd5e)
 * [JWT & JWS & JWE](https://gblog.sherlocky.com/jwt/)
 * [Web登录其实没那么简单](https://www.cnblogs.com/letcafe/p/loginSecurity.html)

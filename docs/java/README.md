@@ -5,6 +5,7 @@
 * [Java 编程技巧之数据结构](https://mp.weixin.qq.com/s?__biz=MzIxNjA5MTM2MA==&mid=2652436181&idx=1&sn=c663d709965f652a91b3baba208f2aa3)
 * [正确的打日志姿势](http://lrwinx.github.io/2018/01/25/正确的打日志姿势/)
 * [撸个注解（Annotation）有什么难的](https://mp.weixin.qq.com/s?__biz=MzU1NTkwODE4Mw==&mid=2247485045&idx=2&sn=447ab489635289ef5bb089efb7f1830e)
+* [Java避坑之解决重复提交的bug](https://mp.weixin.qq.com/s?__biz=MzAxNTM4NzAyNg==&mid=2247483997&idx=1&sn=8bea08bfa81e97d487a5992b47293674)
 
 ## J2SE
   * [String hashCode 方法为什么选择数字31作为乘子](http://www.tianxiaobo.com/2018/01/18/String-hashCode-方法为什么选择数字31作为乘子/)

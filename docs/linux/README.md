@@ -10,3 +10,4 @@
 ## 容器
 * [技术选型之Docker容器引擎](https://segmentfault.com/a/1190000019462392)
 * [Docker学习2——常用命令记录](https://halo.sherlocky.com/archives/docker02)
+* [两个奇技淫巧，将 Docker 镜像体积减小 99%](https://mp.weixin.qq.com/s?__biz=MzAxODcyNjEzNQ==&mid=2247490165&idx=3&sn=d668b5425ec11c7324716d3af1b8e308)
