@@ -36,6 +36,12 @@
 ## 分布式事务
 * [分布式事务（2PC、3PC、TCC）](https://mp.weixin.qq.com/s?__biz=MzAxNTM4NzAyNg==&mid=2247483940&idx=1&sn=d3643c25b910be46d253238c725dd163)
 * [**消息队列**分类下也有相关文章](mq/?id=消息队列)
+
+* [微服务架构下的事务一致性保证](https://mp.weixin.qq.com/s?__biz=MzI3MzEzMDI1OQ==&mid=2651815502&idx=1&sn=ba36068070be434cbbd48f594f697532)
   
 ## 分布式任务
 * [6大分布式定时任务对比](https://blog.csdn.net/u012394095/article/details/79470904)
+
+## 分布式监控（调用链）
+* [分布式调用链调研（pinpoint,skywalking,jaeger,zipkin等对比）](https://my.oschina.net/u/3770892/blog/3005395)
+* [APM和调用链跟踪](http://devops.weiminginfo.com/yunwei/apm/1522.html)
