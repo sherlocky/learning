@@ -34,3 +34,5 @@
   * [外行人都能看懂的SpringCloud](https://mp.weixin.qq.com/s?__biz=MzAwNDA2OTM1Ng==&mid=2453140943&idx=1&sn=72ef2d1aa0a5a0265babfdce7234cefd)
   * [实战 Spring Cloud 微服务架构下的“秒杀”（含代码）](https://mp.weixin.qq.com/s?__biz=MzI4ODQ3NjE2OA==&mid=2247485875&idx=1&sn=0ff0a0c4ea9c5a36334d80de83f1084c)
   > 代码：https://github.com/coderliguoqing/distributed-seckill/
+  * [Spring Cloud中国社区](http://springcloud.cn)
+  * [Nacos+](https://github.com/inacos/spring-cloud-nacos)
