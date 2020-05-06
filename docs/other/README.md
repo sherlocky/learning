@@ -6,6 +6,9 @@
 ## 搜索引擎
 * [倒排索引/全文搜索基本原理](https://www.cnblogs.com/gered/p/9561710.html)
 
+## 消息推送
+* [科普一下消息推送Push是怎么做的](https://mp.weixin.qq.com/s/WT4U16vlC15lEx88Ll6OxA)
+
 ## 技术
 * [先来半打分布式调度系统/框架](https://my.oschina.net/gitosc/blog/894187)
 * [一些优秀的网络爬虫工具](https://my.oschina.net/gitosc/blog/880554)
