@@ -68,37 +68,7 @@
   >2.get操作全程不需要加锁是因为Node的成员val是用volatile修饰的和数组用volatile修饰没有关系。
   >3.数组用volatile修饰主要是保证在数组扩容的时候保证可见性。
   * [并发容器 - 基于SkipList的Map和Set](https://juejin.im/post/58caa1a8ac502e005889d36b)
-  
-## 多线程
-  * [【电子书】深入浅出Java多线程](http://concurrent.redspider.group/article/01/1.html)
-  > 备用地址：https://redspider.gitbook.io/concurrent/
 
-  * [并发Bug之源有三，请睁大眼睛看清它们](https://mp.weixin.qq.com/s?__biz=Mzg3NjIxMjA1Ng==&mid=2247483941&idx=1&sn=d700824e4039cc487ea930857ec2b5c1)
-  * [可见性有序性，Happens-before来搞定](https://mp.weixin.qq.com/s?__biz=Mzg3NjIxMjA1Ng==&mid=2247483947&idx=1&sn=3e8024b80dcccb36747b4b885e21cd69)
-  * [解决原子性问题？你首先需要的是宏观理解](https://mp.weixin.qq.com/s?__biz=Mzg3NjIxMjA1Ng==&mid=2247483951&idx=1&sn=e3dc49445b430cf3b6f9b0202af2f7a8)
-
-  * [Java 线程状态之 WAITING](https://my.oschina.net/goldenshaw/blog/802620)
-  * [Java 线程状态之 RUNNABLE](https://my.oschina.net/goldenshaw/blog/705397)
-  * [计算机程序的思维逻辑 (75) - 并发容器 - 基于 SkipList 的 Map 和 Set](https://juejin.im/post/58caa1a8ac502e005889d36b)
-  * [深入理解java线程池—ThreadPoolExecutor](http://www.jianshu.com/p/ade771d2c9c0)
-
-  * [JAVA多线程系列目录（43篇）](http://www.cnblogs.com/skywang12345/p/java_threads_category.html)
-  * [【Java 并发笔记】Unsafe 相关整理](https://www.jianshu.com/p/2e5b92d0962e)
-  * [Thread详解](https://www.cnblogs.com/waterystone/p/4920007.html)
-  * [Java并发之AQS详解](https://www.cnblogs.com/waterystone/p/4920797.html)
-  * [AQS - AbstractQueuedSynchronizer超详细原理解析](https://mp.weixin.qq.com/s?__biz=Mzg2NjE5NDQyOA==&mid=2247483778&idx=1&sn=1217b9ee2ac616678693db2c18db7bf6)
-  * [线程池没你想的那么简单](https://juejin.im/post/5ce1f3b6f265da1ba2522f62)
-  * [java线程池ThreadPoolExecutor八种拒绝策略浅析](http://www.kailing.pub/article/index/arcid/255.html)
-  * [你知道如何安全正确的关闭线程池吗？](https://mp.weixin.qq.com/s?__biz=MzU3NzczMTAzMg==&mid=2247485650&idx=1&sn=9182c3d618ce868999025f1875b3c370)
-  * [面试官：为什么《阿里巴巴Java开发手册》上要禁止使用Executors来创建线程池](https://juejin.im/post/5dd72e226fb9a04c352df756)
-  * [为什么阿里巴巴要禁用Executors创建线程池？](https://juejin.im/post/5dc41c165188257bad4d9e69)
-  * [一文搞懂 ThreadLocal 原理](https://mp.weixin.qq.com/s?__biz=MzU1NTkwODE4Mw==&mid=2247485019&idx=2&sn=979554c738be748c771050f04ebc7ef7)
-  
-## 锁
-  * [面试官问：说说你对 Java 中锁以及 sychronized 实现机制的理解](https://blog.yoodb.com/yoodb/article/detail/1600)
-  * [Java性能之synchronized锁的优化](https://www.bbsmax.com/A/l1dyZB69ze/)
-  * [Synchronized 关键字使用、底层原理、JDK1.6 之后的底层优化](https://zhuanlan.zhihu.com/p/47692708)
-  
 ## JMM
   * [Java对象都是在堆上分配空间吗？答案竟然是...](https://mp.weixin.qq.com/s?__biz=MzU1NTkwODE4Mw==&mid=2247485006&idx=1&sn=85d6fa16c224fe93cf167f4d44d432ee)
   > 热点监测、JIT编译(Just In Time)、逃逸分析、标量替换、栈上分配
@@ -121,7 +91,42 @@
   * [什么是主内存，工作内存;可见性;原子性；有序性](https://juejin.im/post/5d16a633e51d455a2f2202a3)
   * [OutOfMemoryError系列（2）: GC overhead limit exceeded](https://blog.csdn.net/renfufei/article/details/77585294)
   * [jvm优化必知系列——监控工具](https://my.oschina.net/u/1859679/blog/1552290)
-  * [既然JVM有Full GC，为什么还会出现OutOfMemoryError?](https://mp.weixin.qq.com/s?__biz=MzIwMzY1OTU1NQ==&mid=2247487133&idx=2&sn=f0eaffdbec9852d5cf2bd19d12703b29)
+  * [既然JVM有Full GC，为什么还会出现OutOfMemoryError?](https://mp.weixin.qq.com/s?__biz=MzIwMzY1OTU1NQ==&mid=2247487133&idx=2&sn=f0eaffdbec9852d5cf2bd19d12703b29)  
+  
+## 锁
+  * [面试官问：说说你对 Java 中锁以及 sychronized 实现机制的理解](https://blog.yoodb.com/yoodb/article/detail/1600)
+  * [Java性能之synchronized锁的优化](https://www.bbsmax.com/A/l1dyZB69ze/)
+  * [Synchronized 关键字使用、底层原理、JDK1.6 之后的底层优化](https://zhuanlan.zhihu.com/p/47692708)  
+  
+## 多线程
+  * [【电子书】深入浅出Java多线程](http://concurrent.redspider.group/article/01/1.html)
+  > 备用地址：https://redspider.gitbook.io/concurrent/
+
+  * [并发Bug之源有三，请睁大眼睛看清它们](https://mp.weixin.qq.com/s?__biz=Mzg3NjIxMjA1Ng==&mid=2247483941&idx=1&sn=d700824e4039cc487ea930857ec2b5c1)
+  * [可见性有序性，Happens-before来搞定](https://mp.weixin.qq.com/s?__biz=Mzg3NjIxMjA1Ng==&mid=2247483947&idx=1&sn=3e8024b80dcccb36747b4b885e21cd69)
+  * [解决原子性问题？你首先需要的是宏观理解](https://mp.weixin.qq.com/s?__biz=Mzg3NjIxMjA1Ng==&mid=2247483951&idx=1&sn=e3dc49445b430cf3b6f9b0202af2f7a8)
+
+  * [Java 线程状态之 WAITING](https://my.oschina.net/goldenshaw/blog/802620)
+  * [Java 线程状态之 RUNNABLE](https://my.oschina.net/goldenshaw/blog/705397)
+  * [计算机程序的思维逻辑 (75) - 并发容器 - 基于 SkipList 的 Map 和 Set](https://juejin.im/post/58caa1a8ac502e005889d36b)
+
+* [JAVA多线程系列目录（43篇）](http://www.cnblogs.com/skywang12345/p/java_threads_category.html)
+  * [【Java 并发笔记】Unsafe 相关整理](https://www.jianshu.com/p/2e5b92d0962e)
+  * [Thread详解](https://www.cnblogs.com/waterystone/p/4920007.html)
+  * [一文搞懂 ThreadLocal 原理](https://mp.weixin.qq.com/s?__biz=MzU1NTkwODE4Mw==&mid=2247485019&idx=2&sn=979554c738be748c771050f04ebc7ef7)  
+  
+## AQS  
+  * [Java并发之AQS详解](https://www.cnblogs.com/waterystone/p/4920797.html)
+  * [AQS - AbstractQueuedSynchronizer超详细原理解析](https://mp.weixin.qq.com/s?__biz=Mzg2NjE5NDQyOA==&mid=2247483778&idx=1&sn=1217b9ee2ac616678693db2c18db7bf6)
+  * [画了35张图就是为了让你深入 AQS](https://mp.weixin.qq.com/s/Ix7eus2R7QcvvWAfFyeAdQ)
+  
+## 线程池  
+  * [线程池没你想的那么简单](https://juejin.im/post/5ce1f3b6f265da1ba2522f62)
+  * [深入理解java线程池—ThreadPoolExecutor](http://www.jianshu.com/p/ade771d2c9c0)  
+  * [java线程池ThreadPoolExecutor八种拒绝策略浅析](http://www.kailing.pub/article/index/arcid/255.html)
+  * [你知道如何安全正确的关闭线程池吗？](https://mp.weixin.qq.com/s?__biz=MzU3NzczMTAzMg==&mid=2247485650&idx=1&sn=9182c3d618ce868999025f1875b3c370)
+  * [面试官：为什么《阿里巴巴Java开发手册》上要禁止使用Executors来创建线程池](https://juejin.im/post/5dd72e226fb9a04c352df756)
+  * [为什么阿里巴巴要禁用Executors创建线程池？](https://juejin.im/post/5dc41c165188257bad4d9e69)
   
 ## 动态代理
   * [java中动态代理实现机制](https://yq.aliyun.com/articles/35985)
