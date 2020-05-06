@@ -111,10 +111,16 @@
   * [Java 线程状态之 RUNNABLE](https://my.oschina.net/goldenshaw/blog/705397)
   * [计算机程序的思维逻辑 (75) - 并发容器 - 基于 SkipList 的 Map 和 Set](https://juejin.im/post/58caa1a8ac502e005889d36b)
 
-* [JAVA多线程系列目录（43篇）](http://www.cnblogs.com/skywang12345/p/java_threads_category.html)
+  * [JAVA多线程系列目录（43篇）](http://www.cnblogs.com/skywang12345/p/java_threads_category.html)
   * [【Java 并发笔记】Unsafe 相关整理](https://www.jianshu.com/p/2e5b92d0962e)
   * [Thread详解](https://www.cnblogs.com/waterystone/p/4920007.html)
   * [一文搞懂 ThreadLocal 原理](https://mp.weixin.qq.com/s?__biz=MzU1NTkwODE4Mw==&mid=2247485019&idx=2&sn=979554c738be748c771050f04ebc7ef7)  
+  > ThreadLocal 的特性也导致了应用场景比较广泛，主要的应用场景如下：
+  1.线程间数据隔离，各线程的 ThreadLocal 互不影响
+  2.方便同一个线程使用某一对象，避免不必要的参数传递
+  3.全链路追踪中的 traceId 或者流程引擎中上下文的传递一般采用 ThreadLocal
+  4.Spring 事务管理器采用了 ThreadLocal
+  5.Spring MVC 的 RequestContextHolder 的实现使用了 ThreadLocal
   
 ## AQS  
   * [Java并发之AQS详解](https://www.cnblogs.com/waterystone/p/4920797.html)
