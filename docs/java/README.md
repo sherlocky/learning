@@ -46,7 +46,8 @@
   * [FastJson稍微使用不当就会导致StackOverflow](https://mp.weixin.qq.com/s?__biz=MzI3NzE0NjcwMg==&mid=2650125098&idx=1&sn=2390567e228e1257af3d4b6090c7065d)
   
 ## 集合
-  * [==为什么阿里巴巴禁止在 foreach 循环里进行元素的 remove/add 操作==](https://mp.weixin.qq.com/s/0NF3dT4hTD2WdFaHFe6b_g)
+  * [为什么阿里巴巴禁止在 foreach 循环里进行元素的 remove/add 操作](https://halo.sherlocky.com/archives/java#%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E7%A6%81%E6%AD%A2%E5%9C%A8-foreach-%E5%BE%AA%E7%8E%AF%E9%87%8C%E8%BF%9B%E8%A1%8C%E5%85%83%E7%B4%A0%E7%9A%84-removeadd-%E6%93%8D%E4%BD%9C)
+  > 还可以参考：https://mp.weixin.qq.com/s/0NF3dT4hTD2WdFaHFe6b_g
   * [《吊打面试官》系列-HashMap](https://juejin.im/post/5dee6f54f265da33ba5a79c8)
   * [《吊打面试官》系列-ConcurrentHashMap & Hashtable](https://juejin.im/post/5df8d7346fb9a015ff64eaf9)
   * [Java集合框架分析-HashMap](http://www.jianshu.com/p/76f5a3d12c28)
