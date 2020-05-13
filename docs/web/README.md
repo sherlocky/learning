@@ -1,5 +1,9 @@
 # Web
 
+## 负载均衡
+* [Keepalived 虚拟IP技术 ip地址漂移技术](https://www.cnblogs.com/myseries/p/11409895.html)
+> VIP是虚拟IP，可以在不同主备服务器之间漂移（依赖TCP/IP的ARP协议）。
+
 ## Nginx
 * [Nginx 相关介绍(Nginx是什么?能干嘛?)](https://www.cnblogs.com/wcwnina/p/8728391.html)
 * [你真的了解如何将 Nginx 配置为Web服务器吗](https://lufficc.com/blog/configure-nginx-as-a-web-server)
