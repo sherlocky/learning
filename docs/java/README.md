@@ -10,6 +10,7 @@
 
 ## J2SE
   * [String hashCode 方法为什么选择数字31作为乘子](http://www.tianxiaobo.com/2018/01/18/String-hashCode-方法为什么选择数字31作为乘子/)
+  * [[译]Java中9个处理Exception的最佳实践](https://www.rowkey.me/blog/2017/09/17/java-exception/)
   * [国外大佬给出的三种处理异常的套路！](https://mp.weixin.qq.com/s/XTiFc2DwAVWE3CYa2Im1qw)
   > 有三种处理异常的基本模式：转换（translate）、重试（retry）和恢复（recover）。
 
