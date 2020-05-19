@@ -16,12 +16,12 @@
 * [《吊打面试官》系列-秒杀系统设计](https://juejin.im/post/5dd09f5af265da0be72aacbd)
 * [《大厂内部资料》Redis 性能优化的 13 条军规！全网首发](https://mp.weixin.qq.com/s?__biz=MzU1NTkwODE4Mw==&mid=2247484916&idx=1&sn=d49ea56a1725aa140fc222266c1fc32f)
 * [Redis 6.0 正式版终于发布了！除了多线程还有什么新功能？](https://mp.weixin.qq.com/s/hMTGgyE6g36DnUoAGDihbw)
-  >- 提供了众多的新模块（modules）API
-   - 提供了客户端缓存功能
-   - SSL
-   - ACLs 权限控制
-   - 多线程 I/O 能力
-   - 提升了 RDB 日志的加载速度
+  > - 提供了众多的新模块（modules）API
+  > - 提供了客户端缓存功能
+  > - SSL
+  > - ACLs 权限控制
+  > - 多线程 I/O 能力
+  > - 提升了 RDB 日志的加载速度
 
 ## 分布式锁
 * [面试官：如何用Redis实现分布式锁？](https://juejin.im/post/5e9473f5e51d454702460323)
