@@ -19,6 +19,7 @@
   * [纯洁的微笑 - SpringBoot 系列文章](http://www.ityouknow.com/spring-boot.html)
   * [Springboot 优雅停止服务的几种方法](https://www.cnblogs.com/huangqingshi/p/11370291.html)
   * [Springboot实现全局日期格式化](https://mp.weixin.qq.com/s?__biz=MzAxNTM4NzAyNg==&mid=2247484028&idx=1&sn=651c8de95979f42a10270e46275c8346)
+  * [SpringBoot+Mybatis配置多数据源及事务方案](https://juejin.im/post/5eba38aa6fb9a043777c9b3a)
   
 ## Spring Shiro
   * [并发登录人数控制——《跟我学Shiro》](https://www.iteye.com/blog/jinnianshilongnian-2039760)
