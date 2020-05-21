@@ -26,6 +26,7 @@
   * [为什么MySQL用B+树做索引](https://mp.weixin.qq.com/s?__biz=MzI3NzE0NjcwMg==&mid=2650125030&idx=1&sn=1c2a09a80547159b336e7ea25d7f4955)
 
 ## MySQL 日志
+  * [MySQL binlog、redo log、undo log 简单阐述](https://mp.weixin.qq.com/s/Lx4TNPLQzYaknR7D3gmOmQ)
   * [MySQL探秘(四):InnoDB的磁盘文件及落盘机制](https://www.jianshu.com/p/e546ea1fc067)
   * [Mysql Redo Log日志](https://blog.csdn.net/longgeqiaojie304/article/details/98869707)
   * [MySQL Binlog--事务日志和BINLOG落盘参数对磁盘IO的影响](https://www.cnblogs.com/gaogao67/p/11023837.html)
