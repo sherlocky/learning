@@ -6,6 +6,8 @@
 * [ProcessOn在线画图工具](https://www.processon.com/)
 
 ## Windows
+* [MSDN, 我告诉你 - 系统、Office下载](https://msdn.itellyou.cn/)
+* [Microsoft Visual C++ 2015-2019 Redistributable](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)
 * [Windows上优质&精选的最佳应用程序及工具列表](https://github.com/Awesome-Windows/Awesome/blob/master/README-cn.md)
 
 ## 颜值即正义
