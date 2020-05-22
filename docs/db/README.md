@@ -2,15 +2,19 @@
 * [MySQL 是怎样运行的：从根儿上理解 MySQL](https://juejin.im/book/5bffcbc9f265da614b11b731/section/5c238f0851882521eb44c51f)
 * [MySQL 忘记密码，该怎么办？](https://mp.weixin.qq.com/s?__biz=MzI4NDY5Mjc1Mg==&mid=2247488938&idx=2&sn=919f345ea5dfa6a4b2f5e042c94d4d19)
 * [高性能MySQL（第3版）.pdf](https://ghost.oss.sherlocky.com/learning/mysql/%E9%AB%98%E6%80%A7%E8%83%BDMySQL%EF%BC%88%E7%AC%AC3%E7%89%88%EF%BC%89.pdf)
-* [超全面的MySQL语句加锁分析](https://mp.weixin.qq.com/s?__biz=MzIxMjE5MTE1Nw==&mid=2653198050&idx=2&sn=68a6594ac35976532ad6a0eec6dc06dd)
 * [年薪50万的DBA必须了解的MySQL锁和事务](https://mp.weixin.qq.com/s?__biz=MzI4NTA1MDEwNg==&mid=2650779014&idx=1&sn=05ceda0ad2c54a4c7d3983692b8c0789)
 * [面试官问：MySQL的自增ID用完了，怎么办？](https://mp.weixin.qq.com/s?__biz=MzIwMzY1OTU1NQ==&mid=2247487265&idx=1&sn=46029e2d4c630635fd7636141dd90d23)
 * [如何基于 MySQL 主从模式搭建上万并发的系统架构？](https://my.oschina.net/u/4205711/blog/3104493)
 * [MySQL的COUNT(*)语句](https://mp.weixin.qq.com/s?__biz=MzI3NzE0NjcwMg==&mid=2650124956&idx=1&sn=3bce85cdc1768f71b4332ba8f25278b0)
 * [MySQL 8.0+ WITH 语法(Common Table Expressions - CTE)](https://gblog.sherlocky.com/mysql-8-cte/)
 * [《吊打面试官》系列-数据库基础知识](https://mp.weixin.qq.com/s/NDL1Q6nqdPq5oMBWSpq4ug)
-  > MySQL8.0直接把查询缓存的功能删除了。
+  > MySQL8.0直接把查询缓存的功能删除了。  
   > 不建议使用查询缓存，因为查询缓存往往弊大于利。查询缓存的失效非常频繁，只要有对一个表的更新，这个表上的所有的查询缓存都会被清空。
+* [MySQL 的 InnoDB 存储引擎是怎么设计的？](https://mp.weixin.qq.com/s/wr2gJGQSA8QH_lmPh1XOkw)
+  > merge：Change Buffer -> Buffer Pool  
+  > purge：Buffer Pool -> Disk  
+  > Log Buffer  
+  > Doublewrite Buffer
 
 ## 连接池
  * [数据库连接池到底应该设多大？这篇文章可能会颠覆你的认知](https://www.jianshu.com/p/a8f653fc0c54)
@@ -23,13 +27,18 @@
 ## 优化
 * [MySQL 优化实施方案](https://www.cnblogs.com/clsn/p/8214048.html)
 * [项目中常用的19条MySQL优化](https://segmentfault.com/a/1190000012155267)
-> 知乎链接，暂无法访问：[项目中常用的19条MySQL优化](https://zhuanlan.zhihu.com/p/49888088)
+  > 知乎链接，暂无法访问：[项目中常用的19条MySQL优化](https://zhuanlan.zhihu.com/p/49888088)
 * [按照这30条建议优化SQL，性能绝对不会太差](https://mp.weixin.qq.com/s?__biz=Mzg3NjIxMjA1Ng==&mid=2247484182&idx=1&sn=776c152b7bff8df6c176cadfc620d9df)
+* MySQL 统计信息
+ > 统计信息，默认采样率 20 
 
 ## 索引
   * [如何理解并正确使用MySql索引](https://my.oschina.net/feinik/blog/1305784)
   * [[慢查优化]建索引时注意字段选择性 & 范围查询注意组合索引的字段顺序](https://my.oschina.net/zhengyun/blog/162985) 
   * [为什么MySQL用B+树做索引](https://mp.weixin.qq.com/s?__biz=MzI3NzE0NjcwMg==&mid=2650125030&idx=1&sn=1c2a09a80547159b336e7ea25d7f4955)
+
+## 锁
+  * [超全面的MySQL语句加锁分析](https://mp.weixin.qq.com/s?__biz=MzIxMjE5MTE1Nw==&mid=2653198050&idx=2&sn=68a6594ac35976532ad6a0eec6dc06dd)
 
 ## MySQL 日志
   * [MySQL binlog、redo log、undo log 简单阐述](https://mp.weixin.qq.com/s/Lx4TNPLQzYaknR7D3gmOmQ)
@@ -70,7 +79,7 @@
   * [什么是DB的三星索引](https://my.oschina.net/u/1859679/blog/1589575)
   * [如何预估索引性能？](https://my.oschina.net/u/1859679/blog/1592538)
   
-## 锁
+## 死锁
 > 查看死锁：```show engine innodb status;```
 
  * [Mysql死锁如何排查：insert on duplicate死锁一次排查分析过程](https://juejin.im/post/5d483e66518825052734b15a)
