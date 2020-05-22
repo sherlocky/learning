@@ -39,7 +39,15 @@
 
 ## 锁
   * [超全面的MySQL语句加锁分析](https://mp.weixin.qq.com/s?__biz=MzIxMjE5MTE1Nw==&mid=2653198050&idx=2&sn=68a6594ac35976532ad6a0eec6dc06dd)
-
+  > 锁定读的语句:
+    - SELECT ... LOCK IN SHARE MODE;
+    - SELECT ... FOR UPDATE;
+    - UPDATE ...
+    - DELETE ...
+  > S型正经记录锁、X型正经记录锁  
+  > ``索引条件``下推特性只适用于``二级索引``（只是为了减少回表次数，也就是减少读取完整的聚簇索引记录的次数，从而减少IO操作）。  
+  > 有时要对``聚簇索引记录``和``二级索引记录``都加锁，顺序要分情况具体分析。
+  
 ## MySQL 日志
   * [MySQL binlog、redo log、undo log 简单阐述](https://mp.weixin.qq.com/s/Lx4TNPLQzYaknR7D3gmOmQ)
   * [MySQL探秘(四):InnoDB的磁盘文件及落盘机制](https://www.jianshu.com/p/e546ea1fc067)
