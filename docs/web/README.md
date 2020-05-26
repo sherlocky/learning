@@ -1,5 +1,8 @@
 # Web
 
+## 单点登录
+* [CAS实现SSO单点登录原理](http://www.coin163.com/java/cas/cas.html)
+
 ## 负载均衡
 * [Keepalived 虚拟IP技术 ip地址漂移技术](https://www.cnblogs.com/myseries/p/11409895.html)
 > VIP是虚拟IP，可以在不同主备服务器之间漂移（依赖TCP/IP的ARP协议）。
