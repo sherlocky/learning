@@ -18,6 +18,7 @@
   * [一起来学SpringBoot -- 唐亚峰](https://blog.battcn.com/categories/SpringBoot/)
   * [纯洁的微笑 - SpringBoot 系列文章](http://www.ityouknow.com/spring-boot.html)
   * [Springboot 优雅停止服务的几种方法](https://www.cnblogs.com/huangqingshi/p/11370291.html)
+  * [Spring Boot **2.3.0** 如何优雅停机](https://mp.weixin.qq.com/s?__biz=MzIwMzY1OTU1NQ==&mid=2247490012&idx=1&sn=26ad26f9d90ccfafea012d61621326b1)
   * [Springboot实现全局日期格式化](https://mp.weixin.qq.com/s?__biz=MzAxNTM4NzAyNg==&mid=2247484028&idx=1&sn=651c8de95979f42a10270e46275c8346)
   * [SpringBoot+Mybatis配置多数据源及事务方案](https://juejin.im/post/5eba38aa6fb9a043777c9b3a)
   
