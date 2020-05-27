@@ -7,6 +7,11 @@
 * [我这样回答了Spring 5的新特性，面试官对我刮目相看](https://mp.weixin.qq.com/s/Mt3w49YhNU8plvzuGYuTPQ)
 * [6种 @Transactional 注解失效场景](https://mp.weixin.qq.com/s?__biz=MzAxNTM4NzAyNg==&mid=2247483977&idx=1&sn=7d8d3c89bfe2261f6422572dca405990)
 
+## Spring 5 源码分析
+ * [【PDF】Spring源码分析(第二版)_第二章](https://ghost.oss.sherlocky.com/learning/spring/%E5%92%95%E6%B3%A1%E5%AD%A6%E9%99%A2_Spring%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%28%E7%AC%AC%E4%BA%8C%E7%89%88%29_%E7%AC%AC%E4%BA%8C%E7%AB%A0.pdf)
+ * [【PDF】Spring源码分析(第二版)_第三章](https://ghost.oss.sherlocky.com/learning/spring/%E5%92%95%E6%B3%A1%E5%AD%A6%E9%99%A2_Spring%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%28%E7%AC%AC%E4%BA%8C%E7%89%88%29_%E7%AC%AC%E4%B8%89%E7%AB%A0.pdf)
+ * [【PDF】Spring源码分析(第二版)_第四章](https://ghost.oss.sherlocky.com/learning/spring/%E5%92%95%E6%B3%A1%E5%AD%A6%E9%99%A2_Spring%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%28%E7%AC%AC%E4%BA%8C%E7%89%88%29_%E7%AC%AC%E5%9B%9B%E7%AB%A0.pdf) 
+
 ## SpringBoot
   * [自己的SpringBoot学习记录](https://gitee.com/sherlocky/springboot2-learning)
   * [spring-boot-plus](https://springboot.plus/guide/)
@@ -21,7 +26,7 @@
   * [Spring Boot **2.3.0** 如何优雅停机](https://mp.weixin.qq.com/s?__biz=MzIwMzY1OTU1NQ==&mid=2247490012&idx=1&sn=26ad26f9d90ccfafea012d61621326b1)
   * [Springboot实现全局日期格式化](https://mp.weixin.qq.com/s?__biz=MzAxNTM4NzAyNg==&mid=2247484028&idx=1&sn=651c8de95979f42a10270e46275c8346)
   * [SpringBoot+Mybatis配置多数据源及事务方案](https://juejin.im/post/5eba38aa6fb9a043777c9b3a)
-  
+
 ## Spring Shiro
   * [并发登录人数控制——《跟我学Shiro》](https://www.iteye.com/blog/jinnianshilongnian-2039760)
   
