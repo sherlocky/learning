@@ -46,3 +46,6 @@ https://www.ietf.org/rfc/rfc1034.txt
 * [HTTP/3 QUIC协议](https://mp.weixin.qq.com/s/mHPEOho5F1pmNSWUAXQ9QA)
 > QUIC（Quick UDP Internet Connections，快速 UDP 网络连接
 * ![QUIC协议](https://ghost.oss.sherlocky.com/halo/http3_1589801866231.png)
+
+## IPv4 VS IPv6
+* [为什么 IPv6 难以取代 IPv4](https://mp.weixin.qq.com/s/Aut6e6duxkCZ4f4mZcD2-g)
