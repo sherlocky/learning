@@ -13,5 +13,9 @@
 ## Office
 * [PDF转PowerPoint](https://www.pdfpai.com/pdf-to-powerpoint)
 
+## Crack
+* [常用破解软件](https://www.fxxkmakeding.xyz/downloads.html)
+> [github版地址](https://github.com/xyjoey/fxxkmakeding)
+
 ## 颜值即正义
 * [那些管UI小姐姐要来的网站](https://juejin.im/post/5e7cdee26fb9a03c6e640cc7)
