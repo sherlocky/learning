@@ -7,6 +7,12 @@
 * [正确的打日志姿势](http://lrwinx.github.io/2018/01/25/正确的打日志姿势/)
 * [撸个注解（Annotation）有什么难的](https://mp.weixin.qq.com/s?__biz=MzU1NTkwODE4Mw==&mid=2247485045&idx=2&sn=447ab489635289ef5bb089efb7f1830e)
 * [Java避坑之解决重复提交的bug](https://mp.weixin.qq.com/s?__biz=MzAxNTM4NzAyNg==&mid=2247483997&idx=1&sn=8bea08bfa81e97d487a5992b47293674)
+* [Java代码性能优化的 40+ 细节](https://mp.weixin.qq.com/s/xRfn558-FzPc_edJU6eJYA)
+* [50 个 Java 开发常见错误及规避技巧 （Part 1）](https://www.oschina.net/translate/50-common-java-errors-and-how-to-avoid-them-part-1)
+* [50 个 Java 开发常见错误及规避技巧 （Part 2）](https://www.oschina.net/translate/50-common-java-errors-and-how-to-avoid-them-part-2)
+* [ StackTraceElement获取方法调用栈的信息](http://blog.csdn.net/hp910315/article/details/52702199)
+* [Google Guava教程](http://www.yiibai.com/guava/)
+* [神奇的Java僵尸(defunct)进程问题排查过程](https://www.jianshu.com/p/f0baed94128e)
 
 ## J2SE
   * [String hashCode 方法为什么选择数字31作为乘子](http://www.tianxiaobo.com/2018/01/18/String-hashCode-方法为什么选择数字31作为乘子/)
@@ -150,9 +156,3 @@
   * [java中动态代理实现机制](https://yq.aliyun.com/articles/35985)
   * [CGLib动态代理原理及实现](https://my.oschina.net/mifans/blog/783470)
   * [Spring AOP动态代理原理与实现方式 （转）](http://www.tuicool.com/articles/jMzmQj)
-  * [Java代码性能优化的 40+ 细节](https://mp.weixin.qq.com/s/xRfn558-FzPc_edJU6eJYA)
-  * [50 个 Java 开发常见错误及规避技巧 （Part 1）](https://www.oschina.net/translate/50-common-java-errors-and-how-to-avoid-them-part-1)
-  * [50 个 Java 开发常见错误及规避技巧 （Part 2）](https://www.oschina.net/translate/50-common-java-errors-and-how-to-avoid-them-part-2)
-  * [ StackTraceElement获取方法调用栈的信息](http://blog.csdn.net/hp910315/article/details/52702199)
-  * [Google Guava教程](http://www.yiibai.com/guava/)
-  * [神奇的Java僵尸(defunct)进程问题排查过程](https://www.jianshu.com/p/f0baed94128e)
