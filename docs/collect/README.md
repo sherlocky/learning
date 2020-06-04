@@ -10,5 +10,8 @@
 * [Microsoft Visual C++ 2015-2019 Redistributable](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)
 * [Windows上优质&精选的最佳应用程序及工具列表](https://github.com/Awesome-Windows/Awesome/blob/master/README-cn.md)
 
+## Office
+* [PDF转PowerPoint](https://www.pdfpai.com/pdf-to-powerpoint)
+
 ## 颜值即正义
 * [那些管UI小姐姐要来的网站](https://juejin.im/post/5e7cdee26fb9a03c6e640cc7)
