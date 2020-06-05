@@ -16,6 +16,8 @@
   > Log Buffer  
   > Doublewrite Buffer
 
+* [数据库优化 - 实例优化](https://mp.weixin.qq.com/s?__biz=Mzg3NjE0ODM2NA==&mid=2247483796&idx=1&sn=fe5fbf12670ffd06149b26edc06026fd)
+
 ## 连接池
  * [数据库连接池到底应该设多大？这篇文章可能会颠覆你的认知](https://www.jianshu.com/p/a8f653fc0c54)
 
