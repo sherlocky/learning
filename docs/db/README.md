@@ -103,3 +103,4 @@
   * [【干货分享】组合索引中列的顺序问题](https://mp.weixin.qq.com/s?__biz=MzIwNTEyMTgzNw==&mid=2652655003&idx=1&sn=2665f03fa0ed784fcefa82b76a49b528)
   * [【干货分享】DM7倒序排序优化的方法](https://mp.weixin.qq.com/s?__biz=MzIwNTEyMTgzNw==&mid=2652656812&idx=2&sn=fb38d1090d7a2dd42fa9f86fb2e8a13b)
   * [DM7 达梦数据库 查询优化 -- 执行计划 查看](https://www.cndba.cn/cndba/dave/article/3630)
+  * [DM7 达梦数据库 快照管理 及 生成 AWR 报告](https://www.cndba.cn/dave/article/3616)
