@@ -97,7 +97,7 @@
 ## 国产达梦数据库
   * [DM7 达梦数据库安装后配置及调优](//halo.sherlocky.com/archives/dm7-setup-optimize)
   * [记一次对达梦数据库的优化过程](https://hacpai.com/article/1574159839794#慢-SQL-优化)
-  * [【干货分享】达梦SQL优化——基础篇]http://www.dameng.com/teachers_view.aspx?TypeId=183&Id=1027&FId=t26:183:26
+  * [【干货分享】达梦SQL优化——基础篇](http://www.dameng.com/teachers_view.aspx?TypeId=183&Id=1027&FId=t26:183:26)
   * [【干货分享】达梦SQL优化——基础篇(2)](http://www.dameng.com/teachers_view.aspx?TypeId=183&Id=1030&FId=t26:183:26)
   * [【干货分享】达梦SQL优化——基础篇(3)](http://www.dameng.com/teachers_view.aspx?TypeId=183&Id=1036)
   * [【干货分享】组合索引中列的顺序问题](https://mp.weixin.qq.com/s?__biz=MzIwNTEyMTgzNw==&mid=2652655003&idx=1&sn=2665f03fa0ed784fcefa82b76a49b528)
