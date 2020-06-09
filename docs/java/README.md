@@ -14,6 +14,10 @@
 * [Google Guava教程](http://www.yiibai.com/guava/)
 * [神奇的Java僵尸(defunct)进程问题排查过程](https://www.jianshu.com/p/f0baed94128e)
 
+* [Object o = new Object() 在内存中占了多少字节](https://blog.csdn.net/u011727756/article/details/106546178/)
+> ![锁的升级过程_32位](https://ghost.oss.sherlocky.com/halo/锁的升级过程_32位_1591704088277.png-halo)
+> ![锁的升级过程_64位](https://ghost.oss.sherlocky.com/halo/锁的升级过程_64位_1591704088280.png-halo)
+
 ## J2SE
   * [String hashCode 方法为什么选择数字31作为乘子](http://www.tianxiaobo.com/2018/01/18/String-hashCode-方法为什么选择数字31作为乘子/)
   * [[译]Java中9个处理Exception的最佳实践](https://www.rowkey.me/blog/2017/09/17/java-exception/)
