@@ -104,3 +104,4 @@
   * [【干货分享】DM7倒序排序优化的方法](https://mp.weixin.qq.com/s?__biz=MzIwNTEyMTgzNw==&mid=2652656812&idx=2&sn=fb38d1090d7a2dd42fa9f86fb2e8a13b)
   * [DM7 达梦数据库 查询优化 -- 执行计划 查看](https://www.cndba.cn/cndba/dave/article/3630)
   * [DM7 达梦数据库 快照管理 及 生成 AWR 报告](https://www.cndba.cn/dave/article/3616)
+  * [DM7 达梦数据库 索引 管理 说明](https://www.cndba.cn/dave/article/3585)
