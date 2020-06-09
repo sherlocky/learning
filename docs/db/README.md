@@ -16,7 +16,6 @@
   > Log Buffer  
   > Doublewrite Buffer
 
-* [记一次对达梦数据库的优化过程](https://hacpai.com/article/1574159839794#慢-SQL-优化)
 * [数据库优化 - 实例优化](https://mp.weixin.qq.com/s?__biz=Mzg3NjE0ODM2NA==&mid=2247483796&idx=1&sn=fe5fbf12670ffd06149b26edc06026fd)
 
 ## 连接池
@@ -94,3 +93,13 @@
 > 查看死锁：```show engine innodb status;```
 
  * [Mysql死锁如何排查：insert on duplicate死锁一次排查分析过程](https://juejin.im/post/5d483e66518825052734b15a)
+
+## 国产达梦数据库
+  * [DM7 达梦数据库安装后配置及调优](//halo.sherlocky.com/archives/dm7-setup-optimize)
+  * [记一次对达梦数据库的优化过程](https://hacpai.com/article/1574159839794#慢-SQL-优化)
+  * [【干货分享】达梦SQL优化——基础篇]http://www.dameng.com/teachers_view.aspx?TypeId=183&Id=1027&FId=t26:183:26
+  * [【干货分享】达梦SQL优化——基础篇(2)](http://www.dameng.com/teachers_view.aspx?TypeId=183&Id=1030&FId=t26:183:26)
+  * [【干货分享】达梦SQL优化——基础篇(3)](http://www.dameng.com/teachers_view.aspx?TypeId=183&Id=1036)
+  * [【干货分享】组合索引中列的顺序问题](https://mp.weixin.qq.com/s?__biz=MzIwNTEyMTgzNw==&mid=2652655003&idx=1&sn=2665f03fa0ed784fcefa82b76a49b528)
+  * [【干货分享】DM7倒序排序优化的方法](https://mp.weixin.qq.com/s?__biz=MzIwNTEyMTgzNw==&mid=2652656812&idx=2&sn=fb38d1090d7a2dd42fa9f86fb2e8a13b)
+  * [DM7 达梦数据库 查询优化 -- 执行计划 查看](https://www.cndba.cn/cndba/dave/article/3630)
