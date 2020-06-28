@@ -43,6 +43,13 @@ https://www.ietf.org/rfc/rfc1034.txt
 
 * [CentOS7 Certbot 自动更新 Let's Encrypt SSL 证书(Nginx,https)](https://halo.sherlocky.com/archives/centos7-certbot-nginx-ssl)
 
+### SNI
+ * [java使用httpclient调用多虚拟主机https接口报错问题](https://stackoverflow.com/questions/39762760/javax-net-ssl-sslexception-certificate-doesnt-match-any-of-the-subject-alterna)
+ > javax.net.ssl.SSLException: Certificate doesn't match any of the subject alternative names
+ > 使用了 httpclient 4.5.1版本，该版本处理 SNI 时存在bug，需要更新到4.5.3+修复
+ * [HTTPS 深入浅出 - 什么是 SNI？](https://blog.csdn.net/firefile/article/details/80532161)
+ * [SNI(Server Name Indication)](https://blog.csdn.net/makenothing/article/details/53292335)
+
 ## HTTP3 
 * [HTTP/3 QUIC协议](https://mp.weixin.qq.com/s/mHPEOho5F1pmNSWUAXQ9QA)
 > QUIC（Quick UDP Internet Connections，快速 UDP 网络连接
