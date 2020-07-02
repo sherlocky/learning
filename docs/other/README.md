@@ -3,6 +3,9 @@
 * [干货收藏 | Java程序员必备的一些流程图](https://mp.weixin.qq.com/s/oTE_hbJtI_n6XTx9jj8w9A)
 * [牛人自制“神器”，2017 最新 Web 开发者成长路线图](https://www.oschina.net/news/82966/web-developer-roadmap-in-2017?winzoom=1)
 
+## 角色权限
+* [手把手教你搞定菜单权限设计，精确到按钮级别](https://mp.weixin.qq.com/s?__biz=MzU3NzczMTAzMg==&mid=2247488983&idx=1&sn=c4e38710cbb200fe4944f69ea5de8372)
+
 ## 搜索引擎
 * [倒排索引/全文搜索基本原理](https://www.cnblogs.com/gered/p/9561710.html)
 
