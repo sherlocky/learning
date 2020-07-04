@@ -7,6 +7,10 @@
 在Guava 的 Hashing 类中有该算法实现，Redis，Memcached，Cassandra，HBase，Lucene 等都使用了它。  
 可以获得一个整形结果，然后再利用62进制可实现短链接效果。
 
+## Bitmap
+* [BitMap、RoaringBitmap与JavaEWAH](https://www.cnblogs.com/fonxian/p/10937882.html)
+* [【github】RoaringBitmap/RoaringBitmap](https://github.com/RoaringBitmap/RoaringBitmap)
+
 ## leetcode
 * https://leetcode-cn.com/
 * [LeetCode题目动画演示](https://github.com/MisterBooo/LeetCodeAnimation)
