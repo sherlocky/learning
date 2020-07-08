@@ -18,6 +18,13 @@
 > ![锁的升级过程_32位](https://ghost.oss.sherlocky.com/halo/锁的升级过程_32位_1591704088277.png-halo)
 > ![锁的升级过程_64位](https://ghost.oss.sherlocky.com/halo/锁的升级过程_64位_1591704088280.png-halo)
 
+## JDK 下载
+* [O记JDK下载](https://www.oracle.com/java/technologies/javase-downloads.html)
+> 鉴于JDK偶数版和奇数版的区别(可参考：[JDK 版本号区别](//halo.sherlocky.com/archives/java#jdk-%E7%89%88%E6%9C%AC%E5%8F%B7%E5%8C%BA%E5%88%AB))，如果使用O记JDK8，应该选择8u252
+* [新时代JDK版本的选择](https://mp.weixin.qq.com/s?__biz=MzIzODYyNjkzNw==&mid=2247484056&idx=1&sn=a81a69f123d519014d03ec22c3c3cca4)
+* [AdoptOpenJDK下载](https://adoptopenjdk.net/release_notes.html) 
+
+
 ## J2SE
   * [String hashCode 方法为什么选择数字31作为乘子](http://www.tianxiaobo.com/2018/01/18/String-hashCode-方法为什么选择数字31作为乘子/)
   * [[译]Java中9个处理Exception的最佳实践](https://www.rowkey.me/blog/2017/09/17/java-exception/)
