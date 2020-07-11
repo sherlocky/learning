@@ -13,7 +13,8 @@
  * [【PDF】Spring源码分析(第二版)_第四章](https://ghost.oss.sherlocky.com/learning/spring/%E5%92%95%E6%B3%A1%E5%AD%A6%E9%99%A2_Spring%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%28%E7%AC%AC%E4%BA%8C%E7%89%88%29_%E7%AC%AC%E5%9B%9B%E7%AB%A0.pdf) 
 
 ## SpringBoot
-  * [自己的SpringBoot学习记录](https://gitee.com/sherlocky/springboot2-learning)
+  * [自己的Springboot相关博客](//halo.sherlocky.com/archives/springboot)
+  * [【Gitee】自己的SpringBoot学习记录](https://gitee.com/sherlocky/springboot2-learning)
   * [spring-boot-plus](https://springboot.plus/guide/)
   * [SpringBoot集成Redis来实现缓存技术方案](https://my.oschina.net/feinik/blog/1023601)
   * [使用 Keycloak 轻松保护 Spring Boot 应用程序](https://www.oschina.net/translate/easily-secure-your-spring-boot-applications-with-k)
