@@ -38,6 +38,7 @@
   * [如何理解并正确使用MySql索引](https://my.oschina.net/feinik/blog/1305784)
   * [[慢查优化]建索引时注意字段选择性 & 范围查询注意组合索引的字段顺序](https://my.oschina.net/zhengyun/blog/162985) 
   * [为什么MySQL用B+树做索引](https://mp.weixin.qq.com/s?__biz=MzI3NzE0NjcwMg==&mid=2650125030&idx=1&sn=1c2a09a80547159b336e7ea25d7f4955)
+  * [mysql索引失效的情况](https://www.cnblogs.com/wuchanming/p/8075840.html)
 
 ## 锁
   * [超全面的MySQL语句加锁分析](https://mp.weixin.qq.com/s?__biz=MzIxMjE5MTE1Nw==&mid=2653198050&idx=2&sn=68a6594ac35976532ad6a0eec6dc06dd)
