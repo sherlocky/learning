@@ -2,6 +2,8 @@
 
 ## 单点登录
 * [CAS实现SSO单点登录原理](http://www.coin163.com/java/cas/cas.html)
+* [OAuth2.0 的四种授权方式](https://mp.weixin.qq.com/s?__biz=MzAxNTM4NzAyNg==&mid=2247487003&idx=1&sn=47cd6b064a7fc3b3df8f6f4c3f7669a7&scene=21)
+* [OAuth2.0实战--用三方 Github 做授权登录](https://mp.weixin.qq.com/s/KzWE4EtZ6F4_-2fYnVA5QA)
 
 ## 负载均衡
 * [Keepalived 虚拟IP技术 ip地址漂移技术](https://www.cnblogs.com/myseries/p/11409895.html)
