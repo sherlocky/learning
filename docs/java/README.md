@@ -28,6 +28,7 @@
 ## J2SE
   * [Comparison method violates its general contract](https://github.com/y836097668/interview/blob/master/javase/src/main/java/com/sherlocky/interview/javase/compare/ComparatorTest.java)
   > JDk7 下使用 Collections.sort 手动实现的 Comparator 报错 Comparison method violates its general contract
+  * [Timsort详解](https://www.jianshu.com/p/892ebd063ad9)
   * [String hashCode 方法为什么选择数字31作为乘子](http://www.tianxiaobo.com/2018/01/18/String-hashCode-方法为什么选择数字31作为乘子/)
   * [[译]Java中9个处理Exception的最佳实践](https://www.rowkey.me/blog/2017/09/17/java-exception/)
   * [国外大佬给出的三种处理异常的套路！](https://mp.weixin.qq.com/s/XTiFc2DwAVWE3CYa2Im1qw)
