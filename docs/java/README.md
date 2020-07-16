@@ -65,6 +65,12 @@
 ## 序列化
   * [【原创】（译）Java 序列化魔法方法及使用示例](https://juejin.im/post/5d7206c5f265da03ab427181)
   * [FastJson稍微使用不当就会导致StackOverflow](https://mp.weixin.qq.com/s?__biz=MzI3NzE0NjcwMg==&mid=2650125098&idx=1&sn=2390567e228e1257af3d4b6090c7065d)
+  >-1、方法名不以get开头
+   -2、使用@JSONField(serialize = false)修饰目标方法
+   -3、使用@JSONType修饰该Bean，并ignore掉方法对应的属性名（getXxx -> xxx）
+  * [JAVA反序列化 - Commons-Collections组件](https://xz.aliyun.com/t/7031)
+  > cc链
+  * [Dubbo 反序列化高危漏洞探究](https://mp.weixin.qq.com/s/-jIeLJadGg9U1dFHvPw0pw)
   
 ## 集合
   * [为什么阿里巴巴禁止在 foreach 循环里进行元素的 remove/add 操作](https://halo.sherlocky.com/archives/java#%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E7%A6%81%E6%AD%A2%E5%9C%A8-foreach-%E5%BE%AA%E7%8E%AF%E9%87%8C%E8%BF%9B%E8%A1%8C%E5%85%83%E7%B4%A0%E7%9A%84-removeadd-%E6%93%8D%E4%BD%9C)
