@@ -68,6 +68,8 @@
   > - 1、方法名不以get开头
   > - 2、使用@JSONField(serialize = false)修饰目标方法
   > - 3、使用@JSONType修饰该Bean，并ignore掉方法对应的属性名（getXxx -> xxx）
+  * [初识Jackson -- 世界上最好的JSON库](https://www.imooc.com/article/306573)
+  
   * [JAVA反序列化 - Commons-Collections组件](https://xz.aliyun.com/t/7031)
   > cc链
   * [Dubbo 反序列化高危漏洞探究](https://mp.weixin.qq.com/s/-jIeLJadGg9U1dFHvPw0pw)
