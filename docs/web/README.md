@@ -1,5 +1,8 @@
 # Web
 
+## 服务端
+* [服务端如何安全存储密码？](https://mp.weixin.qq.com/s?__biz=MzA5NDIzNzY1OQ==&mid=2735616885&idx=1&sn=f7b605c1d31a16e16150b8da43e22a4e)
+
 ## 单点登录
 * [CAS实现SSO单点登录原理](http://www.coin163.com/java/cas/cas.html)
 * [OAuth2.0 的四种授权方式](https://mp.weixin.qq.com/s?__biz=MzAxNTM4NzAyNg==&mid=2247487003&idx=1&sn=47cd6b064a7fc3b3df8f6f4c3f7669a7&scene=21)
