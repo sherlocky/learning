@@ -162,6 +162,8 @@
   > - 2.NEW -> COMPLETING -> EXCEPTIONAL //执行过程出现异常
   > - 3.NEW -> CANCELLED // 执行过程中被取消
   > - 4.NEW -> INTERRUPTING -> INTERRUPTED //执行过程中，线程被中断
+  > 两个中间状态都表示一种瞬时状态
+  > ![](https://ghost.oss.sherlocky.com/halo/thread_state_transitions_1595066079298.png-halo)
   
 ## AQS  
   * [Java并发之AQS详解](https://www.cnblogs.com/waterystone/p/4920797.html)
