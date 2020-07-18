@@ -156,6 +156,7 @@
   > - 3.全链路追踪中的 traceId 或者流程引擎中上下文的传递一般采用 ThreadLocal
   > - 4.Spring 事务管理器采用了 ThreadLocal
   > - 5.Spring MVC 的 RequestContextHolder 的实现使用了 ThreadLocal
+  * [Callable、Future、FutureTask](https://mp.weixin.qq.com/s/qoZ9zGzROIDvD8Idyvm3XQ)
   
 ## AQS  
   * [Java并发之AQS详解](https://www.cnblogs.com/waterystone/p/4920797.html)
