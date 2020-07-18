@@ -157,6 +157,11 @@
   > - 4.Spring 事务管理器采用了 ThreadLocal
   > - 5.Spring MVC 的 RequestContextHolder 的实现使用了 ThreadLocal
   * [Callable、Future、FutureTask](https://mp.weixin.qq.com/s/qoZ9zGzROIDvD8Idyvm3XQ)
+  > 线程可能的状态转换：
+  > - 1.NEW -> COMPLETING -> NORMAL  //执行过程顺利完成
+  > - 2.NEW -> COMPLETING -> EXCEPTIONAL //执行过程出现异常
+  > - 3.NEW -> CANCELLED // 执行过程中被取消
+  > - 4.NEW -> INTERRUPTING -> INTERRUPTED //执行过程中，线程被中断
   
 ## AQS  
   * [Java并发之AQS详解](https://www.cnblogs.com/waterystone/p/4920797.html)
