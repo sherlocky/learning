@@ -75,6 +75,8 @@
   * [Dubbo 反序列化高危漏洞探究](https://mp.weixin.qq.com/s/-jIeLJadGg9U1dFHvPw0pw)
   
 ## 集合
+  * 一个普通的对象，能够作为HashMap的key么？
+  > 答案显然是**可以**的，但需要注意重写``hashCode``和``equals``方法。如果忘记重写的话，大概率会造成**内存泄漏**。
   * [为什么阿里巴巴禁止在 foreach 循环里进行元素的 remove/add 操作](https://halo.sherlocky.com/archives/java#%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E7%A6%81%E6%AD%A2%E5%9C%A8-foreach-%E5%BE%AA%E7%8E%AF%E9%87%8C%E8%BF%9B%E8%A1%8C%E5%85%83%E7%B4%A0%E7%9A%84-removeadd-%E6%93%8D%E4%BD%9C)
   > 还可以参考：https://mp.weixin.qq.com/s/0NF3dT4hTD2WdFaHFe6b_g
   * [《吊打面试官》系列-HashMap](https://juejin.im/post/5dee6f54f265da33ba5a79c8)
