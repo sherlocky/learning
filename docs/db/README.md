@@ -17,6 +17,9 @@
   > Doublewrite Buffer
 
 * [数据库优化 - 实例优化](https://mp.weixin.qq.com/s?__biz=Mzg3NjE0ODM2NA==&mid=2247483796&idx=1&sn=fe5fbf12670ffd06149b26edc06026fd)
+* [为什么不建议把数据库部署在docker容器内？](https://www.toutiao.com/i6805798581971190276)
+> 如果容器突然崩溃，数据库未正常关闭，可能会损坏数据。另外，容器里共享数据卷组，对物理机硬件损伤也比较大。
+> 即使你要把 Docker 数据放在主机来存储 ，它依然不能保证不丢数据。 Docker volumes 的设计围绕 Union FS 镜像层提供持久存储，但它仍然缺乏保证。
 
 ## 连接池
  * [数据库连接池到底应该设多大？这篇文章可能会颠覆你的认知](https://www.jianshu.com/p/a8f653fc0c54)
