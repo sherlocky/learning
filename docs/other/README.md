@@ -39,3 +39,6 @@
   项目 0 -> 1 无需中台  
   项目 1 -> N 适合中台  
   项目 N -> N + 1 势在必行
+  
+## 火焰图
+* [如何读懂火焰图？](http://www.ruanyifeng.com/blog/2017/09/flame-graph.html)
