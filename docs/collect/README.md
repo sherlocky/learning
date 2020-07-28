@@ -1,5 +1,8 @@
 # 神器收藏
 
+## 代码比对
+* [Linux 下 9 种优秀的代码比对工具推荐](https://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=2666546845&idx=2&sn=a8a638a300311344509770c1c3a8cd75)
+
 ## 画图
 * [标准流程图符号和用法](https://www.edrawsoft.com/cn/flowchart-symbols.php)
 * [draw.io画图工具](https://app.diagrams.net/)
