@@ -73,6 +73,7 @@
   
   > Sharding-JDBC ，相比 Sharding-Proxy 来说，是基于 client 模式，无需经过 proxy 一层的性能损耗，也不用考虑 proxy 的高可用，
   > 所以对于 Java 项目来说，更加被推荐。目前，阿里、京东、美团等公司，都采用 client 模式的分库分表中间件。
+  > Sharding-JDBC 是 Client 端级别，MyCAT 是 Server 级别。
   > - 京东：采用 client 模式的读写分离和分库分表。
   > - 美团：采用 client 模式的读写分离和分库分表。
   > - 陌陌：采用 client 模式的读写分离和分库分表。
