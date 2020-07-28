@@ -109,3 +109,9 @@
   * [DM7 达梦数据库 查询优化 -- 执行计划 查看](https://www.cndba.cn/cndba/dave/article/3630)
   * [DM7 达梦数据库 快照管理 及 生成 AWR 报告](https://www.cndba.cn/dave/article/3616)
   * [DM7 达梦数据库 索引 管理 说明](https://www.cndba.cn/dave/article/3585)
+  
+## OLTP VS OLAP
+  * OLTP，也叫联机事务处理（Online Transaction Processing）系统
+  > 表示事务性非常高的系统，一般都是高可用的在线系统
+  * OLAP，也叫联机分析处理（Online Analytical Processing）系统
+  > 有的时候也叫DSS决策支持系统，就是我们说的数据仓库。
