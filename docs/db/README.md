@@ -65,8 +65,12 @@
 
 ## 分库分表
   * [sharding JDBC --> sharding sphere](https://shardingsphere.apache.org/document/current/cn/quick-start/sharding-jdbc-quick-start/)
-  * [不用找了，大厂在用的分库分表方案，都在这了！](https://mp.weixin.qq.com/s?__biz=MzUzMTA2NTU2Ng==&mid=2247487697&idx=1&sn=05c90f0436500d9ea8f68555b07155e3)
   * [数据库分库分表](http://www.cnblogs.com/405845829qq/p/7552736.html)
+  * [MySQL数据库之互联网常用分库分表方案](https://www.cnblogs.com/littlecharacter/p/9342129.html)
+  * [芋道 Spring Boot 分库分表入门](http://www.iocoder.cn/Spring-Boot/sharding-datasource/)
+
+## 读写分离
+  * [芋道 Spring Boot 多数据源（读写分离）入门](http://www.iocoder.cn/Spring-Boot/dynamic-datasource/?self)
 
 ## MySQL 高可用
   * 小型业务选择M-S 即可；
