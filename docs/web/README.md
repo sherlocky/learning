@@ -23,6 +23,7 @@ https://www.ietf.org/rfc/rfc1034.txt
 * [除了负载均衡，Nginx还可以做很多，限流、缓存、黑白名单等](https://mp.weixin.qq.com/s?__biz=MzU0MzQ5MDA0Mw==&mid=2247486150&idx=1&sn=a85f3352d6bfebe040e03b289ad39eb1)
 * [Nginx配置中一个不起眼字符"/"的巨大作用，失之毫厘谬以千里](https://zhuanlan.zhihu.com/p/100577578)
 * [Nginx状态监控及日志分析](https://www.jianshu.com/p/59ed801213ca)
+* [面试官：我想用Nginx提升系统10倍性能，你有哪些建议?](https://mp.weixin.qq.com/s?__biz=MzU0MzQ5MDA0Mw==&mid=2247492351&idx=1&sn=ed34731df8e608a5f921dc46ea6593b1)
 
 ## 前端
 * [如何设计好的RESTful API](https://mp.weixin.qq.com/s?__biz=Mzg3NjIxMjA1Ng==&mid=2247483661&idx=1&sn=048af6543c7baf6cefa691f80587b4c3)
