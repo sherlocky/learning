@@ -68,6 +68,8 @@
   * [数据库分库分表](http://www.cnblogs.com/405845829qq/p/7552736.html)
   * [MySQL数据库之互联网常用分库分表方案](https://www.cnblogs.com/littlecharacter/p/9342129.html)
   * [芋道 Spring Boot 分库分表入门](http://www.iocoder.cn/Spring-Boot/sharding-datasource/)
+  
+  * [**Sharding-JDBC 源码分析**](http://www.iocoder.cn/categories/Sharding-JDBC/?self)
 
 ## 读写分离
   * [芋道 Spring Boot 多数据源（读写分离）入门](http://www.iocoder.cn/Spring-Boot/dynamic-datasource/?self)
