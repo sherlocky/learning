@@ -56,6 +56,7 @@
   > 有时要对``聚簇索引记录``和``二级索引记录``都加锁，顺序要分情况具体分析（由于不同情况加锁顺序可能不同，有可能发生``死锁``）。
   
 ## MySQL 日志
+  * [为什么要把MySQL的binlog格式修改为row](https://cloud.tencent.com/developer/article/1595161)
   * [MySQL binlog、redo log、undo log 简单阐述](https://mp.weixin.qq.com/s/Lx4TNPLQzYaknR7D3gmOmQ)
   * [MySQL探秘(四):InnoDB的磁盘文件及落盘机制](https://www.jianshu.com/p/e546ea1fc067)
   * [Mysql Redo Log日志](https://blog.csdn.net/longgeqiaojie304/article/details/98869707)
