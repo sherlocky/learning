@@ -32,10 +32,11 @@
 ## 优化
 * [MySQL 优化实施方案](https://www.cnblogs.com/clsn/p/8214048.html)
 * [项目中常用的19条MySQL优化](https://segmentfault.com/a/1190000012155267)
-  > 知乎链接，暂无法访问：[项目中常用的19条MySQL优化](https://zhuanlan.zhihu.com/p/49888088)
 * [按照这30条建议优化SQL，性能绝对不会太差](https://mp.weixin.qq.com/s?__biz=Mzg3NjIxMjA1Ng==&mid=2247484182&idx=1&sn=776c152b7bff8df6c176cadfc620d9df)
 * MySQL 统计信息
  > 统计信息，默认采样率 20 
+* 标量子查询：就是返回单一值的子查询
+ > 由于返回的是单一的值，因此标量子查询的返回值可以用在 = 或者 <> 这样需要单一值的比较运算符之中。这也正是标量子查询的优势所在。
 
 ## 索引
   * [如何理解并正确使用MySql索引](https://my.oschina.net/feinik/blog/1305784)
