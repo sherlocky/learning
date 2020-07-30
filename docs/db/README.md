@@ -30,6 +30,7 @@
 * [面试官问，为什么建议MySQL列属性尽量用 NOT NULL ？](https://mp.weixin.qq.com/s?__biz=MzIwMzY1OTU1NQ==&mid=2247486868&idx=1&sn=b3b17886e89f696c2a0e4aa593329554)
 
 ## 优化
+* [mysql使用内存计算器](http://www.mysqlcalculator.com/)
 * [MySQL 优化实施方案](https://www.cnblogs.com/clsn/p/8214048.html)
 * [项目中常用的19条MySQL优化](https://segmentfault.com/a/1190000012155267)
 * [按照这30条建议优化SQL，性能绝对不会太差](https://mp.weixin.qq.com/s?__biz=Mzg3NjIxMjA1Ng==&mid=2247484182&idx=1&sn=776c152b7bff8df6c176cadfc620d9df)
