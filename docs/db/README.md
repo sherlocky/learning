@@ -30,6 +30,7 @@
 * [面试官问，为什么建议MySQL列属性尽量用 NOT NULL ？](https://mp.weixin.qq.com/s?__biz=MzIwMzY1OTU1NQ==&mid=2247486868&idx=1&sn=b3b17886e89f696c2a0e4aa593329554)
 
 ## 优化
+* [为什么MySQL内存占用这么大？ for InnoDB](https://cloud.tencent.com/developer/article/1536662)
 * [mysql使用内存计算器](http://www.mysqlcalculator.com/)
 * [MySQL 优化实施方案](https://www.cnblogs.com/clsn/p/8214048.html)
 * [项目中常用的19条MySQL优化](https://segmentfault.com/a/1190000012155267)
