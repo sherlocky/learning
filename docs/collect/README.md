@@ -13,6 +13,8 @@
 * [Microsoft Visual C++ 2015-2019 Redistributable](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)
 * [Windows上优质&精选的最佳应用程序及工具列表](https://github.com/Awesome-Windows/Awesome/blob/master/README-cn.md)
 
+* [win10 家庭版下载文件时没有权限保存到某盘的解决方案的完美流程](https://blog.csdn.net/weixin_42997646/article/details/89414437)
+
 ## Office
 * [PDF转PowerPoint](https://www.pdfpai.com/pdf-to-powerpoint)
 
