@@ -14,7 +14,7 @@
 * [Windows上优质&精选的最佳应用程序及工具列表](https://github.com/Awesome-Windows/Awesome/blob/master/README-cn.md)
 
 * [win10 家庭版下载文件时没有权限保存到某盘的解决方案的完美流程](https://blog.csdn.net/weixin_42997646/article/details/89414437)
->
+> win10 家庭版打开组策略方法（保存为.bat，管理员权限运行）
 ```bash
 @echo off
  
