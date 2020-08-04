@@ -30,6 +30,7 @@
 
 ## Spring Shiro
   * [并发登录人数控制——《跟我学Shiro》](https://www.iteye.com/blog/jinnianshilongnian-2039760)
+  * [Shiro+JWT权限管理](https://springboot.plus/guide/shiro-jwt.html#shiro)
   
 ## Spring Boot Admin
   * [使用 spring-boot-admin 对 Spring Boot 服务进行监控](http://www.ityouknow.com/springboot/2018/02/11/spring-boot-admin.html)
