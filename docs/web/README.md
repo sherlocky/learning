@@ -12,13 +12,18 @@
 * [Keepalived 虚拟IP技术 ip地址漂移技术](https://www.cnblogs.com/myseries/p/11409895.html)
 > VIP是虚拟IP，可以在不同主备服务器之间漂移（依赖TCP/IP的ARP协议）。
 
-## Nginx
-* [Nginx 相关介绍(Nginx是什么?能干嘛?)](https://www.cnblogs.com/wcwnina/p/8728391.html)
-* [你真的了解如何将 Nginx 配置为Web服务器吗](https://lufficc.com/blog/configure-nginx-as-a-web-server)
+## Tomcat
 * [用了10多年的 Tomcat 居然有bug，这能忍？](https://mp.weixin.qq.com/s?__biz=MzIwMzY1OTU1NQ==&mid=2247486521&idx=1&sn=b4652b03579a43b5ab9f243653ffd114)
 > tomcat 遵循 RFC1-1034 的规范，不允许带有下划线的Host（domain name）。  
 https://www.ietf.org/rfc/rfc1034.txt  
 可通过在 Nginx 中配置``proxy_set_header HOST $host``解决。
+* [web.xml中<security-constraint>安全认证标签说明](https://www.cnblogs.com/xiohao/p/10935004.html)
+  > Tomcat 可使用在 web.xml 中配置 <security-constraint> 解决不安全的 HTTP 方法安全漏洞
+* [spring boot使用内嵌的tomcat解决不安全的HTTP方法安全漏洞](https://www.jianshu.com/p/8eb6b8ea4371)
+
+## Nginx
+* [Nginx 相关介绍(Nginx是什么?能干嘛?)](https://www.cnblogs.com/wcwnina/p/8728391.html)
+* [你真的了解如何将 Nginx 配置为Web服务器吗](https://lufficc.com/blog/configure-nginx-as-a-web-server)
 
 * [除了负载均衡，Nginx还可以做很多，限流、缓存、黑白名单等](https://mp.weixin.qq.com/s?__biz=MzU0MzQ5MDA0Mw==&mid=2247486150&idx=1&sn=a85f3352d6bfebe040e03b289ad39eb1)
 * [Nginx配置中一个不起眼字符"/"的巨大作用，失之毫厘谬以千里](https://zhuanlan.zhihu.com/p/100577578)
