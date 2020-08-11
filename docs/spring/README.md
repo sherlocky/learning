@@ -34,9 +34,9 @@
   * [Springboot 优雅停止服务的几种方法](https://www.cnblogs.com/huangqingshi/p/11370291.html)
   * [Spring Boot **2.3.0** 如何优雅停机](https://mp.weixin.qq.com/s?__biz=MzIwMzY1OTU1NQ==&mid=2247490012&idx=1&sn=26ad26f9d90ccfafea012d61621326b1)
   * [Springboot实现全局日期格式化](https://mp.weixin.qq.com/s?__biz=MzAxNTM4NzAyNg==&mid=2247484028&idx=1&sn=651c8de95979f42a10270e46275c8346)
-  * [SpringBoot+Mybatis配置多数据源及事务方案](https://juejin.im/post/5eba38aa6fb9a043777c9b3a)\
+  * [SpringBoot+Mybatis配置多数据源及事务方案](https://juejin.im/post/5eba38aa6fb9a043777c9b3a)
   * [spring-boot项目最优雅的http客户端工具: Retrofit](https://juejin.im/post/6854573211426750472)
-    > 可代替 RestTemplate 或者 okhttp
+    > [Retrofit官方文档地址](https://square.github.io/retrofit/)，可代替 RestTemplate 或者 okhttp
 
 ## Spring Shiro
   * [并发登录人数控制——《跟我学Shiro》](https://www.iteye.com/blog/jinnianshilongnian-2039760)
