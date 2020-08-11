@@ -53,6 +53,9 @@
   * [【阿里巴巴-王超】消灭 Java 代码的“坏味道”](https://mp.weixin.qq.com/s?__biz=MzU4NzU0MDIzOQ==&mid=2247487714&idx=1&sn=8f9de656a4abe236b16415e6ecaa5f9d)
   * [《阿里巴巴 Java 开发手册 1.7.0 嵩山版》2020-08-03 PDF（请新标签页打开）](https://ghost.oss.sherlocky.com/learning/java/Java%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C-%E5%B5%A9%E5%B1%B1%E7%89%88-1.7.0.pdf)
   > 官方主页：https://developer.aliyun.com/topic/java2020
+  * [《Java开发手册》解读：大整数传输为何禁用Long类型?](https://mp.weixin.qq.com/s/ftG0sRBLkKfwXQas7Ee0uQ)
+  * [《Java开发手册（嵩山版）灵魂15问》解读手册](https://developer.aliyun.com/article/769906)
+  > [PDF版（请新标签页打开）](https://ghost.oss.sherlocky.com/learning/java/Java%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C-%E5%B5%A9%E5%B1%B1%E7%89%88-%E7%81%B5%E9%AD%8215%E9%97%AE.pdf)
   * [阿里巴巴Java开发手册IDE插件](https://yq.aliyun.com/articles/224817?utm_content=m_32519)
   * [JAVA核心知识点整理.pdf](https://ghost.oss.sherlocky.com/learning/java/JAVA%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E6%95%B4%E7%90%86.pdf)
   
