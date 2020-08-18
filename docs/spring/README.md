@@ -30,7 +30,7 @@
   * [自己的Springboot相关博客](//halo.sherlocky.com/archives/springboot)
   * [【Gitee】自己的SpringBoot学习记录](https://gitee.com/sherlocky/springboot2-learning)
   * [spring-boot-plus](https://springboot.plus/guide/)
-  * [SpringBoot集成Redis来实现缓存技术方案](https://my.oschina.net/feinik/blog/1023601)
+  * [使用Spring Cache集成Redis](https://blog.battcn.com/2018/05/13/springboot/v2-cache-redis/)
   * [使用 Keycloak 轻松保护 Spring Boot 应用程序](https://www.oschina.net/translate/easily-secure-your-spring-boot-applications-with-k)
   * [优化你的Spring Boot](https://mp.weixin.qq.com/s?__biz=MzI4ODQ3NjE2OA==&mid=2247485244&idx=1&sn=1e5a29a5b3d31b15d93eed538a2530de)
   * [每天用SpringBoot，还不懂RESTful API返回统一数据格式是怎么实现的？](https://mp.weixin.qq.com/s?__biz=Mzg3NjIxMjA1Ng==&mid=2247483905&idx=1&sn=99d294f0ee5127e827a879a8c96ec08d)
