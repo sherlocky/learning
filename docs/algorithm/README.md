@@ -17,3 +17,8 @@
 * [Leetcode solutions in Java](https://github.com/gouthampradhan/leetcode)
 * [Complete solutions to Leetcode problems](https://github.com/fishercoder1534/Leetcode)
 * [windliang-leetcode](https://leetcode.wang/)
+
+## 地理围栏算法
+* [地理围栏算法解析（Geo-fencing）](https://www.cnblogs.com/LBSer/p/4471742.html)
+  > [R树相关源码](https://github.com/aled/jsi)
+* [java实现判断一个经纬度坐标是否在一个多边形内](https://yq.aliyun.com/articles/647149)
