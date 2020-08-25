@@ -35,6 +35,9 @@
   * [国外大佬给出的三种处理异常的套路！](https://mp.weixin.qq.com/s/XTiFc2DwAVWE3CYa2Im1qw)
   > 有三种处理异常的基本模式：转换（translate）、重试（retry）和恢复（recover）。
 
+## I/O
+  * [压缩20M文件从30秒到1秒的优化过程](https://www.jianshu.com/p/25b328753017)
+
 ## JDK 7
  * [深入理解 Java try-with-resource 语法糖](https://juejin.im/entry/57f73e81bf22ec00647dacd0)
  
