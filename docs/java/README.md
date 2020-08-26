@@ -186,6 +186,7 @@
   * [你知道如何安全正确的关闭线程池吗？](https://mp.weixin.qq.com/s?__biz=MzU3NzczMTAzMg==&mid=2247485650&idx=1&sn=9182c3d618ce868999025f1875b3c370)
   * [面试官：为什么《阿里巴巴Java开发手册》上要禁止使用Executors来创建线程池](https://juejin.im/post/5dd72e226fb9a04c352df756)
   * [为什么阿里巴巴要禁用Executors创建线程池？](https://juejin.im/post/5dc41c165188257bad4d9e69)
+  > 推荐使用 guava 的 ThreadFactoryBuilder 来创建线程池
   * [线程池submit()方法提交任务可能没有异常抛出](https://mp.weixin.qq.com/s/TQGtNpPiTypeKd5kUnfxEw)
   > 
   ```java
