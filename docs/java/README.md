@@ -142,6 +142,15 @@
   * [面试官问：说说你对 Java 中锁以及 sychronized 实现机制的理解](https://blog.yoodb.com/yoodb/article/detail/1600)
   * [Java性能之synchronized锁的优化](https://www.bbsmax.com/A/l1dyZB69ze/)
   * [Synchronized 关键字使用、底层原理、JDK1.6 之后的底层优化](https://zhuanlan.zhihu.com/p/47692708)  
+  * [Java 8的StampedLock](https://www.jdon.com/idea/java/java-8-stampedlock.html)
+    > StampedLock要比ReentrantReadWriteLock更加廉价，也就是消耗比较小
+  
+## 并发
+  * [Java8 和 Java 9中并发工具的改变](https://colobu.com/2018/03/12/Concurrency-Utilities-Enhancements-in-Java-8-Java-9/)
+  * [浅析LongAdder](https://www.jianshu.com/p/22d38d5c8c2a)
+    > LongAdder 并不能替代 AtomicLong
+    > LongAdder 适合的场景是统计求和计数，而且LongAdder 基本只提供了add方法，而AtomicLong还具有cas方法。
+  * [[译]20个使用 Java CompletableFuture的例子](https://colobu.com/2018/03/12/20-Examples-of-Using-Java%E2%80%99s-CompletableFuture/)
   
 ## 多线程
   * [【电子书】深入浅出Java多线程](http://concurrent.redspider.group/article/01/1.html)
