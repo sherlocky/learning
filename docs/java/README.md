@@ -154,7 +154,7 @@
   
 ## 多线程
   * [【电子书】深入浅出Java多线程](http://concurrent.redspider.group/article/01/1.html)
-  > 备用地址：https://redspider.gitbook.io/concurrent/
+    > 备用地址：https://redspider.gitbook.io/concurrent/
 
   * [并发Bug之源有三，请睁大眼睛看清它们](https://mp.weixin.qq.com/s?__biz=Mzg3NjIxMjA1Ng==&mid=2247483941&idx=1&sn=d700824e4039cc487ea930857ec2b5c1)
   * [可见性有序性，Happens-before来搞定](https://mp.weixin.qq.com/s?__biz=Mzg3NjIxMjA1Ng==&mid=2247483947&idx=1&sn=3e8024b80dcccb36747b4b885e21cd69)
@@ -168,21 +168,33 @@
   * [【Java 并发笔记】Unsafe 相关整理](https://www.jianshu.com/p/2e5b92d0962e)
   * [Thread详解](https://www.cnblogs.com/waterystone/p/4920007.html)
   * [一文搞懂 ThreadLocal 原理](https://mp.weixin.qq.com/s?__biz=MzU1NTkwODE4Mw==&mid=2247485019&idx=2&sn=979554c738be748c771050f04ebc7ef7)  
-  > ThreadLocal 的特性也导致了应用场景比较广泛，主要的应用场景如下：
-  > - 1.线程间数据隔离，各线程的 ThreadLocal 互不影响
-  > - 2.方便同一个线程使用某一对象，避免不必要的参数传递
-  > - 3.全链路追踪中的 traceId 或者流程引擎中上下文的传递一般采用 ThreadLocal
-  > - 4.Spring 事务管理器采用了 ThreadLocal
-  > - 5.Spring MVC 的 RequestContextHolder 的实现使用了 ThreadLocal
+    > ThreadLocal 的特性也导致了应用场景比较广泛，主要的应用场景如下：
+    > - 1.线程间数据隔离，各线程的 ThreadLocal 互不影响
+    > - 2.方便同一个线程使用某一对象，避免不必要的参数传递
+    > - 3.全链路追踪中的 traceId 或者流程引擎中上下文的传递一般采用 ThreadLocal
+    > - 4.Spring 事务管理器采用了 ThreadLocal
+    > - 5.Spring MVC 的 RequestContextHolder 的实现使用了 ThreadLocal
+    
   * [Callable、Future、FutureTask](https://mp.weixin.qq.com/s/qoZ9zGzROIDvD8Idyvm3XQ)
-  > 线程可能的状态转换：
-  > - 1.NEW -> COMPLETING -> NORMAL  //执行过程顺利完成
-  > - 2.NEW -> COMPLETING -> EXCEPTIONAL //执行过程出现异常
-  > - 3.NEW -> CANCELLED // 执行过程中被取消
-  > - 4.NEW -> INTERRUPTING -> INTERRUPTED //执行过程中，线程被中断
-  > 两个中间状态都表示一种瞬时状态
-  > ![](https://ghost.oss.sherlocky.com/halo/thread_state_transitions_1595066249765.png-halo)
+    > 线程可能的状态转换：
+    > - 1.NEW -> COMPLETING -> NORMAL  //执行过程顺利完成
+    > - 2.NEW -> COMPLETING -> EXCEPTIONAL //执行过程出现异常
+    > - 3.NEW -> CANCELLED // 执行过程中被取消
+    > - 4.NEW -> INTERRUPTING -> INTERRUPTED //执行过程中，线程被中断
+    > 两个中间状态都表示一种瞬时状态
+    > ![](https://ghost.oss.sherlocky.com/halo/thread_state_transitions_1595066249765.png-halo)
   
+  * [一个线程池中的线程异常了，那么线程池会怎么处理这个线程?](https://www.cnblogs.com/fanguangdexiaoyuer/p/12332082.html)
+    > 当一个线程池里面的线程异常后:  
+    > - 1、当执行方式是execute时,可以看到堆栈异常的输出
+    > 原因：ThreadPoolExecutor.runWorker()方法中，task.run()，即执行我们的方法，如果异常的话会throw x;所以可以看到异常。
+    > - 2、当执行方式是submit时,堆栈异常没有输出。但是调用Future.get()方法时，可以捕获到异常
+    > 原因：ThreadPoolExecutor.runWorker()方法中，task.run()，其实还会继续执行FutureTask.run()方法，再在此方法中c.call()调用我们的方法，
+    > 如果报错是setException()，并没有抛出异常。当我们去get()时，会将异常抛出。
+    > - 3、不会影响线程池里面其他线程的正常执行
+    > - 4、线程池会把这个线程移除掉，并创建一个新的线程放到线程池中
+    > 当线程异常，会调用ThreadPoolExecutor.runWorker()方法最后面的finally中的processWorkerExit()，会将此线程remove，并重新addworker()一个线程。
+
 ## AQS  
   * [Java并发之AQS详解](https://www.cnblogs.com/waterystone/p/4920797.html)
   * [AQS - AbstractQueuedSynchronizer超详细原理解析](https://mp.weixin.qq.com/s?__biz=Mzg2NjE5NDQyOA==&mid=2247483778&idx=1&sn=1217b9ee2ac616678693db2c18db7bf6)
