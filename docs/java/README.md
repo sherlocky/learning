@@ -86,6 +86,24 @@
   > 答案显然是**可以**的，但需要注意重写``hashCode``和``equals``方法。如果忘记重写的话，大概率会造成**内存泄漏**。
   * [为什么阿里巴巴禁止在 foreach 循环里进行元素的 remove/add 操作](https://halo.sherlocky.com/archives/java#%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E7%A6%81%E6%AD%A2%E5%9C%A8-foreach-%E5%BE%AA%E7%8E%AF%E9%87%8C%E8%BF%9B%E8%A1%8C%E5%85%83%E7%B4%A0%E7%9A%84-removeadd-%E6%93%8D%E4%BD%9C)
   > 还可以参考：https://mp.weixin.qq.com/s/0NF3dT4hTD2WdFaHFe6b_g
+  
+  * 正确 remove/add 姿势
+    - 1.直接使用普通 for 循环进行操作
+      > 普通 for 循环并没有用到 Iterator 的遍历，所以压根就没有进行 fail-fast 的检验。  
+    其实存在一个问题，那就是 remove 操作会改变 List 中元素的下标，
+    可能存在漏删的情况。
+    - 2.直接使用 Iterator 进行操作
+    - 3.使用 Java 8 中提供的 filter 过滤
+      > Java 8 中可以把集合转换成流，对于流有一种 filter 操作， 可以对原始 Stream 进行某项测试，通过测试的元素被留下来生成一个新 Stream。
+    - 4.使用增强 for 循环其实也可以
+      > 只要在删除之后，立刻结束循环体，不要再继续进行遍历就可以了，也就是说不让代码执行到下一次的 next 方法。
+    - 5.直接使用 fail-safe 的集合类
+    在 Java 中，除了一些普通的集合类以外，还有一些采用了 fail-safe （安全失败）机制的集合类。这样的集合容器在遍历时不是直接在集合内容上访问的，而是先复制原有集合内容，在拷贝的集合上进行遍历。  
+    由于迭代时是对原集合的拷贝进行遍历，所以在遍历过程中对原集合所作的修改并不能被迭代器检测到，所以不会触发`ConcurrentModificationException``。
+    基于拷贝内容的优点是避免了``ConcurrentModificationException``，但同样地，迭代器并不能访问到修改后的内容，即：**迭代器遍历的是开始遍历那一刻拿到的集合拷贝**，在遍历期间原集合发生的修改迭代器是不知道的。
+      > 比如： ``ConcurrentLinkedDeque``  
+      > ``java.util.concurrent`` 包下的容器都是安全失败，可以在多线程下并发使用，并发修改。
+
   * [《吊打面试官》系列-HashMap](https://juejin.im/post/5dee6f54f265da33ba5a79c8)
   * [《吊打面试官》系列-ConcurrentHashMap & Hashtable](https://juejin.im/post/5df8d7346fb9a015ff64eaf9)
   * [Java集合框架分析-HashMap](http://www.jianshu.com/p/76f5a3d12c28)
