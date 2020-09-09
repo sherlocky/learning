@@ -14,6 +14,15 @@
 * [这样讲API网关，你应该能明白了吧](https://mp.weixin.qq.com/s?__biz=MzIxNjA5MTM2MA==&mid=2652436269&idx=2&sn=29476be3045bac709d72e8d6b0f7ea55)
 * [谈谈高并发系统的限流](https://www.cnblogs.com/haoxinyue/p/6792309.html)
 
+## 一致性 HASH
+* [图解一致性哈希算法](https://mp.weixin.qq.com/s/3QO59gjmByj9zCk2VpwSeA)
+  > - Hash 环
+  > - 顺时针
+  > - 数据倾斜
+  > - 节点雪崩
+  > - 虚拟节点
+* [一致性哈希算法（Consistent Hashing）](//halo.sherlocky.com/archives/yi-zhi-xing-ha-xi-suan-fa-consistent-hashing)
+
 ## 分布式ID
 * [一口气说出 9种 分布式ID生成方式，面试官有点懵了](https://mp.weixin.qq.com/s?__biz=MzAxNTM4NzAyNg==&mid=2247483785&idx=1&sn=8b828a8ae1701b810fe3969be536cb14)
 * [发号器-分布式ID生成系统](https://mp.weixin.qq.com/s?__biz=MzIwODA4NjMwNA==&mid=2652899291&idx=1&sn=3dd7b9224a7cead4284d1f72590a7fcc) 
