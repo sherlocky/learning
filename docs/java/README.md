@@ -155,6 +155,8 @@
   * [OutOfMemoryError系列（2）: GC overhead limit exceeded](https://blog.csdn.net/renfufei/article/details/77585294)
   * [jvm优化必知系列——监控工具](https://my.oschina.net/u/1859679/blog/1552290)
   * [既然JVM有Full GC，为什么还会出现OutOfMemoryError?](https://mp.weixin.qq.com/s?__biz=MzIwMzY1OTU1NQ==&mid=2247487133&idx=2&sn=f0eaffdbec9852d5cf2bd19d12703b29)  
+  * [一次元空间内存泄露分析记录](https://mp.weixin.qq.com/s/94twrZuIob5_mmC27FoI5g)
+    > JDK 1.8 后，Hotspot 虚拟机已经移除了永久代，使用了元空间代替，``-XX:PermSize=256m -XX:MaxPermSize=512m``配置的是永久代的内存空间，这两个参数对于1.8就是过期的参数，**无效**。
   
 ## 锁
   * [面试官问：说说你对 Java 中锁以及 sychronized 实现机制的理解](https://blog.yoodb.com/yoodb/article/detail/1600)
