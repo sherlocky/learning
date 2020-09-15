@@ -12,6 +12,7 @@
 * [算法](algorithm/)
 * [SCM](scm/)
 * [Python](python/)
+* [信息安全](infosec/)
 * [其他](other/)
 * [神器收藏](collect/)
 * [玩儿](toy/)
