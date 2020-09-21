@@ -6,3 +6,6 @@
 * [图解Git](https://marklodato.github.io/visual-git-guide/index-zh-cn.html)
 * [【Git】rebase 用法小结 - 简书](https://www.jianshu.com/p/4a8f4af4e803)
 * [Git ~和^的区别 - 简书](https://www.jianshu.com/p/6ce13ce46d8b)
+
+## GitHub
+* [Github进行fork后如何与原仓库同步](https://mp.weixin.qq.com/s/SR7jKeW0TLHFk0jihKoaSQ)
