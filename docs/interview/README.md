@@ -11,3 +11,6 @@
 * [2019年最新总结，阿里，腾讯，百度，美团，头条等技术面试题目，以及答案，专家出题人分析汇总。](https://github.com/0voice/interview_internal_reference)  
 * [2017年阿里内推一面面经（不断更新）](https://juejin.im/post/58cfb1da128fe1006c9b36a1)
 * [经典面试题：从 URL 输入到页面展现到底发生什么？](https://yq.aliyun.com/articles/691698)
+
+## 学习路线
+* [大厂java面试考点/学习路线](https://www.processon.com/view/5e86b713e4b0bf3ebcf4e376#map)
