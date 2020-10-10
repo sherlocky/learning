@@ -24,6 +24,8 @@ dir /b C:\Windows\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientTools-P
 for /f %%i in ('findstr /i . List.txt 2^>nul') do dism /online /norestart /add-package:"C:\Windows\servicing\Packages\%%i" 
 pause
 ```
+* win10 开启开启卓越性能电源方案（需要PowerShell管理员）
+> ``powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61``
 
 ## Office
 * [PDF转PowerPoint](https://www.pdfpai.com/pdf-to-powerpoint)
