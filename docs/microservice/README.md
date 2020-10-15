@@ -14,6 +14,14 @@
 * [这样讲API网关，你应该能明白了吧](https://mp.weixin.qq.com/s?__biz=MzIxNjA5MTM2MA==&mid=2652436269&idx=2&sn=29476be3045bac709d72e8d6b0f7ea55)
 * [谈谈高并发系统的限流](https://www.cnblogs.com/haoxinyue/p/6792309.html)
 
+## SPI
+* [SPI 与 API](https://www.jianshu.com/p/7e85b8ed00e2)
+* [深入理解SPI机制](https://www.jianshu.com/p/3a3edbcd8f24)
+> 在JDBC、Dubbo、SpringBoot spring.factories 等都使用了 SPI 机制
+> API (Application Programming Interface), SPI (Service Provider Interface)
+> API 是 服务 定义、实现接口，客户 调用
+> SPI 是 服务 定义接口，客户 实现，服务 选择调用
+
 ## 一致性 HASH
 * [图解一致性哈希算法](https://mp.weixin.qq.com/s/3QO59gjmByj9zCk2VpwSeA)
   > - Hash 环
