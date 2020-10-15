@@ -43,6 +43,7 @@
   * [SpringBoot+Mybatis配置多数据源及事务方案](https://juejin.im/post/5eba38aa6fb9a043777c9b3a)
   * [spring-boot项目最优雅的http客户端工具: Retrofit](https://juejin.im/post/6854573211426750472)
     > [Retrofit官方文档地址](https://square.github.io/retrofit/)，可代替 RestTemplate 或者 okhttp
+  * [Springboot启动扩展点超详细总结](https://www.jianshu.com/p/38d834db7413)
 
 ## Spring Shiro
   * [并发登录人数控制——《跟我学Shiro》](https://www.iteye.com/blog/jinnianshilongnian-2039760)
