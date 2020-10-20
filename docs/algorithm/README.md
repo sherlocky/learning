@@ -22,3 +22,6 @@
 * [地理围栏算法解析（Geo-fencing）](https://www.cnblogs.com/LBSer/p/4471742.html)
   > [R树相关源码](https://github.com/aled/jsi)
 * [java实现判断一个经纬度坐标是否在一个多边形内](https://yq.aliyun.com/articles/647149)
+
+## 推荐算法/系统
+* [23张图，带你入门推荐系统](https://mp.weixin.qq.com/s/j4lneCQjbSITbsEFBqg3BQ)
