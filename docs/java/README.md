@@ -35,6 +35,7 @@
   * [国外大佬给出的三种处理异常的套路！](https://mp.weixin.qq.com/s/XTiFc2DwAVWE3CYa2Im1qw)
   > 有三种处理异常的基本模式：转换（translate）、重试（retry）和恢复（recover）。
   * [注意System.currentTimeMillis()潜在的性能问题](https://www.jianshu.com/p/d2039190b1cb)
+  * [System.currentTimeMillis的性能真有如此不堪吗？](https://juejin.im/post/6887743425437925383)
 
 ## I/O
   * [压缩20M文件从30秒到1秒的优化过程](https://www.jianshu.com/p/25b328753017)
@@ -163,6 +164,8 @@
   * [面试官问：说说你对 Java 中锁以及 sychronized 实现机制的理解](https://blog.yoodb.com/yoodb/article/detail/1600)
   * [Java性能之synchronized锁的优化](https://www.bbsmax.com/A/l1dyZB69ze/)
   * [Synchronized 关键字使用、底层原理、JDK1.6 之后的底层优化](https://zhuanlan.zhihu.com/p/47692708)  
+  * [看了``Synchronized``源码，请别和我说它慢](https://mp.weixin.qq.com/s/P2Q1SSdT9dFZSAqhjfdQ-A)
+  
   * [Java 8的StampedLock](https://www.jdon.com/idea/java/java-8-stampedlock.html)
     > StampedLock要比ReentrantReadWriteLock更加廉价，也就是消耗比较小
   
