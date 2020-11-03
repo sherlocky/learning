@@ -62,3 +62,6 @@
 ## 分布式监控（调用链）
 * [分布式调用链调研（pinpoint,skywalking,jaeger,zipkin等对比）](https://my.oschina.net/u/3770892/blog/3005395)
 * [APM和调用链跟踪](http://devops.weiminginfo.com/yunwei/apm/1522.html)
+
+## 分布式存储
+* [MinIO 开源对象存储服务](https://docs.min.io/cn/)
