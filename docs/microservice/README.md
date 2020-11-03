@@ -64,4 +64,4 @@
 * [APM和调用链跟踪](http://devops.weiminginfo.com/yunwei/apm/1522.html)
 
 ## 分布式存储
-* [MinIO 开源对象存储服务](https://docs.min.io/cn/)
+* [分布式 MinIO（开源对象存储服务）](https://docs.min.io/cn/distributed-minio-quickstart-guide.html)
