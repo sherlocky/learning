@@ -22,6 +22,9 @@
   > - ACLs 权限控制
   > - 多线程 I/O 能力
   > - 提升了 RDB 日志的加载速度
+* [面试时说Redis是单线程的，被喷惨了！](https://mp.weixin.qq.com/s/o3uw90NFsOAfDAb1zbW5Eg)
+* [硬核！15张图解Redis为什么这么快](https://mp.weixin.qq.com/s/b_yzbLeQh57oYjqlIgPiYQ)
+* [缓存与库先写哪个，这十几张图告诉你](https://mp.weixin.qq.com/s/4JcMG9UpAgFqsI1SXaJA2A)
 
 ## 分布式锁
 * [面试官：如何用Redis实现分布式锁？](https://juejin.im/post/5e9473f5e51d454702460323)
