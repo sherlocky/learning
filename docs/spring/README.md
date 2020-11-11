@@ -58,8 +58,14 @@
   * [面试官：兄弟，说说 Spring Cloud 的核心架构原理吧](https://mp.weixin.qq.com/s?__biz=MzI4NDY5Mjc1Mg==&mid=2247489127&idx=2&sn=5cba4e2c5e38e7706691014ec9379665)
   * [一起来学SpringCloud -- 唐亚峰](https://blog.battcn.com/categories/SpringCloud/)
   * [纯洁的微笑 - SpringCloud 系列文章](http://www.ityouknow.com/spring-cloud.html)
+  * [【程序员DD】Spring Cloud 从入门到精通](http://blog.didispace.com/spring-cloud-learning/)
   * [外行人都能看懂的SpringCloud](https://mp.weixin.qq.com/s?__biz=MzAwNDA2OTM1Ng==&mid=2453140943&idx=1&sn=72ef2d1aa0a5a0265babfdce7234cefd)
   * [实战 Spring Cloud 微服务架构下的“秒杀”（含代码）](https://mp.weixin.qq.com/s?__biz=MzI4ODQ3NjE2OA==&mid=2247485875&idx=1&sn=0ff0a0c4ea9c5a36334d80de83f1084c)
   > 代码：https://github.com/coderliguoqing/distributed-seckill/
   * [Spring Cloud中国社区](http://springcloud.cn)
   * [Nacos+](https://github.com/inacos/spring-cloud-nacos)
+  
+  * [alibaba/Sentinel](https://github.com/alibaba/Sentinel/wiki/%E4%BB%8B%E7%BB%8D)
+  * [alibaba/Spring Cloud Alibaba Sentinel](https://github.com/alibaba/spring-cloud-alibaba/wiki/Sentinel)
+  * [Spring Cloud Alibaba基础教程：使用Sentinel实现接口限流](http://blog.didispace.com/spring-cloud-alibaba-sentinel-1/)
+  * [Spring Cloud Alibaba基础教程：@SentinelResource注解使用详解](http://blog.didispace.com/spring-cloud-alibaba-sentinel-2-5/)
