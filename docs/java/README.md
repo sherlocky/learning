@@ -51,6 +51,8 @@
   * [聊聊 Java8 以后各个版本的新特性](https://juejin.im/post/5d5950806fb9a06b0a277412#heading-47)
   * [别用 Date 了，来试试 LocalDate、LocalTime、LocalDateTime](https://mp.weixin.qq.com/s?__biz=MzU1NTkwODE4Mw==&mid=2247484960&idx=2&sn=b8142c4ffd9fde8e38702890708047ca)
   
+  * [Java8 Stream：2万字20个实例，玩转集合的筛选、归约、分组、聚合](https://blog.csdn.net/mu_wind/article/details/109516995)
+  
 ## JDK 8 +
   * [Java 9的模块化--壮士断"腕"的涅槃](https://zhuanlan.zhihu.com/p/24800180)
   
