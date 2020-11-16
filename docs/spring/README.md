@@ -5,7 +5,6 @@
   * [Spring思维导图，让Spring不再难懂（ioc篇）](https://my.oschina.net/u/3080373/blog/903341)
   * [Spring中获取request的几种方法，及其线程安全性分析](https://www.cnblogs.com/kismetv/p/8757260.html)
   * [我这样回答了Spring 5的新特性，面试官对我刮目相看](https://mp.weixin.qq.com/s/Mt3w49YhNU8plvzuGYuTPQ)
-  * [6种 @Transactional 注解失效场景](https://mp.weixin.qq.com/s?__biz=MzAxNTM4NzAyNg==&mid=2247483977&idx=1&sn=7d8d3c89bfe2261f6422572dca405990)
   * [Spring中的循环依赖](https://mp.weixin.qq.com/s/wykX4CdrHT1tvSz2-24NEQ)
     > 
     |依赖情况	|依赖注入方式	|循环依赖是否被解决|
@@ -20,6 +19,11 @@
     
     > 面试官：”为什么要使用三级缓存呢？二级缓存能解决循环依赖吗？“
     答：如果要使用二级缓存解决循环依赖，意味着所有Bean在实例化后就要完成AOP代理，这样违背了Spring设计的原则，Spring在设计之初就是通过``AnnotationAwareAspectJAutoProxyCreator``这个后置处理器来在Bean生命周期的最后一步来完成AOP代理，而不是在实例化后就立马进行AOP代理。
+
+## Spring AOP
+  * [6种 @Transactional 注解失效场景](https://mp.weixin.qq.com/s?__biz=MzAxNTM4NzAyNg==&mid=2247483977&idx=1&sn=7d8d3c89bfe2261f6422572dca405990)
+  * [Spring AOP 不生效的坑](https://mp.weixin.qq.com/s/Q0Q3ropapmMRE_mQE68b8Q)
+  * [spring中expose-proxy的作用与原理](https://www.cnblogs.com/mzcx/p/11430846.html)
 
 ## Spring 5 源码分析
   * [【PDF】Spring源码分析(第二版)_第二章](https://ghost.oss.sherlocky.com/learning/spring/%E5%92%95%E6%B3%A1%E5%AD%A6%E9%99%A2_Spring%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%28%E7%AC%AC%E4%BA%8C%E7%89%88%29_%E7%AC%AC%E4%BA%8C%E7%AB%A0.pdf)
