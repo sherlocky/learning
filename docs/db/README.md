@@ -22,6 +22,10 @@
 > 如果容器突然崩溃，数据库未正常关闭，可能会损坏数据。另外，容器里共享数据卷组，对物理机硬件损伤也比较大。
 > 即使你要把 Docker 数据放在主机来存储 ，它依然不能保证不丢数据。 Docker volumes 的设计围绕 Union FS 镜像层提供持久存储，但它仍然缺乏保证。
 
+## MySQL 一致性读
+* [阿里面试：说说一致性读实现原理？](https://mp.weixin.qq.com/s/qHzb6oPrrbAPoIlfLJVNAg)
+* [敖丙-数据库-微信公众号话题](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzAwNDA2OTM1Ng==&action=getalbum&album_id=1343708196397187073&scene=173&from_msgid=2453148068&from_itemidx=1&count=3#wechat_redirect)
+
 ## 连接池
  * [数据库连接池到底应该设多大？这篇文章可能会颠覆你的认知](https://www.jianshu.com/p/a8f653fc0c54)
 
