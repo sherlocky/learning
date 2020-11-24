@@ -139,3 +139,12 @@
   > 表示事务性非常高的系统，一般都是高可用的在线系统
   * OLAP，也叫联机分析处理（Online Analytical Processing）系统
   > 有的时候也叫DSS决策支持系统，就是我们说的数据仓库。
+
+## ES Elasticsearch
+* [全文搜索引擎 ElasticSearch 还是 Solr？](https://www.cnblogs.com/jajian/p/9801154.html)
+  > ES 显著功能特点：分布式搜索，多租户，分析搜索，分组和聚合
+* [Elasticsearch 技术分析（一）： 基础入门](https://www.cnblogs.com/jajian/p/9976900.html)
+* [Elasticsearch 技术分析（二）： 索引映射Mapping问题](https://www.cnblogs.com/jajian/p/10134164.html)
+* [Elasticsearch 技术分析（三）： 索引别名Aliases问题](https://www.cnblogs.com/jajian/p/10152681.html)
+* [Elasticsearch 技术分析（七）： Elasticsearch 的性能优化](https://www.cnblogs.com/jajian/p/10465519.html)
+* [Elasticsearch 技术分析（九）：全文搜索引擎Elasticsearch](https://www.cnblogs.com/jajian/p/11223992.html)
