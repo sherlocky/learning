@@ -62,7 +62,10 @@
   > 官方主页：https://developer.aliyun.com/topic/java2020
   * [《Java开发手册》解读：大整数传输为何禁用Long类型?](https://mp.weixin.qq.com/s/ftG0sRBLkKfwXQas7Ee0uQ)
   * [《Java开发手册（嵩山版）灵魂15问》解读手册](https://developer.aliyun.com/article/769906)
-  > [PDF版（请新标签页打开）](https://ghost.oss.sherlocky.com/learning/java/Java%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C-%E5%B5%A9%E5%B1%B1%E7%89%88-%E7%81%B5%E9%AD%8215%E9%97%AE.pdf)
+    > [PDF版（请新标签页打开）](https://ghost.oss.sherlocky.com/learning/java/Java%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C-%E5%B5%A9%E5%B1%B1%E7%89%88-%E7%81%B5%E9%AD%8215%E9%97%AE.pdf)
+  * [Hollis-Java工程师成神之路](http://hollischuang.gitee.io/tobetopjavaer/#/menu)
+    > [PDF版（请新标签页打开）](https://ghost.oss.sherlocky.com/learning/java/Java%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%88%90%E7%A5%9E%E4%B9%8B%E8%B7%AF.pdf)
+  
   * [阿里巴巴Java开发手册IDE插件](https://yq.aliyun.com/articles/224817?utm_content=m_32519)
   * [JAVA核心知识点整理.pdf](https://ghost.oss.sherlocky.com/learning/java/JAVA%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%E7%82%B9%E6%95%B4%E7%90%86.pdf)
   
@@ -128,6 +131,7 @@
   * [红黑树在线动画演示](http://algoanim.ide.sk/index.php?page=showanim&id=63)
   * [Java集合框架分析-ArrayList](http://www.jianshu.com/p/36730a42d51b)
   * [Java集合框架分析-LinkedHashMap](http://www.jianshu.com/p/1182237a1940)
+  * [ConcurrentHashMap核心原理，这次彻底给整明白了](https://mp.weixin.qq.com/s/2FjfGPyU6xFryh-8MfAcxQ)
   * [ConcurrentHashMap详解以及get方法保持同步的解释](http://blog.csdn.net/seapeak007/article/details/53409618)
   * [从ConcurrentHashMap的演进看Java多线程核心技术](http://www.jasongj.com/java/concurrenthashmap/)
   * [Java 经典面试题：为什么 ConcurrentHashMap 的读操作不需要加锁？](https://mp.weixin.qq.com/s?__biz=MzUzMTA2NTU2Ng==&mid=2247487215&idx=1&sn=f1772b8c7a290df3a3cf7fab4f1f54bc)
