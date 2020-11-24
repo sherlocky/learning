@@ -69,4 +69,4 @@
 ## Docker 容器化
 * [Docker — 从入门到实践](https://vuepress.mirror.docker-practice.com/)
 * [Dockerfile RUN，CMD，ENTRYPOINT命令区别](https://www.jianshu.com/p/f0a0f6a43907)
-  > 配置容器启动时的执行命令，不会被忽略，一定会被执行。
+  > ENTRYPOINT 是配置容器启动时的执行命令，不会被忽略，一定会被执行。
