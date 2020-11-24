@@ -148,3 +148,17 @@
 * [Elasticsearch 技术分析（三）： 索引别名Aliases问题](https://www.cnblogs.com/jajian/p/10152681.html)
 * [Elasticsearch 技术分析（七）： Elasticsearch 的性能优化](https://www.cnblogs.com/jajian/p/10465519.html)
 * [Elasticsearch 技术分析（九）：全文搜索引擎Elasticsearch](https://www.cnblogs.com/jajian/p/11223992.html)
+* 自己工作中的一些记录
+  > ElasticSearc h索引的``mapping``一旦创建就不能再修改，但可以追加字段定义  
+  > ES 的数据写入后其实是不支持修改的，修改的实现为：先标记旧的为删除；复制修改为新的；删除旧的
+
+  > 【es优化】  
+  > 磁盘容量 85% 以下，最好独立机器节点，masternode 维护集群状态，不存储数据，配置可以一般，datanode 只存数据配置越高越好，clientnode 负载均衡，cpu 内存要大。  
+  > 同一节点禁止分片数据全集。  
+  > 索引务必使用别名，每个分片大小不超过30G，分片数不小于节点数，不超过节点数3倍，除非ReIndex，分片数不可变。  
+  > 标记为.del的数据会参与检索，定期forcemerge释放空间。  
+  > Mapping设置禁止使用默认值，明确数据类型，是否分词，全文检索还是精确匹配。  
+
+  > 路由合计设置，避免大翻页，批量操作bulk接口，禁止SWAP，``swapoff -a``
+  > ``segment os cache flush``
+  > ``translog os cache flush``
