@@ -14,6 +14,8 @@
 * [带你涨姿势是认识一下Kafka Producer](https://mp.weixin.qq.com/s?__biz=MzU2NDg0OTgyMA==&mid=2247484698&idx=1&sn=886292c24485cca9f1f828f3b325fef5)
 * [带你涨姿势的认识一下Kafka之消费者](https://mp.weixin.qq.com/s?__biz=MzU3NzczMTAzMg==&mid=2247486105&idx=1&sn=760f131c0a339d1b8e3554870a2b5c0b)
   
+* [Kafka 会不会丢消息？怎么处理的?](https://mp.weixin.qq.com/s/tioD1yMABXu8BLj3dGtTmg)
+  
 ## RocketMQ
 * [《浅入浅出》-RocketMQ](https://juejin.im/post/5de3c8026fb9a07194761641)
 
