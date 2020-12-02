@@ -73,9 +73,11 @@
   * [mysql的断电恢复能力](https://www.jianshu.com/p/a32762bb11be)
 
 ## 分库分表
-  * [sharding JDBC --> sharding sphere](https://shardingsphere.apache.org/document/current/cn/quick-start/sharding-jdbc-quick-start/)
   * [数据库分库分表](http://www.cnblogs.com/405845829qq/p/7552736.html)
   * [MySQL数据库之互联网常用分库分表方案](https://www.cnblogs.com/littlecharacter/p/9342129.html)
+  * [前任都能看懂的分库分表方案](https://mp.weixin.qq.com/s/dMqXBW6W8DeqfAPvko3ViQ)
+
+  * [sharding JDBC --> sharding sphere](https://shardingsphere.apache.org/document/current/cn/quick-start/sharding-jdbc-quick-start/)
   * [芋道 Spring Boot 分库分表入门](http://www.iocoder.cn/Spring-Boot/sharding-datasource/)
   > - Sharding-JDBC 采用无中心化架构，适用于 Java 开发的高性能的轻量级 OLTP 应用。
   > - Sharding-Proxy 提供静态入口以及异构语言的支持，适用于 OLAP 应用以及对分片数据库进行管理和运维的场景。
