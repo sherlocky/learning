@@ -23,8 +23,13 @@
   > - 多线程 I/O 能力
   > - 提升了 RDB 日志的加载速度
 * [面试时说Redis是单线程的，被喷惨了！](https://mp.weixin.qq.com/s/o3uw90NFsOAfDAb1zbW5Eg)
+  > Redis6 在设计上采用将网络数据读写和协议解析通过多线程的方式来处理，对于命令执行来说，仍然使用单线程操作。
 * [硬核！15张图解Redis为什么这么快](https://mp.weixin.qq.com/s/b_yzbLeQh57oYjqlIgPiYQ)
 * [缓存与库先写哪个，这十几张图告诉你](https://mp.weixin.qq.com/s/4JcMG9UpAgFqsI1SXaJA2A)
+  > 并发量不高：双写一致方案（先删除缓存，后更新数据库）  
+  > 高并发首推：缓存延时双删策略方案
+* [Redis的bitmap从基础到业务](https://blog.csdn.net/ctwctw/article/details/105013817)
+* [【ProcessOn】Redis—AKF服务拆分原则、CAP理论前置、数据一致性理论与方案](https://www.processon.com/view/5ede3fcc5653bb6963dcb62f)
 
 ## 分布式锁
 * [面试官：如何用Redis实现分布式锁？](https://juejin.im/post/5e9473f5e51d454702460323)
