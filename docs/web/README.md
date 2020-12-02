@@ -57,6 +57,7 @@ https://www.ietf.org/rfc/rfc1034.txt
 * [再谈HTTPS](https://zhuanlan.zhihu.com/p/75461564)
   > RSA -> ECC (椭圆曲线加密)
 * [TCP长连接和心跳那些事](https://mp.weixin.qq.com/s/U5SQkaCI2DI6WiaRYVpN2g)
+* [服务端推送对比：``客户端轮询`` vs ``服务端轮询`` vs ``WS`` vs ``SEE``](https://mp.weixin.qq.com/s/Z3K1u_jF_UQBgxRuFouEcg)
 * [面试官问一个 TCP 连接可以发多少个 HTTP 请求？](https://mp.weixin.qq.com/s?__biz=MzIwMzY1OTU1NQ==&mid=2247486325&idx=1&sn=1dd32634cc92402934e85a43691c1011)
 * [服务端 TCP 连接的 TIME_WAIT 问题](http://ningg.top/computer-basic-theory-tcp-time-wait/)
 * [浏览器从输入url到页面展示到底发生了什么](https://www.cnblogs.com/xianyulaodi/p/6547807.html)
