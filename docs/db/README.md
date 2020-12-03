@@ -51,6 +51,9 @@
   * [为什么MySQL用B+树做索引](https://mp.weixin.qq.com/s?__biz=MzI3NzE0NjcwMg==&mid=2650125030&idx=1&sn=1c2a09a80547159b336e7ea25d7f4955)
   * [mysql索引失效的情况](https://www.cnblogs.com/wuchanming/p/8075840.html)
 
+## 优先队列
+* [深入浅出 MySQL 优先队列](https://mp.weixin.qq.com/s/2GoGuG-POHpiqnNb0_Z85A)
+
 ## 锁
   * [超全面的MySQL语句加锁分析](https://mp.weixin.qq.com/s?__biz=MzIxMjE5MTE1Nw==&mid=2653198050&idx=2&sn=68a6594ac35976532ad6a0eec6dc06dd)
   > 锁定读的语句:  
