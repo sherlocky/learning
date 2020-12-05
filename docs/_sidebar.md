@@ -10,6 +10,7 @@
 * [Web](web/)
 * [架构](arch/)
 * [算法](algorithm/)
+* [大数据](bigdata/)
 * [SCM](scm/)
 * [Python](python/)
 * [AI](ai/)
