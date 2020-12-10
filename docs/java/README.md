@@ -20,7 +20,8 @@
 
 ## JDK 下载
 * [O记JDK下载](https://www.oracle.com/java/technologies/javase-downloads.html)
-> 鉴于JDK偶数版和奇数版的区别(可参考：[JDK 版本号区别](//halo.sherlocky.com/archives/java#jdk-%E7%89%88%E6%9C%AC%E5%8F%B7%E5%8C%BA%E5%88%AB))，如果使用O记JDK8，应该选择8u252
+> 华为镜像：https://repo.huaweicloud.com/java/jdk/
+> 鉴于JDK偶数版和奇数版的区别(可参考：[JDK 版本号区别](//halo.sherlocky.com/archives/java#jdk-%E7%89%88%E6%9C%AC%E5%8F%B7%E5%8C%BA%E5%88%AB))，如果使用O记JDK8，应该选择8u251
 * [新时代JDK版本的选择](https://mp.weixin.qq.com/s?__biz=MzIzODYyNjkzNw==&mid=2247484056&idx=1&sn=a81a69f123d519014d03ec22c3c3cca4)
 * [AdoptOpenJDK下载](https://adoptopenjdk.net/) 
 
