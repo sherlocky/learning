@@ -252,3 +252,6 @@
   * [java中动态代理实现机制](https://yq.aliyun.com/articles/35985)
   * [CGLib动态代理原理及实现](https://my.oschina.net/mifans/blog/783470)
   * [Spring AOP动态代理原理与实现方式 （转）](http://www.tuicool.com/articles/jMzmQj)
+  
+## 泛型
+ * [JAVA 泛型中的通配符 T，E，K，V，?](https://juejin.cn/post/6844903917835419661)
