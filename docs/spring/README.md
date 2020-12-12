@@ -67,8 +67,12 @@
   * [实战 Spring Cloud 微服务架构下的“秒杀”（含代码）](https://mp.weixin.qq.com/s?__biz=MzI4ODQ3NjE2OA==&mid=2247485875&idx=1&sn=0ff0a0c4ea9c5a36334d80de83f1084c)
   > 代码：https://github.com/coderliguoqing/distributed-seckill/
   * [Spring Cloud中国社区](http://springcloud.cn)
-  * [Nacos+](https://github.com/inacos/spring-cloud-nacos)
   
+### 优秀项目推荐
+  * [【GVP】jeecp/open-capacity-platform](https://gitee.com/owenwangwen/open-capacity-platform)
+    > [【看云】配套文档](https://www.kancloud.cn/owenwangwen/open-capacity-platform/1048256)
+  
+## Spring Cloud Alibaba
   * [alibaba/Sentinel](https://github.com/alibaba/Sentinel/wiki/%E4%BB%8B%E7%BB%8D)
   * [alibaba/Spring Cloud Alibaba Sentinel](https://github.com/alibaba/spring-cloud-alibaba/wiki/Sentinel)
   * [Spring Cloud Alibaba基础教程：使用Sentinel实现接口限流](http://blog.didispace.com/spring-cloud-alibaba-sentinel-1/)
