@@ -55,6 +55,9 @@
 * [**消息队列**分类下也有相关文章](mq/?id=消息队列)
 
 * [微服务架构下的事务一致性保证](https://mp.weixin.qq.com/s?__biz=MzI3MzEzMDI1OQ==&mid=2651815502&idx=1&sn=ba36068070be434cbbd48f594f697532)
+
+* [分布式事务解决问题 -- SEATE](https://www.kancloud.cn/owenwangwen/open-capacity-platform/1636685)
+  > https://github.com/seata/seata/releases
   
 ## 分布式任务
 * [6大分布式定时任务对比](https://blog.csdn.net/u012394095/article/details/79470904)
@@ -70,3 +73,9 @@
 * [Docker — 从入门到实践](https://vuepress.mirror.docker-practice.com/)
 * [Dockerfile RUN，CMD，ENTRYPOINT命令区别](https://www.jianshu.com/p/f0a0f6a43907)
   > ENTRYPOINT 是配置容器启动时的执行命令，不会被忽略，一定会被执行。
+
+## Rancher
+* [Rancher部署](https://www.kancloud.cn/owenwangwen/open-capacity-platform/1048305)
+
+## 混沌工程
+* [混沌工程质量保证](https://www.kancloud.cn/owenwangwen/open-capacity-platform/1785135)
