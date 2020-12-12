@@ -17,6 +17,8 @@
 * [Leetcode solutions in Java](https://github.com/gouthampradhan/leetcode)
 * [Complete solutions to Leetcode problems](https://github.com/fishercoder1534/Leetcode)
 * [windliang-leetcode](https://leetcode.wang/)
+* [labuladong 的算法小抄](https://github.com/labuladong/fucking-algorithm)
+  > https://labuladong.gitbook.io/algo/
 
 ## 地理围栏算法
 * [地理围栏算法解析（Geo-fencing）](https://www.cnblogs.com/LBSer/p/4471742.html)
