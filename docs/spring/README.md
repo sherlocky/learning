@@ -49,6 +49,9 @@
     > [Retrofit官方文档地址](https://square.github.io/retrofit/)，可代替 RestTemplate 或者 okhttp
   * [【精品】Springboot启动扩展点超详细总结](https://www.jianshu.com/p/38d834db7413)
   * [如何控制springboot中bean的加载顺序](https://www.jianshu.com/p/cbcd963fca36)
+  
+### Resource 
+  * [SpringBoot读取Resource下文件的几种方式](https://www.jianshu.com/p/7d7e5e4e8ae3)
 
 ## Spring Shiro
   * [并发登录人数控制——《跟我学Shiro》](https://www.iteye.com/blog/jinnianshilongnian-2039760)
