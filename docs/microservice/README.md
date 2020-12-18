@@ -79,3 +79,6 @@
 
 ## 混沌工程
 * [混沌工程质量保证](https://www.kancloud.cn/owenwangwen/open-capacity-platform/1785135)
+
+## Sidecar
+* [Sidecar模式：下一代微服务架构的关键](https://www.jianshu.com/p/330b00dc40d7)
