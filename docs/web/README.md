@@ -65,6 +65,11 @@ https://www.ietf.org/rfc/rfc1034.txt
 
 * [CentOS7 Certbot 自动更新 Let's Encrypt SSL 证书(Nginx,https)](https://halo.sherlocky.com/archives/centos7-certbot-nginx-ssl)
 
+### HTTPS 双向认证
+* [HTTPS双向认证（Mutual TLS authentication)](https://help.aliyun.com/document_detail/160093.html)
+* [Https单向认证和双向认证](https://blog.csdn.net/duanbokan/article/details/50847612)
+* [扯一扯HTTPS单向认证、双向认证、抓包原理、反抓包策略](https://juejin.cn/post/6844903809068564493)
+
 ### SNI
  * [java使用httpclient调用多虚拟主机https接口报错问题](https://stackoverflow.com/questions/39762760/javax-net-ssl-sslexception-certificate-doesnt-match-any-of-the-subject-alterna)
  > javax.net.ssl.SSLException: Certificate doesn't match any of the subject alternative names
