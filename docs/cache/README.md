@@ -1,4 +1,9 @@
 # 缓存
+
+## 本地缓存
+* [【本地缓存之王】Caffeine高性能设计剖析](https://albenw.github.io/posts/a4ae1aa2/)
+
+## Redis
 * [《吊打面试官》系列- Redis基础](https://juejin.im/post/5db66ed9e51d452a2f15d833)
 * [Redis-避免缓存穿透的利器之BloomFilter](https://juejin.im/post/5db69365518825645656c0de)
 * [《吊打面试官》系列-缓存雪崩、击穿、穿透](https://juejin.im/post/5dbef8306fb9a0203f6fa3e2)
