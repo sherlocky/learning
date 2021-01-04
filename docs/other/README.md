@@ -43,3 +43,9 @@
   
 ## 火焰图
 * [如何读懂火焰图？](http://www.ruanyifeng.com/blog/2017/09/flame-graph.html)
+
+## 日程
+- https://icalendar.org/iCalendar-RFC-5545/3-8-5-3-recurrence-rule.html
+- https://tools.ietf.org/html/rfc2445#section-4.3.10
+- [日历设计之重复事件规则设计](https://www.cnblogs.com/jcli/p/calendar_recur_rule.html)
+  > https://github.com/hongfuli/simplecal
