@@ -88,3 +88,8 @@ https://www.ietf.org/rfc/rfc1034.txt
 ## gor
 * [gor实现线上HTTP流量复制压测引流](https://www.cnblogs.com/qmfsun/p/11598763.html)
 * [【github】buger/goreplay](https://github.com/buger/goreplay)
+
+## 身份认证
+* [技术中台之移动平台安全架构设计](https://mp.weixin.qq.com/s/WGXoARbfO9sH8YA8aS3WXg)
+* [统一身份认证（CAS）的工作流程](https://www.jianshu.com/p/35ba532780ec)
+* [apereo/cas](https://github.com/apereo/cas)
