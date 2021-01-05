@@ -12,8 +12,11 @@
 
 ## 单点登录
 * [CAS实现SSO单点登录原理](http://www.coin163.com/java/cas/cas.html)
+* [统一身份认证（CAS）的工作流程](https://www.jianshu.com/p/35ba532780ec)
+* [apereo/cas](https://github.com/apereo/cas)
 * [OAuth2.0 的四种授权方式](https://mp.weixin.qq.com/s?__biz=MzAxNTM4NzAyNg==&mid=2247487003&idx=1&sn=47cd6b064a7fc3b3df8f6f4c3f7669a7&scene=21)
 * [OAuth2.0实战--用三方 Github 做授权登录](https://mp.weixin.qq.com/s/KzWE4EtZ6F4_-2fYnVA5QA)
+
 
 ## 负载均衡
 * [Keepalived 虚拟IP技术 ip地址漂移技术](https://www.cnblogs.com/myseries/p/11409895.html)
@@ -65,17 +68,21 @@ https://www.ietf.org/rfc/rfc1034.txt
 
 * [CentOS7 Certbot 自动更新 Let's Encrypt SSL 证书(Nginx,https)](https://halo.sherlocky.com/archives/centos7-certbot-nginx-ssl)
 
-### HTTPS 双向认证
-* [HTTPS双向认证（Mutual TLS authentication)](https://help.aliyun.com/document_detail/160093.html)
-* [Https单向认证和双向认证](https://blog.csdn.net/duanbokan/article/details/50847612)
-* [扯一扯HTTPS单向认证、双向认证、抓包原理、反抓包策略](https://juejin.cn/post/6844903809068564493)
-
 ### SNI
  * [java使用httpclient调用多虚拟主机https接口报错问题](https://stackoverflow.com/questions/39762760/javax-net-ssl-sslexception-certificate-doesnt-match-any-of-the-subject-alterna)
  > javax.net.ssl.SSLException: Certificate doesn't match any of the subject alternative names
  > 使用了 httpclient 4.5.1版本，该版本处理 SNI 时存在bug，需要更新到4.5.3+修复
  * [HTTPS 深入浅出 - 什么是 SNI？](https://blog.csdn.net/firefile/article/details/80532161)
  * [SNI(Server Name Indication)](https://blog.csdn.net/makenothing/article/details/53292335)
+
+## 安全
+* [技术中台之移动平台安全架构设计](https://mp.weixin.qq.com/s/WGXoARbfO9sH8YA8aS3WXg)
+* [接口签名](https://www.jianshu.com/p/e2d362ede89f)
+
+### HTTPS 双向认证
+* [HTTPS双向认证（Mutual TLS authentication)](https://help.aliyun.com/document_detail/160093.html)
+* [Https单向认证和双向认证](https://blog.csdn.net/duanbokan/article/details/50847612)
+* [扯一扯HTTPS单向认证、双向认证、抓包原理、反抓包策略](https://juejin.cn/post/6844903809068564493)
 
 ## HTTP3 
 * [HTTP/3 QUIC协议](https://mp.weixin.qq.com/s/mHPEOho5F1pmNSWUAXQ9QA)
@@ -88,8 +95,3 @@ https://www.ietf.org/rfc/rfc1034.txt
 ## gor
 * [gor实现线上HTTP流量复制压测引流](https://www.cnblogs.com/qmfsun/p/11598763.html)
 * [【github】buger/goreplay](https://github.com/buger/goreplay)
-
-## 身份认证
-* [技术中台之移动平台安全架构设计](https://mp.weixin.qq.com/s/WGXoARbfO9sH8YA8aS3WXg)
-* [统一身份认证（CAS）的工作流程](https://www.jianshu.com/p/35ba532780ec)
-* [apereo/cas](https://github.com/apereo/cas)
