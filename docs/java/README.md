@@ -255,3 +255,14 @@
   
 ## 泛型
  * [JAVA 泛型中的通配符 T，E，K，V，?](https://juejin.cn/post/6844903917835419661)
+ 
+## 高阶
+* [扒了 Java 的皮，看见它的心](https://mp.weixin.qq.com/s/zBfvjq3gry2zsMoMir6oZA)
+  - jclasslib javap：看见字节码
+  - strace：看见系统调用
+  - HSDIS + JITWATCH：看见机器码（汇编）
+  - openJDK：看见 native 方法
+  - JOL：看见对象
+  - fastthread：看见线程
+    > [Java Thread Dump Analyzer](https://fastthread.io/)
+  - JProfile：看见运行时的各种状态
