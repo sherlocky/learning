@@ -18,6 +18,7 @@
   </nav>
   <div id="app">加载中...</div>
   <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github/index.js"></script>    
+  <script src="//cdn.jsdelivr.net/npm/docsify-footer-enh@0.0.6/dist/docsify-footer-enh.min.js"></script>	
   <script>
     window.$docsify = {
       name: '学习资料整理',
@@ -50,7 +51,7 @@
         noData: '暂无结果',
         depth: 6// 搜索标题的最大层级, 1 - 6
       },
-	  plugins: [
+      plugins: [
 		EditOnGithubPlugin.create(
 			'https://github.com/y836097668/learning/tree/master/docs/',
 			null,
@@ -62,7 +63,14 @@
 			  }
 			}
 		)
-      ]
+      ],
+      footer: {
+          copy: '<span><a href="https://beian.miit.gov.cn/">京ICP备17066818号</a></span>',
+          auth: 'by Sherlocky',
+          pre: '<hr/>',
+          style: 'text-align: right;',
+          class: 'className',
+      }
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
@@ -78,19 +86,7 @@
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>  
   <!-- 图片缩放 - Zoom image -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>	
-  <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
-  <script>
-  window.$docsify = {
-    footer: {
-      copy: '<span><a href="https://beian.miit.gov.cn/">京ICP备17066818号</a></span>',
-      auth: 'by Sherlocky',
-      pre: '<hr/>',
-      style: 'text-align: right;',
-      class: 'className',
-    },
-  };
-  </script>	
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>		
   <!-- 统计代码 -->
   <script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1278766292'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1278766292%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>  
   <script type="text/javascript" src="//js.users.51.la/20740715.js"></script>  
