@@ -75,6 +75,8 @@
   * [MySQL 的"双1设置"-数据安全的关键参数（案例分享）](https://www.cnblogs.com/kevingrace/p/10441086.html)
   * [mysql的断电恢复能力](https://www.jianshu.com/p/a32762bb11be)
 
+  * [MySQL不会丢失数据的秘密，就藏在它的 7种日志里](https://mp.weixin.qq.com/s/-v6CHvvAwtuznG-bzZKQ0w)
+ 
 ## 分库分表
   * [数据库分库分表](http://www.cnblogs.com/405845829qq/p/7552736.html)
   * [MySQL数据库之互联网常用分库分表方案](https://www.cnblogs.com/littlecharacter/p/9342129.html)
