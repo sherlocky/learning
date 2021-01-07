@@ -6,6 +6,7 @@
 > 并发数 = QPS * RT  
 > 最佳线程数 = RT/CPU Time * CPU核心数 * CPU利用率  
 > 最大QPS = 最佳线程数 * 单线程QPS = (RT/CPU Time * CPU核心数 * CPU利用率)*（1/RT) = CPU核心数 * CPU利用率 / CPU time  
+* [如何排查系统的性能瓶颈点？](https://mp.weixin.qq.com/s/PIs6ZVDzZChY1n3uEKnNKg)
 
 ## 服务端
 * [服务端如何安全存储密码？](https://mp.weixin.qq.com/s?__biz=MzA5NDIzNzY1OQ==&mid=2735616885&idx=1&sn=f7b605c1d31a16e16150b8da43e22a4e)
