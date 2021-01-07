@@ -247,6 +247,7 @@
                 .setUncaughtExceptionHandler((thread, throwable)-> logger.error("ThreadPool {} got exception", thread,throwable))
                 .build();
   ```
+  * [合理的设置线程池队列长度](https://blog.csdn.net/huangshanchun/article/details/78567501)
   
 ## 动态代理
   * [java中动态代理实现机制](https://yq.aliyun.com/articles/35985)
