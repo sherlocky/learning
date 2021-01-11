@@ -30,6 +30,9 @@
   > - 节点雪崩
   > - 虚拟节点
 * [一致性哈希算法（Consistent Hashing）](//halo.sherlocky.com/archives/yi-zhi-xing-ha-xi-suan-fa-consistent-hashing)
+* 一些分布式系统采用**虚拟槽**对 一致性哈希 进行改进，比如 Dynamo 系统
+  > [Dynamo中的一致性哈希](https://zhuanlan.zhihu.com/p/107560108)
+  > 还可以参考：[深入剖析Redis - Redis集群模式搭建与原理详解](https://www.jianshu.com/p/84dbb25cc8dc)
 
 ## 分布式ID
 * [一口气说出 9种 分布式ID生成方式，面试官有点懵了](https://mp.weixin.qq.com/s?__biz=MzAxNTM4NzAyNg==&mid=2247483785&idx=1&sn=8b828a8ae1701b810fe3969be536cb14)
