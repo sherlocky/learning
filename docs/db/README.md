@@ -22,6 +22,12 @@
 > 如果容器突然崩溃，数据库未正常关闭，可能会损坏数据。另外，容器里共享数据卷组，对物理机硬件损伤也比较大。
 > 即使你要把 Docker 数据放在主机来存储 ，它依然不能保证不丢数据。 Docker volumes 的设计围绕 Union FS 镜像层提供持久存储，但它仍然缺乏保证。
 
+## MySQL 注释
+* 特殊的功能
+  > - SQL标准中，多行注释 是 ``/* xxx */``
+  > - MySQL扩展了注释功能，``/*! select * from test */``，在起头的``/*``后头加入``!``，那么此注释里的语句将被执行
+  > - 另外，/*!50001 select * from test */; 这里的``50001``表示假如 数据库是``5.00.01``以上版本，该语句才会被执行
+
 ## MySQL 一致性读
 * [阿里面试：说说一致性读实现原理？](https://mp.weixin.qq.com/s/qHzb6oPrrbAPoIlfLJVNAg)
 * [敖丙-数据库-微信公众号话题](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzAwNDA2OTM1Ng==&action=getalbum&album_id=1343708196397187073&scene=173&from_msgid=2453148068&from_itemidx=1&count=3#wechat_redirect)
