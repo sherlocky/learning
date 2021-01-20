@@ -1,5 +1,8 @@
 # 信息安全
 
+## Web 安全
+* [Web安全学习笔记](https://websec.readthedocs.io/zh/latest/index.html)
+
 ## 知识盒子安全课程
 * [渗透测试工程师](https://zhishihezi.net/box/ca2108d94cf521aa6a2e1172de967183)
 * [安全运维工程师](https://zhishihezi.net/box/80ccbb4b0546ad86786c07e3ce016639)
