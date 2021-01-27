@@ -4,3 +4,6 @@
 
 ## NUMA
 * [为什么 NUMA 会影响程序的延迟](https://mp.weixin.qq.com/s/NdMAgdeRonDVr5h2vgOixg)
+
+## IaaS & PaaS & SaaS
+* [IaaS，PaaS，SaaS 的区别](https://www.ruanyifeng.com/blog/2017/07/iaas-paas-saas.html)
