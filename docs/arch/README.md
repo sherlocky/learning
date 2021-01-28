@@ -7,3 +7,6 @@
 
 ## IaaS & PaaS & SaaS
 * [IaaS，PaaS，SaaS 的区别](https://www.ruanyifeng.com/blog/2017/07/iaas-paas-saas.html)
+
+## 超融合 虚拟化
+* [什么是超融合基础架构？](https://www.vmware.com/cn/products/hyper-converged-infrastructure.html)
