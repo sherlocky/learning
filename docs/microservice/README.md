@@ -17,10 +17,13 @@
 ## SPI
 * [SPI 与 API](https://www.jianshu.com/p/7e85b8ed00e2)
 * [深入理解SPI机制](https://www.jianshu.com/p/3a3edbcd8f24)
-> 在JDBC、Dubbo、SpringBoot spring.factories 等都使用了 SPI 机制
-> API (Application Programming Interface), SPI (Service Provider Interface)
-> API 是 服务 定义、实现接口，客户 调用
-> SPI 是 服务 定义接口，客户 实现，服务 选择调用
+> 在JDBC、Dubbo、SpringBoot spring.factories 等都使用了 SPI 机制 
+> API (Application Programming Interface), SPI (Service Provider Interface) 
+> API 是 服务 定义、实现接口，客户 调用 
+> SPI 是 服务 定义接口，客户 实现，服务 选择调用 
+
+## 选举算法
+* [理解Raft算法，轻松应对分布式容错和一致性](https://mp.weixin.qq.com/s/nkWPwvHZxfhr-4B3K34akQ)
 
 ## 一致性 HASH
 * [图解一致性哈希算法](https://mp.weixin.qq.com/s/3QO59gjmByj9zCk2VpwSeA)
