@@ -257,6 +257,9 @@
 ## 泛型
  * [JAVA 泛型中的通配符 T，E，K，V，?](https://juejin.cn/post/6844903917835419661)
  
+## 高性能
+* [高性能 Disruptor——消除伪共享](https://jitwxs.cn/13836b16.html)
+
 ## 高阶
 * [扒了 Java 的皮，看见它的心](https://mp.weixin.qq.com/s/zBfvjq3gry2zsMoMir6oZA)
   - jclasslib javap：看见字节码
