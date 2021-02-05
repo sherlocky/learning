@@ -248,6 +248,7 @@
                 .build();
   ```
   * [合理的设置线程池队列长度](https://blog.csdn.net/huangshanchun/article/details/78567501)
+  * [Java线程池实现原理及其在美团业务中的实践](https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan.html)
   
 ## 动态代理
   * [java中动态代理实现机制](https://yq.aliyun.com/articles/35985)
