@@ -259,6 +259,7 @@
  
 ## 高性能
 * [高性能 Disruptor——消除伪共享](https://jitwxs.cn/13836b16.html)
+  > 例如：``Thread``类中``@sun.misc.Contended("tlr")``的使用
 
 ## 高阶
 * [扒了 Java 的皮，看见它的心](https://mp.weixin.qq.com/s/zBfvjq3gry2zsMoMir6oZA)
