@@ -14,3 +14,6 @@
 
 ## 学习路线
 * [大厂java面试考点/学习路线](https://www.processon.com/view/5e86b713e4b0bf3ebcf4e376#map)
+
+## 精进
+* [写给工程师的十条精进原则](https://tech.meituan.com/2018/08/16/10-principles-for-engineers.html)
