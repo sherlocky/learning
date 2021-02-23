@@ -32,11 +32,14 @@
   > JDk7 下使用 Collections.sort 手动实现的 Comparator 报错 Comparison method violates its general contract
   * [Timsort详解](https://www.jianshu.com/p/892ebd063ad9)
   * [String hashCode 方法为什么选择数字31作为乘子](http://www.tianxiaobo.com/2018/01/18/String-hashCode-方法为什么选择数字31作为乘子/)
+  * [StringJoiner](https://www.jianshu.com/p/469fe8fdd3be)
+
   * [[译]Java中9个处理Exception的最佳实践](https://www.rowkey.me/blog/2017/09/17/java-exception/)
   * [国外大佬给出的三种处理异常的套路！](https://mp.weixin.qq.com/s/XTiFc2DwAVWE3CYa2Im1qw)
   > 有三种处理异常的基本模式：转换（translate）、重试（retry）和恢复（recover）。
   * [注意System.currentTimeMillis()潜在的性能问题](https://www.jianshu.com/p/d2039190b1cb)
   * [System.currentTimeMillis的性能真有如此不堪吗？](https://juejin.im/post/6887743425437925383)
+
 
 ## I/O
   * [压缩20M文件从30秒到1秒的优化过程](https://www.jianshu.com/p/25b328753017)
