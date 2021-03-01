@@ -157,18 +157,22 @@
   * [可能是把Java内存区域讲的最清楚的一篇文章](https://github.com/Snailclimb/JavaGuide/blob/master/docs/java/jvm/Java%E5%86%85%E5%AD%98%E5%8C%BA%E5%9F%9F.md)
   * [【简单易懂-来自深入理解Java虚拟机】咱们从头到尾说一次 Java 垃圾回收](https://mp.weixin.qq.com/s?__biz=MzU4NzU0MDIzOQ==&mid=2247487045&idx=1&sn=17893a72e5567b6fefd4f11c92eecca6)
   * [Java垃圾回收复制算法为什么要有两个Survivor](https://www.jianshu.com/p/a5fd5bf93d26?utm_campaign=haruki&utm_content=note&utm_medium=reader_share&utm_source=weixin&from=singlemessage&isappinstalled=0)
-  * [搞定JVM垃圾回收就是这么简单.md](https://github.com/Snailclimb/JavaGuide/blob/master/docs/java/jvm/JVM%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6.md)
-  * [老大难的GC原理及调优，这下全说清楚了](https://juejin.im/post/5b6b986c6fb9a04fd1603f4a)
-  * [7种 JVM 垃圾收集器特点、优劣势及使用场景(多图)](https://mp.weixin.qq.com/s?__biz=MzI4ODQ3NjE2OA==&mid=2247485429&idx=1&sn=66ffb35d073012b73eba12d3f6337388)
-  * [不可错过的CMS学习笔记](https://mp.weixin.qq.com/s/-yqJa4dOyzLaK_tJ1x9E7w)
   * [深入了解Java之虚拟机内存](http://itfeifei.win/2017/03/13/%E6%B7%B1%E5%85%A5%E4%BA%86%E8%A7%A3Java%E4%B9%8B%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%86%85%E5%AD%98/)
-  * [jvm优化—— 图解垃圾回收](https://my.oschina.net/u/1859679/blog/1548866)
   * [什么是主内存，工作内存;可见性;原子性；有序性](https://juejin.im/post/5d16a633e51d455a2f2202a3)
   * [OutOfMemoryError系列（2）: GC overhead limit exceeded](https://blog.csdn.net/renfufei/article/details/77585294)
   * [jvm优化必知系列——监控工具](https://my.oschina.net/u/1859679/blog/1552290)
-  * [既然JVM有Full GC，为什么还会出现OutOfMemoryError?](https://mp.weixin.qq.com/s?__biz=MzIwMzY1OTU1NQ==&mid=2247487133&idx=2&sn=f0eaffdbec9852d5cf2bd19d12703b29)  
   * [一次元空间内存泄露分析记录](https://mp.weixin.qq.com/s/94twrZuIob5_mmC27FoI5g)
     > JDK 1.8 后，Hotspot 虚拟机已经移除了永久代，使用了元空间代替，``-XX:PermSize=256m -XX:MaxPermSize=512m``配置的是永久代的内存空间，这两个参数对于1.8就是过期的参数，**无效**。
+
+### 垃圾回收（GC）
+  * [搞定JVM垃圾回收就是这么简单.md](https://github.com/Snailclimb/JavaGuide/blob/master/docs/java/jvm/JVM%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6.md)
+  * [老大难的GC原理及调优，这下全说清楚了](https://juejin.im/post/5b6b986c6fb9a04fd1603f4a)
+  * [7种 JVM 垃圾收集器特点、优劣势及使用场景(多图)](https://mp.weixin.qq.com/s?__biz=MzI4ODQ3NjE2OA==&mid=2247485429&idx=1&sn=66ffb35d073012b73eba12d3f6337388)
+  * [jvm优化—— 图解垃圾回收](https://my.oschina.net/u/1859679/blog/1548866)   
+  * [不可错过的CMS学习笔记](https://mp.weixin.qq.com/s/-yqJa4dOyzLaK_tJ1x9E7w)
+  * [既然JVM有Full GC，为什么还会出现OutOfMemoryError?](https://mp.weixin.qq.com/s?__biz=MzIwMzY1OTU1NQ==&mid=2247487133&idx=2&sn=f0eaffdbec9852d5cf2bd19d12703b29)   
+  * [Java中9种常见的CMS GC问题分析与解决](https://tech.meituan.com/2020/11/12/java-9-cms-gc.html)
+  
   
 ## 锁
   * [面试官问：说说你对 Java 中锁以及 sychronized 实现机制的理解](https://blog.yoodb.com/yoodb/article/detail/1600)
@@ -268,6 +272,7 @@
 * [高性能队列——Disruptor](https://tech.meituan.com/2016/11/18/disruptor.html)
 
 ## 高阶
+* [Java即时编译器原理解析及实践](https://tech.meituan.com/2020/10/22/java-jit-practice-in-meituan.html)
 * [扒了 Java 的皮，看见它的心](https://mp.weixin.qq.com/s/zBfvjq3gry2zsMoMir6oZA)
   - jclasslib javap：看见字节码
   - strace：看见系统调用
