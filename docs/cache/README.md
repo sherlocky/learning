@@ -34,6 +34,7 @@
   > 并发量不高：双写一致方案（先删除缓存，后更新数据库）  
   > 高并发首推：缓存延时双删策略方案
 * [Redis的bitmap从基础到业务](https://blog.csdn.net/ctwctw/article/details/105013817)
+* [SpringBoot2.x中使用Redis的bitmap结构（工具类）](https://www.jianshu.com/p/305e65de1b13)
 * [【ProcessOn】Redis—AKF服务拆分原则、CAP理论前置、数据一致性理论与方案](https://www.processon.com/view/5ede3fcc5653bb6963dcb62f)
 
 ## 分布式锁
