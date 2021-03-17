@@ -87,8 +87,11 @@ https://www.ietf.org/rfc/rfc1034.txt
 
 ## HTTP3 
 * [HTTP/3 QUIC协议](https://mp.weixin.qq.com/s/mHPEOho5F1pmNSWUAXQ9QA)
-> QUIC（Quick UDP Internet Connections，快速 UDP 网络连接
-* ![QUIC协议](https://ghost.oss.sherlocky.com/halo/http3_1589801866231.png)
+  > QUIC（Quick UDP Internet Connections，快速 UDP 网络连接
+  > ![QUIC协议](https://ghost.oss.sherlocky.com/halo/http3_1589801866231.png)
+* [在Nginx中支持HTTP3.0/QUIC](https://zhuanlan.zhihu.com/p/159100819)
+* [NGINX官方对QUIC和HTTP/3的支持的技术预览介绍](https://www.nginx.com/blog/introducing-technology-preview-nginx-support-for-quic-http-3/)
+  > Nginx 在主线版本(mainline) ``1.19.0+`` 开始支持 QUIC 协议，截止到2021-03-17 稳定版本还是``1.18.0``
 
 ## IPv4 VS IPv6
 * [为什么 IPv6 难以取代 IPv4](https://mp.weixin.qq.com/s/Aut6e6duxkCZ4f4mZcD2-g)
