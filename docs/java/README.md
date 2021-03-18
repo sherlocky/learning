@@ -39,7 +39,7 @@
   > 有三种处理异常的基本模式：转换（translate）、重试（retry）和恢复（recover）。
   * [注意System.currentTimeMillis()潜在的性能问题](https://www.jianshu.com/p/d2039190b1cb)
   * [System.currentTimeMillis的性能真有如此不堪吗？](https://juejin.im/post/6887743425437925383)
-
+  * [Java Switch 是如何支持 String 的，为什么不支持 long](https://mp.weixin.qq.com/s/dhxXeYR2Sn28Sq_W93aMsw)
 
 ## I/O
   * [压缩20M文件从30秒到1秒的优化过程](https://www.jianshu.com/p/25b328753017)
