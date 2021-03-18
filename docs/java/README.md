@@ -59,6 +59,7 @@
   
 ## JDK 8 +
   * [Java 9的模块化--壮士断"腕"的涅槃](https://zhuanlan.zhihu.com/p/24800180)
+  * [JDK 16 正式发布，一次性发布 17 个新特性](https://mp.weixin.qq.com/s/NBjbZuO1E_BJWjmim8C_Vw)
   
 ## 阿里巴巴
   * [【阿里巴巴-王超】消灭 Java 代码的“坏味道”](https://mp.weixin.qq.com/s?__biz=MzU4NzU0MDIzOQ==&mid=2247487714&idx=1&sn=8f9de656a4abe236b16415e6ecaa5f9d)
