@@ -85,6 +85,10 @@ https://www.ietf.org/rfc/rfc1034.txt
 * [Https单向认证和双向认证](https://blog.csdn.net/duanbokan/article/details/50847612)
 * [扯一扯HTTPS单向认证、双向认证、抓包原理、反抓包策略](https://juejin.cn/post/6844903809068564493)
 
+## SSL
+* [本地https解决方案](https://www.jianshu.com/p/7cb5c2cffaaa)
+  > https://github.com/FiloSottile/mkcert
+
 ## HTTP3 
 * [HTTP/3 QUIC协议](https://mp.weixin.qq.com/s/mHPEOho5F1pmNSWUAXQ9QA)
   > QUIC（Quick UDP Internet Connections，快速 UDP 网络连接
