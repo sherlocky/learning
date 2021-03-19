@@ -97,6 +97,8 @@ https://www.ietf.org/rfc/rfc1034.txt
 * [nginx原生支持quic](https://ruanzhijun.cn/2020/07/10/nginx-quic/)
 * [NGINX官方对QUIC和HTTP/3的支持的技术预览介绍](https://www.nginx.com/blog/introducing-technology-preview-nginx-support-for-quic-http-3/)
   > Nginx 在主线版本(mainline) ``1.19.0+`` 开始支持 QUIC 协议，截止到2021-03-17 稳定版本还是``1.18.0``
+  > 支持QUIC的Nginx分支：https://hg.nginx.org/nginx-quic/shortlog/quic
+  > 以及部署说明：https://quic.nginx.org/readme.html
   > 测试你的站点是否支持 quic 服务：https://http3check.net/
 
 ## IPv4 VS IPv6
