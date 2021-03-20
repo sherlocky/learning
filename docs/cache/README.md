@@ -1,5 +1,8 @@
 # 缓存
 
+## 缓存算法
+* [LFU的基本原理与实现](https://www.cnblogs.com/wyq178/p/11790015.html)
+
 ## 本地缓存
 * [【本地缓存之王】Caffeine高性能设计剖析](https://albenw.github.io/posts/a4ae1aa2/)
 
