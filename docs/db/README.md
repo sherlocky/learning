@@ -124,7 +124,14 @@
     > 原地址： [Mybatis常见面试题总结](https://blog.csdn.net/a745233700/article/details/80977133)
   * [Mybatis源码讲解（三）-- SqlSession](https://mp.weixin.qq.com/s?__biz=MzU3NzczMTAzMg==&mid=2247487402&idx=1&sn=f805e2141f2ef953bdb31218ef75a9ba)
   * [mybatis动态SQL与批量插入](https://juejin.im/post/5e959b355188257382099074)
-  
+### MyBatis Plus
+  * [【实验】mybatis批量插入方式的比较](https://mp.weixin.qq.com/s/-rfokXqRctRZatwZDmOT3g)
+    > 少量插入请使用反复插入单条数据，方便。数量较多请使用批处理方式。
+    > （可以考虑以有需求的插入数据量20条左右为界吧，在我的测试和数据库环境下耗时都是百毫秒级的，方便最重要）。  
+    > 无论何时都不用xml拼接sql的方式。
+  * [MybatisPlus真正的批量插入（非循环单个）方法](https://blog.csdn.net/qq_18630487/article/details/111153883)
+  * [mybatis-plus真正批量新增和更新](https://www.jianshu.com/p/df14fa887b85)
+
 ## wier 数据库分析系列博文
   * [DB——数据的读取和存储方式](https://my.oschina.net/u/1859679/blog/1581379)
   * [Sql优化器究竟帮你做了哪些工作？](https://my.oschina.net/u/1859679/blog/1586098)
