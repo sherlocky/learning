@@ -129,6 +129,9 @@
     > 少量插入请使用反复插入单条数据，方便。数量较多请使用批处理方式。
     > （可以考虑以有需求的插入数据量20条左右为界吧，在我的测试和数据库环境下耗时都是百毫秒级的，方便最重要）。  
     > 无论何时都不用xml拼接sql的方式。
+  * [MybatisPlus批量插入-mapper层 选装件 InsertBatchSomeColumn](https://gitee.com/baomidou/mybatis-plus/blob/3.0/mybatis-plus-extension/src/main/java/com/baomidou/mybatisplus/extension/injector/methods/InsertBatchSomeColumn.java)
+    > 位于``com.baomidou.mybatisplus.extension.injector.methods``包下,需要配合[Sql 注入器](https://baomidou.com/guide/sql-injector.html)使用。
+    > 参考：[案例](https://gitee.com/baomidou/mybatis-plus-samples/tree/master/mybatis-plus-sample-sql-injector)
   * [MybatisPlus真正的批量插入（非循环单个）方法](https://blog.csdn.net/qq_18630487/article/details/111153883)
   * [mybatis-plus真正批量新增和更新](https://www.jianshu.com/p/df14fa887b85)
 
