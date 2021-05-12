@@ -47,6 +47,7 @@ https://www.ietf.org/rfc/rfc1034.txt
 * [干掉状态：从session到token](http://mp.weixin.qq.com/s?__biz=MzAxOTc0NzExNg==&mid=2665513566&idx=1&sn=a2688cadbe9c8042ff1abbdf04a8bd5e)
 * [JWT & JWS & JWE](https://gblog.sherlocky.com/jwt/)
 * [Web登录其实没那么简单](https://www.cnblogs.com/letcafe/p/loginSecurity.html)
+* [Token多平台身份认证架构设计思路](https://mp.weixin.qq.com/s/aQs3IbhfBAaSfqBLbwfnkw)
 * [80% 应聘者都不及格的 JS 面试题](https://juejin.im/post/58cf180b0ce4630057d6727c)
 
 ## HTTP/HTTPS, TCP/IP
