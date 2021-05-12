@@ -48,6 +48,7 @@ https://www.ietf.org/rfc/rfc1034.txt
 * [JWT & JWS & JWE](https://gblog.sherlocky.com/jwt/)
 * [Web登录其实没那么简单](https://www.cnblogs.com/letcafe/p/loginSecurity.html)
 * [Token多平台身份认证架构设计思路](https://mp.weixin.qq.com/s/aQs3IbhfBAaSfqBLbwfnkw)
+  > http://cnblogs.com/beer/p/6029861.html
 * [80% 应聘者都不及格的 JS 面试题](https://juejin.im/post/58cf180b0ce4630057d6727c)
 
 ## HTTP/HTTPS, TCP/IP
