@@ -23,6 +23,9 @@
   > 即使你要把 Docker 数据放在主机来存储 ，它依然不能保证不丢数据。 Docker volumes 的设计围绕 Union FS 镜像层提供持久存储，但它仍然缺乏保证。
 * [Mysql不锁表增加字段和索引方法](https://c4ys.com/archives/1943)
 
+* [HAVING的神器用法](https://www.cnblogs.com/youzhibing/p/14175336.html)
+  > https://mp.weixin.qq.com/s?__biz=MzAxODcyNjEzNQ==&mid=2247529555&idx=3&sn=d6f33ca56c1824b2c15352f35356a3e5
+
 ## MySQL 注释
 * 特殊的功能
   > - SQL标准中，多行注释 是 ``/* xxx */``
