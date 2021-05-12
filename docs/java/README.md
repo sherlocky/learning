@@ -1,5 +1,6 @@
 # Java
 * [【博客】Java知识杂记](https://halo.sherlocky.com/archives/java)
+* [Java后端线上问题排查常用命令收藏](https://mp.weixin.qq.com/s?__biz=MzAxODcyNjEzNQ==&mid=2247529555&idx=2&sn=6ed56b565cc1af151cb7c3d88fffe422)
 * [高效Effective Java第3版-中文在线](https://sjsdfg.github.io/effective-java-3rd-chinese/#/)
 * [细思极恐-你真的会写java吗](http://lrwinx.github.io/2017/03/04/%E7%BB%86%E6%80%9D%E6%9E%81%E6%81%90-%E4%BD%A0%E7%9C%9F%E7%9A%84%E4%BC%9A%E5%86%99java%E5%90%97/)
 * [如何优雅的将DTO转化成BO](https://blog.csdn.net/lw7551/article/details/62426579)
