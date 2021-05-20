@@ -278,7 +278,7 @@
        BlockingQueue<Runnable> queue = threadPoolExecutor.getQueue();
        if (queue instanceof ResizableCapacityLinkedBlockIngQueue) {
            // 不能修改队列，并且只有可变大小的队列才可以修改其队列长度
-        ((ResizableCapacityLinkedBlockIngQueue<Runnable>) queue).setCapacity(executor.getQueueCapacity());
+           ((ResizableCapacityLinkedBlockIngQueue<Runnable>) queue).setCapacity(newQueueCapacity);
        }
       ```
     - 线程池监控和告警
