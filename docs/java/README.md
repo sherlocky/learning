@@ -272,14 +272,28 @@
     - 动态修改线程池主要参数。（在Java线程池留有高扩展性的基础上，封装线程池，允许线程池监听同步外部的消息，根据消息进行修改配置）
       > 
       ```java
+       //先设置maxPoolSize,不然会设置失败
+       threadPoolExecutor.setMaximumPoolSize(10);	
        threadPoolExecutor.setCorePoolSize(10);
-       threadPoolExecutor.setMaximumPoolSize(10);
        threadPoolExecutor.setKeepAliveTime();
        threadPoolExecutor.setRejectedExecutionHandler();
        BlockingQueue<Runnable> queue = threadPoolExecutor.getQueue();
        if (queue instanceof ResizableCapacityLinkedBlockIngQueue) {
            // LinkedBlockingQueue中没有原始方法去设置队列长度，可以copy 一个LinkedBlockingQueue, 修改capacity
            ((ResizableCapacityLinkedBlockIngQueue<Runnable>) queue).setCapacity(newQueueCapacity);
+       }
+      ```
+      ```java
+       /**
+       * ResizableCapacityLinkedBlockIngQueue copy from LinkedBlockingQueue
+       * 修改 capacity 大小
+       * @param newCapacity
+       */
+       public synchronized void setCapacity(int newCapacity) {
+           if (newCapacity < capacity) {
+               throw new IllegalStateException("队列长度设置异常");
+           }
+           this.capacity = newCapacity;
        }
       ```
     - 线程池监控和告警
