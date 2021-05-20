@@ -262,6 +262,7 @@
     > 美团并没有开源，可以参考其他开源实现：  
     > https://zhuanlan.zhihu.com/p/149138818  
     > https://github.com/yinjihuan/kitty/tree/master/kitty-dynamic-thread-pool/src/main/java/com/cxytiandi/kitty/threadpool
+  * [ThreadPoolExecutor-动态调节线程池大小](https://blog.csdn.net/u013887008/article/details/116354869)
   * 基于美团线程池实践的启发
     - 考虑到在实际应用中我们获取并发性的场景主要是两种：
 	     - （1）并行执行子任务，提高响应速度。这种情况下，应该使用同步队列，没有什么任务应该被缓存下来，而是应该立即执行。
@@ -276,9 +277,9 @@
        threadPoolExecutor.setKeepAliveTime();
        threadPoolExecutor.setRejectedExecutionHandler();
        BlockingQueue<Runnable> queue = threadPoolExecutor.getQueue();
-       if (queue instanceof LinkedBlockingQueue) {
-           // 不能修改队列，并且只有可变大小的队列才可以修改其队列长度
-           ((LinkedBlockingQueue<Runnable>) queue).setCapacity(newQueueCapacity);
+       if (queue instanceof ResizableCapacityLinkedBlockIngQueue) {
+           // LinkedBlockingQueue中没有原始方法去设置队列长度，可以copy 一个LinkedBlockingQueue, 修改capacity
+           ((ResizableCapacityLinkedBlockIngQueue<Runnable>) queue).setCapacity(newQueueCapacity);
        }
       ```
     - 线程池监控和告警
