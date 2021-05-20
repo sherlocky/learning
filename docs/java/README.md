@@ -284,6 +284,37 @@
        }
       ```
       ```java
+	    private static void changeExecutorPoolSize(ThreadPoolExecutor executor, int newCoreSize, int newMaximumSize) {
+		if (newCoreSize > newMaximumSize) {
+		    log.error("核心池大小不能超过允许的最大线程数");
+		    return;
+		}
+		if (newMaximumSize <= 0) {
+		    log.error("最大线程数不能为0或小于0");
+		    return;
+		}
+		if (newCoreSize < 0) {
+		    log.error("核心线程数不能小于0");
+		    return;
+		}
+		int oldCoreSize = executor.getCorePoolSize();
+		int oldMaximumSize = executor.getMaximumPoolSize();
+		if (newCoreSize == oldCoreSize && newMaximumSize == oldMaximumSize) {
+		    log.info("线程池大小配置未变更，忽略~");
+		    return;
+		}
+		if (newMaximumSize < oldMaximumSize) {
+		    // 缩小时，先设置corePoolSize，后设置maxPoolSize
+		    executor.setCorePoolSize(newCoreSize);
+		    executor.setMaximumPoolSize(newMaximumSize);
+		    return;
+		}
+		// 扩大时，先设置maxPoolSize，后设置corePoolSize
+		executor.setMaximumPoolSize(newMaximumSize);
+		executor.setCorePoolSize(newCoreSize);
+	    }
+      ```
+      ```java
        /**
        * ResizableCapacityLinkedBlockIngQueue copy from LinkedBlockingQueue
        * 修改 capacity 大小
