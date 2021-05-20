@@ -272,7 +272,7 @@
     - 动态修改线程池主要参数。（在Java线程池留有高扩展性的基础上，封装线程池，允许线程池监听同步外部的消息，根据消息进行修改配置）
       > 
       ```java
-       //先设置maxPoolSize,不然会设置失败
+       //先设置maxPoolSize,不然会设置失败（主要看修改后和修改前池大小的比较，修改时最大数不能小于核心数）
        threadPoolExecutor.setMaximumPoolSize(10);	
        threadPoolExecutor.setCorePoolSize(10);
        threadPoolExecutor.setKeepAliveTime();
