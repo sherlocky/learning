@@ -259,6 +259,15 @@
   * [合理的设置线程池队列长度](https://blog.csdn.net/huangshanchun/article/details/78567501)
   * [线程池最佳线程数量到底要如何配置？](https://mp.weixin.qq.com/s/MPsUd0sy0yojcUoSYl8B2A)
   * [Java线程池实现原理及其在美团业务中的实践](https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan.html)
+    > 美团并没有开源，可以参考其他开源实现：  
+    > https://zhuanlan.zhihu.com/p/149138818  
+    > https://github.com/yinjihuan/kitty/tree/master/kitty-dynamic-thread-pool/src/main/java/com/cxytiandi/kitty/threadpool
+
+## CompletableFuture & ForkJoinPool & parallelStream
+- [CompletableFuture 使用详解](https://www.jianshu.com/p/6bac52527ca4)
+- [Java 8 CompletableFuture 教程](https://segmentfault.com/a/1190000014479792)
+- [ForkJoinPool](https://www.jianshu.com/p/a152c0a0d2d0)
+- [parallelStream与ForkJoinPool的二三事](https://www.vergessen.top/article/v/22552932698734266)
   
 ## 动态代理
   * [java中动态代理实现机制](https://yq.aliyun.com/articles/35985)
