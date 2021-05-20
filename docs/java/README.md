@@ -262,7 +262,27 @@
     > 美团并没有开源，可以参考其他开源实现：  
     > https://zhuanlan.zhihu.com/p/149138818  
     > https://github.com/yinjihuan/kitty/tree/master/kitty-dynamic-thread-pool/src/main/java/com/cxytiandi/kitty/threadpool
-
+  * 基于美团线程池实践的启发
+    - 考虑到在实际应用中我们获取并发性的场景主要是两种：
+	     - （1）并行执行子任务，提高响应速度。这种情况下，应该使用同步队列，没有什么任务应该被缓存下来，而是应该立即执行。
+	     - （2）并行执行大批次任务，提升吞吐量。这种情况下，应该使用有界队列，使用队列去缓冲大批量的任务，队列容量必须声明，防止任务无限制堆积。
+      > 所以线程池只需要提供corePoolSize、maximumPoolSize，workQueue这三个关键参数的配置，它们最大程度地决定了线程池的任务分配和线程分配策略。  
+      > 并且提供两种队列的选择，就可以满足绝大多数的业务需求，Less is More。
+    - 动态修改线程池主要参数。（在Java线程池留有高扩展性的基础上，封装线程池，允许线程池监听同步外部的消息，根据消息进行修改配置）
+      > 
+      ```java
+       threadPoolExecutor.setCorePoolSize(10);
+       threadPoolExecutor.setMaximumPoolSize(10);
+       threadPoolExecutor.setKeepAliveTime();
+       threadPoolExecutor.setRejectedExecutionHandler();
+       BlockingQueue<Runnable> queue = threadPoolExecutor.getQueue();
+       if (queue instanceof ResizableCapacityLinkedBlockIngQueue) {
+           // 不能修改队列，并且只有可变大小的队列才可以修改其队列长度
+        ((ResizableCapacityLinkedBlockIngQueue<Runnable>) queue).setCapacity(executor.getQueueCapacity());
+       }
+      ```
+    - 线程池监控和告警
+  
 ## CompletableFuture & ForkJoinPool & parallelStream
 - [CompletableFuture 使用详解](https://www.jianshu.com/p/6bac52527ca4)
 - [Java 8 CompletableFuture 教程](https://segmentfault.com/a/1190000014479792)
