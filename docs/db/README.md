@@ -150,6 +150,9 @@
 
  * [Mysql死锁如何排查：insert on duplicate死锁一次排查分析过程](https://juejin.im/post/5d483e66518825052734b15a)
 
+## 树形结构
+  * [左右值编码存储无限分级树形结构设计](https://www.jianshu.com/p/17a8bc823e63) 
+
 ## 国产达梦数据库
   * [DM7 达梦数据库安装后配置及调优](//halo.sherlocky.com/archives/dm7-setup-optimize)
   * [记一次对达梦数据库的优化过程](https://hacpai.com/article/1574159839794#慢-SQL-优化)
