@@ -5,6 +5,7 @@
 
 ## 本地缓存
 * [【本地缓存之王】Caffeine高性能设计剖析](https://albenw.github.io/posts/a4ae1aa2/)
+* 本地缓存不放敏感变更数据，Maybe 可以通过配置中心异步通知的方式更新本地缓存？
 
 ## Redis
 * [《吊打面试官》系列- Redis基础](https://juejin.im/post/5db66ed9e51d452a2f15d833)
@@ -39,6 +40,11 @@
 * [Redis的bitmap从基础到业务](https://blog.csdn.net/ctwctw/article/details/105013817)
 * [SpringBoot2.x中使用Redis的bitmap结构（工具类）](https://www.jianshu.com/p/305e65de1b13)
 * [【ProcessOn】Redis—AKF服务拆分原则、CAP理论前置、数据一致性理论与方案](https://www.processon.com/view/5ede3fcc5653bb6963dcb62f)
+
+### 一致性问题
+* [Redis缓存和MySQL数据一致性方案详解](https://mikechen.cc/3410.html)
+  > - 第一种方案：采用延时双删策略
+  > - 第二种方案：异步更新缓存(基于订阅binlog的同步机制)
 
 ## 分布式锁
 * [面试官：如何用Redis实现分布式锁？](https://juejin.im/post/5e9473f5e51d454702460323)
