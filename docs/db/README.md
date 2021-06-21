@@ -193,3 +193,6 @@
   > 路由合计设置，避免大翻页，批量操作bulk接口，禁止SWAP，``swapoff -a``
   > ``segment os cache flush``
   > ``translog os cache flush``
+
+## NoSQL
+* [LSM树详解](https://zhuanlan.zhihu.com/p/181498475)
