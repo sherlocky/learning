@@ -25,7 +25,16 @@
   * [Spring AOP 不生效的坑](https://mp.weixin.qq.com/s/Q0Q3ropapmMRE_mQE68b8Q)
   * [spring中expose-proxy的作用与原理](https://www.cnblogs.com/mzcx/p/11430846.html)
 
-## Spring 5 源码分析
+## Spring 5
+  * [一文带你了解 Spring 5.0 WebFlux 应用场景 （异步非阻塞式的 Web 框架）](https://www.cnblogs.com/quanxiaoha/p/10773773.html)
+    - Spring MVC 因为是使用的同步阻塞式，更方便开发人员编写功能代码，Debug 测试等，一般来说，如果 Spring MVC 能够满足的场景，就尽量不要用 WebFlux;
+    - WebFlux 默认情况下使用 Netty 作为服务器;
+    - WebFlux 不支持 MySql，可以支持MongoDB;
+    - 特别适合应用在 IO 密集型的服务中（比如微服务网关）
+    - 并不能使接口的响应时间缩短，它仅仅能够提升吞吐量和伸缩性
+     （IO线程和工作线程分离，单请求处理时长改变不了，但通过提高吞吐量，单位时间处理的请求增多了）
+
+### Spring 5 源码分析
   * [【PDF】Spring源码分析(第二版)_第二章](https://ghost.oss.sherlocky.com/learning/spring/%E5%92%95%E6%B3%A1%E5%AD%A6%E9%99%A2_Spring%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%28%E7%AC%AC%E4%BA%8C%E7%89%88%29_%E7%AC%AC%E4%BA%8C%E7%AB%A0.pdf)
   * [【PDF】Spring源码分析(第二版)_第三章](https://ghost.oss.sherlocky.com/learning/spring/%E5%92%95%E6%B3%A1%E5%AD%A6%E9%99%A2_Spring%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%28%E7%AC%AC%E4%BA%8C%E7%89%88%29_%E7%AC%AC%E4%B8%89%E7%AB%A0.pdf)
   * [【PDF】Spring源码分析(第二版)_第四章](https://ghost.oss.sherlocky.com/learning/spring/%E5%92%95%E6%B3%A1%E5%AD%A6%E9%99%A2_Spring%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%28%E7%AC%AC%E4%BA%8C%E7%89%88%29_%E7%AC%AC%E5%9B%9B%E7%AB%A0.pdf) 
@@ -69,7 +78,7 @@
   * [【程序员DD】Spring Cloud 从入门到精通](http://blog.didispace.com/spring-cloud-learning/)
   * [外行人都能看懂的SpringCloud](https://mp.weixin.qq.com/s?__biz=MzAwNDA2OTM1Ng==&mid=2453140943&idx=1&sn=72ef2d1aa0a5a0265babfdce7234cefd)
   * [实战 Spring Cloud 微服务架构下的“秒杀”（含代码）](https://mp.weixin.qq.com/s?__biz=MzI4ODQ3NjE2OA==&mid=2247485875&idx=1&sn=0ff0a0c4ea9c5a36334d80de83f1084c)
-  > 代码：https://github.com/coderliguoqing/distributed-seckill/
+    > 代码：https://github.com/coderliguoqing/distributed-seckill/
   * [Spring Cloud中国社区](http://springcloud.cn)
   
 ### 优秀项目推荐
