@@ -191,6 +191,14 @@
     > LongAdder 并不能替代 AtomicLong
     > LongAdder 适合的场景是统计求和计数，而且LongAdder 基本只提供了add方法，而AtomicLong还具有cas方法。
   * [[译]20个使用 Java CompletableFuture的例子](https://colobu.com/2018/03/12/20-Examples-of-Using-Java%E2%80%99s-CompletableFuture/)
+  * [并发 VS 并行](https://cloud.tencent.com/developer/article/1424249)
+    > 并发，指的是多个事情，在同一时间段内同时发生了。  
+    > 并行，指的是多个事情，在同一时间点上同时发生了。  
+    > 
+    > 并发的多个任务之间是互相抢占资源的。  
+    > 并行的多个任务之间是不互相抢占资源的。  
+    > 
+    > 只有在多CPU的情况中，才会发生并行。否则，看似同时发生的事情，其实都是并发执行的。
   
 ## 多线程
   * [【电子书】深入浅出Java多线程](http://concurrent.redspider.group/article/01/1.html)
