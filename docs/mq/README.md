@@ -15,7 +15,8 @@
 * [带你涨姿势的认识一下Kafka之消费者](https://mp.weixin.qq.com/s?__biz=MzU3NzczMTAzMg==&mid=2247486105&idx=1&sn=760f131c0a339d1b8e3554870a2b5c0b)
   
 * [Kafka 会不会丢消息？怎么处理的?](https://mp.weixin.qq.com/s/tioD1yMABXu8BLj3dGtTmg)
-  
+* [Kafka常见的面试题](https://mp.weixin.qq.com/s/uUFgZqfeBvfAfr47bQ3JYw)
+
 ## RocketMQ
 * [《浅入浅出》-RocketMQ](https://juejin.im/post/5de3c8026fb9a07194761641)
 
