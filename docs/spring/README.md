@@ -28,11 +28,15 @@
 ## Spring 5
   * [一文带你了解 Spring 5.0 WebFlux 应用场景 （异步非阻塞式的 Web 框架）](https://www.cnblogs.com/quanxiaoha/p/10773773.html)
     - Spring MVC 因为是使用的同步阻塞式，更方便开发人员编写功能代码，Debug 测试等，一般来说，如果 Spring MVC 能够满足的场景，就尽量不要用 WebFlux;
-    - WebFlux 默认情况下使用 Netty 作为服务器;
+    - WebFlux 默认情况下使用 ``Netty`` 作为服务器;
     - WebFlux 不支持 MySql，可以支持MongoDB;
     - 特别适合应用在 IO 密集型的服务中（比如微服务网关）
     - 并不能使接口的响应时间缩短，它仅仅能够提升吞吐量和伸缩性
      （IO线程和工作线程分离，单请求处理时长改变不了，但通过提高吞吐量，单位时间处理的请求增多了）
+    > 在 WebFlux 中，``Mono``、``Flux``是非阻塞的写法，只有这样，你才能发挥 WebFlux 非阻塞 + 异步的特性。
+    > 这哥俩均能充当响应式编程中发布者的角色，不同的是：
+    > - Mono：返回 0 或 1 个元素，即单个对象。
+    > - Flux：返回 N 个元素，即 List 列表对象。
 
 ### Spring 5 源码分析
   * [【PDF】Spring源码分析(第二版)_第二章](https://ghost.oss.sherlocky.com/learning/spring/%E5%92%95%E6%B3%A1%E5%AD%A6%E9%99%A2_Spring%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%28%E7%AC%AC%E4%BA%8C%E7%89%88%29_%E7%AC%AC%E4%BA%8C%E7%AB%A0.pdf)
