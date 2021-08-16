@@ -4,6 +4,9 @@
 * [《吊打面试官》系列-消息队列基础](https://juejin.im/post/5dd3ff85e51d453fe34dfcc5)
 * [《吊打面试官》系列-分布式事务、重复消费、顺序消费](https://juejin.im/post/5dda9e7e6fb9a07aae2a3778)
 
+* [消息幂等（去重）通用解决方案](https://jaskey.github.io/blog/2020/06/08/rocketmq-message-dedup/)
+  > https://github.com/Jaskey/RocketMQDedupListener
+
 ## Kafka
 > Broker、Topic下 分区(Partition)（一主多备，天然分布式，单分区写入有序）、消费者组、偏移量(offset)（消费者可指定读取）、消息日志等概念。
   消息传递、存储、流处理3大主要功能。
