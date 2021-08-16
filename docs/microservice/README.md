@@ -88,3 +88,10 @@
 
 ## Sidecar
 * [Sidecar模式：下一代微服务架构的关键](https://www.jianshu.com/p/330b00dc40d7)
+
+## 秒杀系统
+* [【秒杀系统】从零打造秒杀系统（一）：防止超卖](https://cloud.tencent.com/developer/article/1598767)
+* [【秒杀系统】零基础上手秒杀系统（二）：令牌桶限流 + 再谈超卖](https://mp.weixin.qq.com/s?__biz=MzU1NTA0NTEwMg==&mid=2247484178&idx=1&sn=f4d8072b5408b08f983cae26a6ce1cf5&lang=zh_CN&scene=21#wechat_redirect)
+* [【秒杀系统】零基础上手秒杀系统（三）：抢购接口隐藏 + 单用户限制频率](https://mp.weixin.qq.com/s?__biz=MzU1NTA0NTEwMg==&mid=2247484184&idx=1&sn=8b878e9e730a6e4da27ed336c8201c92)
+* [秒杀系统实战（四）| 缓存与数据库双写问题的争议](https://cloud.tencent.com/developer/article/1621412)
+* [秒杀系统实战（五）| 如何优雅的实现订单异步处理 - 云+社区 - 腾讯云](https://cloud.tencent.com/developer/article/1661634)
