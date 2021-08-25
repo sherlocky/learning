@@ -53,3 +53,6 @@
 - https://tools.ietf.org/html/rfc2445#section-4.3.10
 - [日历设计之重复事件规则设计](https://www.cnblogs.com/jcli/p/calendar_recur_rule.html)
   > https://github.com/hongfuli/simplecal
+
+## 视频转码
+- [HLS、m3u8、ts]https://juejin.cn/post/6954761121727250439)
