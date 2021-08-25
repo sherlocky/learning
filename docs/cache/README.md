@@ -8,6 +8,7 @@
 * 本地缓存不放敏感变更数据，Maybe 可以通过配置中心异步通知的方式更新本地缓存？
 
 ## Redis
+* [**16 个 Redis 常见使用场景**](https://mp.weixin.qq.com/s/RVPvRnyia3yxjw_BZkXsZw)
 * [《吊打面试官》系列- Redis基础](https://juejin.im/post/5db66ed9e51d452a2f15d833)
 * [Redis-避免缓存穿透的利器之BloomFilter](https://juejin.im/post/5db69365518825645656c0de)
 * [《吊打面试官》系列-缓存雪崩、击穿、穿透](https://juejin.im/post/5dbef8306fb9a0203f6fa3e2)
