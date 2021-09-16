@@ -193,6 +193,12 @@
   * [既然JVM有Full GC，为什么还会出现OutOfMemoryError?](https://mp.weixin.qq.com/s?__biz=MzIwMzY1OTU1NQ==&mid=2247487133&idx=2&sn=f0eaffdbec9852d5cf2bd19d12703b29)   
   * [Java中9种常见的CMS GC问题分析与解决](https://tech.meituan.com/2020/11/12/java-9-cms-gc.html)
   * [java8添加并查看GC日志(ParNew+CMS)](https://segmentfault.com/a/1190000021453229)
+  * [jvm：垃圾回收器GC搭配推荐及其常用调优参数](https://blog.csdn.net/qq_42709262/article/details/85092208)
+    > G1 即支持新生代又支持老年代，目标是取代 CMS（CMS默认搭配的新生代收集器是ParNew）
+    > 还有来自 JDK11 的 ZGC
+    > 还有来自 JDK12 的 Shenandoah 
+    > ![yongGC](https://ghost.oss.sherlocky.com/halo/yongGC_1631787695766.png-halo)
+    > ![oldGC](https://ghost.oss.sherlocky.com/halo/oldGC_1631787690143.png-halo)
   
 ## 锁
   * [面试官问：说说你对 Java 中锁以及 sychronized 实现机制的理解](https://blog.yoodb.com/yoodb/article/detail/1600)
