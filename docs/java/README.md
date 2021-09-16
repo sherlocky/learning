@@ -60,7 +60,12 @@
   
 ## JDK 8 +
   * [Java 9的模块化--壮士断"腕"的涅槃](https://zhuanlan.zhihu.com/p/24800180)
+  * [Java 14 之模式匹配，非常赞的一个新特性！](https://mp.weixin.qq.com/s?__biz=MzI3ODcxMzQzMw==&mid=2247493274&idx=1&sn=9aa8abcd70ce58d7ee6c0a44d73c8cf1&scene=21#wechat_redirect)
   * [JDK 16 正式发布，一次性发布 17 个新特性](https://mp.weixin.qq.com/s/NBjbZuO1E_BJWjmim8C_Vw)
+  * [JDK 17 发布，Oracle 宣布从 JDK 17 开始正式免费](https://mp.weixin.qq.com/s/O8eHiLctnMB2UfokcoPrZQ)
+  > Java 17+ 可以免费使用了，包括商用
+  > JDK 17 是自 2018 年 JDK 11 后的第二个长期支持版本，支持到 2029 年 9 月
+  > 第三个长期支持版本是 JDK 21，时间为 2023 年 9 月（LTS 改成了 2 年一次，非 LTS 还是半年一次，下一次计划在 2022/03 发布）
   
 ## 阿里巴巴
   * [【阿里巴巴-王超】消灭 Java 代码的“坏味道”](https://mp.weixin.qq.com/s?__biz=MzU4NzU0MDIzOQ==&mid=2247487714&idx=1&sn=8f9de656a4abe236b16415e6ecaa5f9d)
