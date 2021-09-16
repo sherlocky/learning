@@ -59,6 +59,8 @@
   * [Java8 Stream：2万字20个实例，玩转集合的筛选、归约、分组、聚合](https://blog.csdn.net/mu_wind/article/details/109516995)
   
 ## JDK 8 +
+  * [JDK8+ 新特性](https://halo.sherlocky.com/archives/jdk8plus)
+
   * [Java 9的模块化--壮士断"腕"的涅槃](https://zhuanlan.zhihu.com/p/24800180)
   * [Java 11 已发布，String 还能这样玩！](https://mp.weixin.qq.com/s?__biz=MzI3ODcxMzQzMw==&mid=2247487905&idx=1&sn=03887852dc635539f15fd5fc9fd5b88e&scene=21#wechat_redirect)
   * [Java 11 正式发布，这 8 个逆天新特性教你写出更牛逼的代码](https://mp.weixin.qq.com/s?__biz=MzI3ODcxMzQzMw==&mid=2247487206&idx=1&sn=a8ccb604f8508bf296dbd7b25d8fb80f&scene=21#wechat_redirect)
