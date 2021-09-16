@@ -60,6 +60,9 @@
   
 ## JDK 8 +
   * [Java 9的模块化--壮士断"腕"的涅槃](https://zhuanlan.zhihu.com/p/24800180)
+  * [Java 11 已发布，String 还能这样玩！](https://mp.weixin.qq.com/s?__biz=MzI3ODcxMzQzMw==&mid=2247487905&idx=1&sn=03887852dc635539f15fd5fc9fd5b88e&scene=21#wechat_redirect)
+  * [Java 11 正式发布，这 8 个逆天新特性教你写出更牛逼的代码](https://mp.weixin.qq.com/s?__biz=MzI3ODcxMzQzMw==&mid=2247487206&idx=1&sn=a8ccb604f8508bf296dbd7b25d8fb80f&scene=21#wechat_redirect)
+  * [Java 12 骚操作， String居然还能这样玩！](https://mp.weixin.qq.com/s?__biz=MzI3ODcxMzQzMw==&mid=2247490433&idx=2&sn=0b35f6166c7a073eb3e8f05d58ca38db&scene=21#wechat_redirect)
   * [Java 14 之模式匹配，非常赞的一个新特性！](https://mp.weixin.qq.com/s?__biz=MzI3ODcxMzQzMw==&mid=2247493274&idx=1&sn=9aa8abcd70ce58d7ee6c0a44d73c8cf1&scene=21#wechat_redirect)
   * [JDK 16 正式发布，一次性发布 17 个新特性](https://mp.weixin.qq.com/s/NBjbZuO1E_BJWjmim8C_Vw)
   * [JDK 17 发布，Oracle 宣布从 JDK 17 开始正式免费](https://mp.weixin.qq.com/s/O8eHiLctnMB2UfokcoPrZQ)
