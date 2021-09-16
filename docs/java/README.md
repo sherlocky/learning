@@ -199,6 +199,13 @@
     > 还有来自 JDK12 的 Shenandoah 
     > ![yongGC](https://ghost.oss.sherlocky.com/halo/yongGC_1631787695766.png-halo)
     > ![oldGC](https://ghost.oss.sherlocky.com/halo/oldGC_1631787690143.png-halo)
+  * [Shenandoah GC：一个来自JDK12的全新并发压缩垃圾回收器_Java_老男孩的技术博客_51CTO博客_shenandoah](https://blog.51cto.com/u_14230003/2435438)
+    > Shenandoah 是一个对那些更看重响应性和可预测短暂停顿的应用来说，更合适的GC算法。它的目标不是要解决所有JVM的停顿问题。
+    > Shenandoah 就是这样一个OpenJDK为更近这个目标而设计的开源、低停顿时间的垃圾回收器。
+    > Zing/Azul是一个没有停顿的垃圾收集器，但是不会贡献给OpenJDK。
+    > 基于colored pointers设计的ZGC也是一个拥有很低停顿时间的垃圾收集器，Shenandoah期望能与之一战。
+    > G1很多工作都是并行或者并发的，但是evacuation阶段不能并发执行。
+    > CMS能并发标记，但是它执行年轻代拷贝时，需要STW，并且不会压缩老年代，这就会导致花费更多时间来管理老年代中的可用空间以及碎片问题。
   
 ## 锁
   * [面试官问：说说你对 Java 中锁以及 sychronized 实现机制的理解](https://blog.yoodb.com/yoodb/article/detail/1600)
