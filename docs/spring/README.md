@@ -22,6 +22,14 @@
 
 ## Spring AOP
   * [6种 @Transactional 注解失效场景](https://mp.weixin.qq.com/s?__biz=MzAxNTM4NzAyNg==&mid=2247483977&idx=1&sn=7d8d3c89bfe2261f6422572dca405990)
+  *  @Transactional 失效总结
+    > - @Transactional 加于private方法, 无效
+    > - @Transactional 加于未加入接口的public方法, 再通过普通接口方法调用, 无效
+    > - @Transactional 加于接口方法, 无论下面调用的是private或public方法, 都【有效】
+    > - @Transactional 加于接口方法后, 被本类普通接口方法直接调用, 无效
+    > - @Transactional 加于接口方法后, 被本类普通接口方法通过接口调用, 【有效】
+    > - @Transactional 加于接口方法后, 被它类的接口方法调用, 【有效】
+    > - @Transactional 加于接口方法后, 被它类的私有方法调用后, 【有效】
   * [Spring AOP 不生效的坑](https://mp.weixin.qq.com/s/Q0Q3ropapmMRE_mQE68b8Q)
   * [spring中expose-proxy的作用与原理](https://www.cnblogs.com/mzcx/p/11430846.html)
 
