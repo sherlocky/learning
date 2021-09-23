@@ -373,6 +373,7 @@
 - [Java 8 CompletableFuture 教程](https://segmentfault.com/a/1190000014479792)
 - [ForkJoinPool](https://www.jianshu.com/p/a152c0a0d2d0)
 - [parallelStream与ForkJoinPool的二三事](https://www.vergessen.top/article/v/22552932698734266)
+- [Stream的collect方法是怎么保证线程安全的](https://lijf.me/2019/12/04/how-stream-makes-colloct-thread-safe/)
   
 ## 动态代理
   * [java中动态代理实现机制](https://yq.aliyun.com/articles/35985)
