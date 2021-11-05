@@ -193,6 +193,7 @@
   * [既然JVM有Full GC，为什么还会出现OutOfMemoryError?](https://mp.weixin.qq.com/s?__biz=MzIwMzY1OTU1NQ==&mid=2247487133&idx=2&sn=f0eaffdbec9852d5cf2bd19d12703b29)   
   * [Java中9种常见的CMS GC问题分析与解决](https://tech.meituan.com/2020/11/12/java-9-cms-gc.html)
   * [java8添加并查看GC日志(ParNew+CMS)](https://segmentfault.com/a/1190000021453229)
+  * [一次YoungGC过慢排查](https://www.jianshu.com/p/4afabaa2b390)
   * [jvm：垃圾回收器GC搭配推荐及其常用调优参数](https://blog.csdn.net/qq_42709262/article/details/85092208)
     > G1 即支持新生代又支持老年代，目标是取代 CMS（CMS默认搭配的新生代收集器是ParNew）
     > 还有来自 JDK11 的 ZGC
