@@ -80,6 +80,9 @@
 * [Dockerfile RUN，CMD，ENTRYPOINT命令区别](https://www.jianshu.com/p/f0a0f6a43907)
   > ENTRYPOINT 是配置容器启动时的执行命令，不会被忽略，一定会被执行。
 
+### 常见问题
+* [openjdk-alpine镜像下 awt 报 NPE 问题](https://www.freesion.com/article/3610667141/)
+
 ## Rancher
 * [Rancher部署](https://www.kancloud.cn/owenwangwen/open-capacity-platform/1048305)
 
