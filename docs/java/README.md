@@ -47,7 +47,7 @@
 
 ## JDK 7
  * [深入理解 Java try-with-resource 语法糖](https://juejin.im/entry/57f73e81bf22ec00647dacd0)
- 
+
 ## JDK 8
   * [Java8 Lambda表达式详解手册及实例](https://mp.weixin.qq.com/s?__biz=Mzg3NjIxMjA1Ng==&mid=2247484017&idx=2&sn=ad82d72b9efa2e800d01137749a5de16)
   * [Lambda VS 内部类](https://github.com/CarpenterLee/JavaLambdaInternals/blob/master/2-Lambda%20and%20Anonymous%20Classes(II).md)
@@ -72,13 +72,14 @@
     > Java 17+ 可以免费使用了，包括商用
     > JDK 17 是自 2018 年 JDK 11 后的第二个长期支持版本，支持到 2029 年 9 月
     > 第三个长期支持版本是 JDK 21，时间为 2023 年 9 月（LTS 改成了 2 年一次，非 LTS 还是半年一次，下一次计划在 2022/03 发布）
+  * [4.6 W 字总结！Java 11—Java 17特性详解](https://mp.weixin.qq.com/s/cIezaR_cqDi9WxxQNCCrBw)
   * 下载地址
-    > https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.zip
-    > https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz
-    > OpenJDK 17 发布地址：
-    > http://openjdk.java.net/projects/jdk/17/
-    > OpenJDK 17 下载地址：
-    > https://jdk.java.net/17/
+    > https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.zip  
+    > https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz  
+    > OpenJDK 17 发布地址：  
+    > http://openjdk.java.net/projects/jdk/17/  
+    > OpenJDK 17 下载地址：  
+    > https://jdk.java.net/17/  
   
 ## 阿里巴巴
   * [【阿里巴巴-王超】消灭 Java 代码的“坏味道”](https://mp.weixin.qq.com/s?__biz=MzU4NzU0MDIzOQ==&mid=2247487714&idx=1&sn=8f9de656a4abe236b16415e6ecaa5f9d)
