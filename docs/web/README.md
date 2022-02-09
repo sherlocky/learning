@@ -74,6 +74,9 @@ https://www.ietf.org/rfc/rfc1034.txt
 
 * [CentOS7 Certbot 自动更新 Let's Encrypt SSL 证书(Nginx,https)](https://halo.sherlocky.com/archives/centos7-certbot-nginx-ssl)
 
+### CORS
+  * [后端工程师的「跨域」之旅](https://mp.weixin.qq.com/s/dgwyeTyE7tmLzC_iyNh7Hw)
+  
 ### SNI
  * [java使用httpclient调用多虚拟主机https接口报错问题](https://stackoverflow.com/questions/39762760/javax-net-ssl-sslexception-certificate-doesnt-match-any-of-the-subject-alterna)
  > javax.net.ssl.SSLException: Certificate doesn't match any of the subject alternative names
