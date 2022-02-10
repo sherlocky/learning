@@ -49,7 +49,7 @@
  * [深入理解 Java try-with-resource 语法糖](https://juejin.im/entry/57f73e81bf22ec00647dacd0)
 
 ## JDK 8
-  * [Java8 Lambda表达式详解手册及实例](https://mp.weixin.qq.com/s?__biz=Mzg3NjIxMjA1Ng==&mid=2247484017&idx=2&sn=ad82d72b9efa2e800d01137749a5de16)
+  * [Java8 Lambda表达式详解手册及实例](https://mp.weixin.qq.com/s?__biz=MzkwNzI0MzQ2NQ==&mid=2247488946&idx=2&sn=5f92781283af622397984fab54ffd5fd)
   * [Lambda VS 内部类](https://github.com/CarpenterLee/JavaLambdaInternals/blob/master/2-Lambda%20and%20Anonymous%20Classes(II).md)
   * [使用Stream API优化代码](https://juejin.im/post/5d8226d4e51d453c135c5b9a)
   * [Java8 中用法优雅的 Stream，性能也"优雅"吗？](https://mp.weixin.qq.com/s?__biz=MzU0MzQ5MDA0Mw==&mid=2247486142&idx=2&sn=2d9aa6b43a0314d35377a125ac2f13d7)
@@ -57,6 +57,7 @@
   * [别用 Date 了，来试试 LocalDate、LocalTime、LocalDateTime](https://mp.weixin.qq.com/s?__biz=MzU1NTkwODE4Mw==&mid=2247484960&idx=2&sn=b8142c4ffd9fde8e38702890708047ca)
   
   * [Java8 Stream：2万字20个实例，玩转集合的筛选、归约、分组、聚合](https://blog.csdn.net/mu_wind/article/details/109516995)
+  * [Java 8 compute ，让 Map 操作更轻松](https://zhuanlan.zhihu.com/p/357230000)
   
 ## JDK 8 +
   * [JDK8+ 新特性](https://halo.sherlocky.com/archives/jdk8plus)
