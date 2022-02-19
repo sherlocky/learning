@@ -76,6 +76,11 @@ https://www.ietf.org/rfc/rfc1034.txt
 
 ### CORS
   * [后端工程师的「跨域」之旅](https://mp.weixin.qq.com/s/dgwyeTyE7tmLzC_iyNh7Hw)
+
+#### Private Network Access
+  * [cors-rfc1918](https://wicg.github.io/private-network-access/)
+  * [2021新规范-私有网络请求（Private Network Access）](https://juejin.cn/post/7026130384001859615)
+  * [chrome 更新跨域规则，将对网站造成影响](https://juejin.cn/post/7025485128436547615)
   
 ### SNI
  * [java使用httpclient调用多虚拟主机https接口报错问题](https://stackoverflow.com/questions/39762760/javax-net-ssl-sslexception-certificate-doesnt-match-any-of-the-subject-alterna)
