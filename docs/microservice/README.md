@@ -79,6 +79,7 @@
 * [Docker — 从入门到实践](https://vuepress.mirror.docker-practice.com/)
 * [Dockerfile RUN，CMD，ENTRYPOINT命令区别](https://www.jianshu.com/p/f0a0f6a43907)
   > ENTRYPOINT 是配置容器启动时的执行命令，不会被忽略，一定会被执行。
+* [Docker 时区调整方案](https://cloud.tencent.com/developer/article/1626811)
 
 ### 常见问题
 * [openjdk-alpine镜像下 awt 报 NPE 问题](https://www.freesion.com/article/3610667141/)
