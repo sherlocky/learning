@@ -101,7 +101,17 @@
 ## 重写和重载
   * [细说 Java Overload 与 Override 差别](https://mp.weixin.qq.com/s?__biz=MjM5NzMyMjAwMA==&mid=2651484817&idx=1&sn=8807daa4aa95d8c044c73c9e860988e6)
   * [英文原文](https://software.rajivprab.com/2019/08/14/nuances-of-overloading-and-overriding-in-java/)
-  
+
+## 接口的默认方法
+  > Java 8 新增了接口的默认方法
+  * ``super``和``this``在子接口中的使用
+    > 由于接口不是类，super和this的使用和类将会产生较大的区别。  
+    > 首先我们无法在子接口中使用super，只能使用this。（接口名.super和接口名.this仍旧等价于super和this）  
+    > 而对于父接口，我们无法通过super来调用的情况下，我们必须通过**父接口名.super**的方式来调用某个父接口。  
+    > 也就是说父接口名.super指向的不是父接口的父接口，而是其本身。  
+    > 这是因为一个接口可以继承多个接口，我们无法直接使用super来指代某一个父接口，所以编译器阻止了super这样的用法，即便只继承了一个父接口，
+    > 改而使用父接口名.super这样显式的指出哪一个父接口。
+
 ## 序列化
   * [【原创】（译）Java 序列化魔法方法及使用示例](https://juejin.im/post/5d7206c5f265da03ab427181)
   * [FastJson稍微使用不当就会导致StackOverflow](https://mp.weixin.qq.com/s?__biz=MzI3NzE0NjcwMg==&mid=2650125098&idx=1&sn=2390567e228e1257af3d4b6090c7065d)
