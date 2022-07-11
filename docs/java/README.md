@@ -175,6 +175,7 @@
   >2.get操作全程不需要加锁是因为Node的成员val是用volatile修饰的和数组用volatile修饰没有关系。
   >3.数组用volatile修饰主要是保证在数组扩容的时候保证可见性。
   * [并发容器 - 基于SkipList的Map和Set](https://juejin.im/post/58caa1a8ac502e005889d36b)
+  * [Java 18 种队列图解，还有比这更好的安排吗？](https://mp.weixin.qq.com/s/__M-DmA4mf4_GLd0ekReIA)
 
 ## JMM
   * [Java对象都是在堆上分配空间吗？答案竟然是...](https://mp.weixin.qq.com/s?__biz=MzU1NTkwODE4Mw==&mid=2247485006&idx=1&sn=85d6fa16c224fe93cf167f4d44d432ee)
