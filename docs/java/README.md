@@ -292,6 +292,16 @@
   * [Java并发之AQS详解](https://www.cnblogs.com/waterystone/p/4920797.html)
   * [AQS - AbstractQueuedSynchronizer超详细原理解析](https://mp.weixin.qq.com/s?__biz=Mzg2NjE5NDQyOA==&mid=2247483778&idx=1&sn=1217b9ee2ac616678693db2c18db7bf6)
   * [画了35张图就是为了让你深入 AQS](https://mp.weixin.qq.com/s/Ix7eus2R7QcvvWAfFyeAdQ)
+  * [AQS 原理以及 AQS 同步组件总结](https://javaguide.cn/java/concurrent/aqs.html#aqs-%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D)
+    > - 底层使用了模板方法模式，可参考：[用Java8改造后的模板方法模式真的是yyds!](https://mp.weixin.qq.com/s/zpScSCktFpnSWHWIQem2jg)
+    > - ReentrantReadWriteLock：读写锁，可以保证多个线程可以同时读，所以在读操作远大于写操作的时候，读写锁就非常有用了。
+    > - ReentrantLock
+    > - Semaphore
+    > - CountDownLatch 倒计时器：两种典型用法
+    >   - 1、某一线程在开始运行前等待 n 个线程执行完毕。
+    >   - 2、实现多个线程开始执行任务的最大并行性。
+    > - CyclicBarrier(循环栅栏)：CountDownLatch 的实现是基于 AQS 的，而 CycliBarrier 是基于 ReentrantLock(ReentrantLock 也属于 AQS 同步器)和 Condition 的。
+  * [从ReentrantLock的实现看AQS的原理及应用](https://javaguide.cn/java/concurrent/reentrantlock.html#aqs-%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D)
   
 ## 线程池  
   * [线程池没你想的那么简单](https://juejin.im/post/5ce1f3b6f265da1ba2522f62)
