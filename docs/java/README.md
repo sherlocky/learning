@@ -295,6 +295,10 @@
   * [AQS 原理以及 AQS 同步组件总结](https://javaguide.cn/java/concurrent/aqs.html#aqs-%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D)
     > - 底层使用了模板方法模式，可参考：[用Java8改造后的模板方法模式真的是yyds!](https://mp.weixin.qq.com/s/zpScSCktFpnSWHWIQem2jg)
     > - ReentrantReadWriteLock：读写锁，可以保证多个线程可以同时读，所以在读操作远大于写操作的时候，读写锁就非常有用了。
+    >   - 内部维护两个锁, 一个是写锁, 另外一个是读锁. 通过将读写锁分离, 在读多写少的情况下, 更够提高程序的并发程度。
+    >   - ReentrantReadWriteLock的伸缩性要好于ReentrantLock. 在读多写少的情况下, 应该使用ReentrantReadWriteLock更为合适.
+    >   - ReentrantReadWriteLock只支持锁降级, 不支持锁升级. 因为锁升级有可能会出现条件竞争. 
+    >   - 由于读锁是可以被多个线程持有的, 如果进行锁升级的话, 当写线程改变共享变量的状态时, 其他读线程有可能感知不到.
     > - ReentrantLock
     > - Semaphore
     > - CountDownLatch 倒计时器：两种典型用法
