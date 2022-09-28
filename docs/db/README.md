@@ -194,5 +194,15 @@
   > ``segment os cache flush``
   > ``translog os cache flush``
 
+* [基于SpringDataElasticsearch+SpEL表达式实现ES动态索引](https://xeblog.cn/articles/83)
+  > 常规写法
+  ```java
+  @Document(indexName = "xxx-" + "#{ T(xxx.XXXModel).dateStr() }", createIndex = false)
+  
+  public static String dateStr() {
+      return DateUtil.format(new DateTime(), DatePattern.PURE_DATE_FORMAT);
+  }
+  ```
+
 ## NoSQL
 * [LSM树详解](https://zhuanlan.zhihu.com/p/181498475)
