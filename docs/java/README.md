@@ -226,7 +226,8 @@
   * [Java性能之synchronized锁的优化](https://www.bbsmax.com/A/l1dyZB69ze/)
   * [Synchronized 关键字使用、底层原理、JDK1.6 之后的底层优化](https://zhuanlan.zhihu.com/p/47692708)  
   * [看了``Synchronized``源码，请别和我说它慢](https://mp.weixin.qq.com/s/P2Q1SSdT9dFZSAqhjfdQ-A)
-  
+  * [synchronized锁字符串问题 + String.intern()解决 + google的Interners解决 java单机锁](https://blog.csdn.net/qq_35493807/article/details/106024468)
+  * [使用 Google Guava Striped 实现基于 Key 的并发锁](https://yanbin.blog/google-guava-striped-key-based-fine-grain-locks/)
   * [Java 8的StampedLock](https://www.jdon.com/idea/java/java-8-stampedlock.html)
     > StampedLock要比ReentrantReadWriteLock更加廉价，也就是消耗比较小
   
