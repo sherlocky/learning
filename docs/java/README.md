@@ -74,6 +74,7 @@
     > JDK 17 是自 2018 年 JDK 11 后的第二个长期支持版本，支持到 2029 年 9 月
     > 第三个长期支持版本是 JDK 21，时间为 2023 年 9 月（LTS 改成了 2 年一次，非 LTS 还是半年一次，下一次计划在 2022/03 发布）
   * [4.6 W 字总结！Java 11—Java 17特性详解](https://mp.weixin.qq.com/s/cIezaR_cqDi9WxxQNCCrBw)
+  * [Java 17 升级指南（持续更新）](https://juejin.cn/post/7117531586232320031)
   * 下载地址
     > https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.zip  
     > https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz  
@@ -207,6 +208,9 @@
   * [Java中9种常见的CMS GC问题分析与解决](https://tech.meituan.com/2020/11/12/java-9-cms-gc.html)
   * [java8添加并查看GC日志(ParNew+CMS)](https://segmentfault.com/a/1190000021453229)
   * [一次YoungGC过慢排查](https://www.jianshu.com/p/4afabaa2b390)
+  * --
+  * [46张PPT弄懂JVM、GC算法和性能调优！](https://mp.weixin.qq.com/s/NlrZHEQ7ujb0lYCc0opIrA)
+    > [下载ppt戳我](https://ghost.oss.sherlocky.com/halo/JVM%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E4%B8%8EGC%E8%B0%83%E4%BC%98.pptx-halo)
   * [jvm：垃圾回收器GC搭配推荐及其常用调优参数](https://blog.csdn.net/qq_42709262/article/details/85092208)
     > G1 即支持新生代又支持老年代，目标是取代 CMS（CMS默认搭配的新生代收集器是ParNew）
     > 还有来自 JDK11 的 ZGC
