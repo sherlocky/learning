@@ -217,6 +217,7 @@
     > 还有来自 JDK12 的 Shenandoah 
     > ![yongGC](https://ghost.oss.sherlocky.com/halo/yongGC_1631787695766.png-halo)
     > ![oldGC](https://ghost.oss.sherlocky.com/halo/oldGC_1631787690143.png-halo)
+  * [G1垃圾回收Region数量变化很大，并且周期性变化](https://heapdump.cn/question/249193)
   * [Shenandoah GC：一个来自JDK12的全新并发压缩垃圾回收器_Java_老男孩的技术博客_51CTO博客_shenandoah](https://blog.51cto.com/u_14230003/2435438)
     > Shenandoah 是一个对那些更看重响应性和可预测短暂停顿的应用来说，更合适的GC算法。它的目标不是要解决所有JVM的停顿问题。
     > Shenandoah 就是这样一个OpenJDK为更近这个目标而设计的开源、低停顿时间的垃圾回收器。
