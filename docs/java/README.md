@@ -218,6 +218,9 @@
     > ![yongGC](https://ghost.oss.sherlocky.com/halo/yongGC_1631787695766.png-halo)
     > ![oldGC](https://ghost.oss.sherlocky.com/halo/oldGC_1631787690143.png-halo)
   * [G1垃圾回收Region数量变化很大，并且周期性变化](https://heapdump.cn/question/249193)
+    > CMS 正式退出历史舞台，G1 正式接棒，ZGC 蓄势待发。
+    > 在GC 算法的选择上，目前来看 G1 还是最佳的选择，ZGC 因为有内存占用被 OS 标记过高（三倍共享内存）虚高的问题，进程可能被 OOM-killer 杀掉。
+    > G1不要设置新生代和老年代的大小，有新生代自适应策略，会自适应调整新生代的大小。
   * [Shenandoah GC：一个来自JDK12的全新并发压缩垃圾回收器_Java_老男孩的技术博客_51CTO博客_shenandoah](https://blog.51cto.com/u_14230003/2435438)
     > Shenandoah 是一个对那些更看重响应性和可预测短暂停顿的应用来说，更合适的GC算法。它的目标不是要解决所有JVM的停顿问题。
     > Shenandoah 就是这样一个OpenJDK为更近这个目标而设计的开源、低停顿时间的垃圾回收器。
