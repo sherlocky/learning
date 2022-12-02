@@ -40,4 +40,5 @@ pause
 ## 在线自动拼图
 - 常见资源大图获取方法(https://new.shuge.org/download_zoomable_images/)
  > 例如可获取故宫博物院数字藏品高清图片
+ > [九成宫醴泉铭-宋拓本](https://www.dpm.org.cn/collection/impres/234127.html)
 - [使用开源项目：dezoomify](https://ok.daoing.com/he/dezoomify.html)
