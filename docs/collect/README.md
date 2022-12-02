@@ -36,3 +36,8 @@ pause
 
 ## 颜值即正义
 * [那些管UI小姐姐要来的网站](https://juejin.im/post/5e7cdee26fb9a03c6e640cc7)
+
+## 在线自动拼图
+- 常见资源大图获取方法(https://new.shuge.org/download_zoomable_images/)
+ > 例如可获取故宫博物院数字藏品高清图片
+- [使用开源项目：dezoomify](https://ok.daoing.com/he/dezoomify.html)
