@@ -149,6 +149,8 @@
 > 查看死锁：```show engine innodb status;```
 
  * [Mysql死锁如何排查：insert on duplicate死锁一次排查分析过程](https://juejin.im/post/5d483e66518825052734b15a)
+ * [解决死锁之路（终结篇）- 再见死锁](https://juejin.cn/post/6844903923459817479)
+   > [mysql-deadlocks开源项目](https://github.com/aneasystone/mysql-deadlocks)
 
 ## 树形结构
   * [左右值编码存储无限分级树形结构设计](https://www.jianshu.com/p/17a8bc823e63) 
