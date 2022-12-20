@@ -276,6 +276,9 @@
     > - 3.全链路追踪中的 traceId 或者流程引擎中上下文的传递一般采用 ThreadLocal
     > - 4.Spring 事务管理器采用了 ThreadLocal
     > - 5.Spring MVC 的 RequestContextHolder 的实现使用了 ThreadLocal
+
+  * [ThreadLocal/Redis Hash 实现可重入分布式锁](https://zhuanlan.zhihu.com/p/148342738)
+    > ``private static ThreadLocal<Map<String, Integer>> LOCKS = ThreadLocal.withInitial(HashMap::new);``
     
   * [Callable、Future、FutureTask](https://mp.weixin.qq.com/s/qoZ9zGzROIDvD8Idyvm3XQ)
     > 线程可能的状态转换：
