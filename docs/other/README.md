@@ -56,3 +56,7 @@
 
 ## 视频转码
 - [HLS、m3u8、ts]https://juejin.cn/post/6954761121727250439)
+
+## WiFi
+- [WiFi6E](https://info.support.huawei.com/info-finder/encyclopedia/zh/WiFi+6E.html)
+  > ![](https://ghost.oss.sherlocky.com/halo/wifi6e.png)
