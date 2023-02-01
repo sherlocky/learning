@@ -157,9 +157,10 @@
   * [HashMap中的resize以及死链的情况](https://www.cnblogs.com/wang-meng/p/7582532.html)
    > 头插法(1.7) VS 尾插法(1.8+)
   * [HashMap defaultLoadFactor = 0.75和泊松分布没有关系](https://blog.csdn.net/reliveIT/article/details/82960063)
-  > 一家之言，未看明白。。  
-  > load factory=0.75的真正原因，在java7、8等中均有注释（这段注释在public class HashMap类定义之前）  
-  > 负载因子太小了浪费空间并且会发生更多次数的``resize``，太大了哈希冲突增加会导致性能不好，所以0.75只是一个折中的选择，和泊松分布没有什么关系。
+    > 一家之言，未看明白。。  
+    > load factory=0.75的真正原因，在java7、8等中均有注释（这段注释在public class HashMap类定义之前）  
+    > 负载因子太小了浪费空间并且会发生更多次数的``resize``，太大了哈希冲突增加会导致性能不好，所以0.75只是一个折中的选择，和泊松分布没有什么关系。
+  * [HashMap原理详解，看不懂算我输（附面试题）](https://zhuanlan.zhihu.com/p/127147909)
   * [史上最清晰的红黑树讲解](https://github.com/CarpenterLee/JCFInternals/blob/master/markdown/5-TreeSet%20and%20TreeMap.md)
   * [我画了近百张图来理解红黑树](https://juejin.im/post/5df4aaefe51d45581269a6d2)
   > 左旋、右旋的动画图演示很清晰、易懂
