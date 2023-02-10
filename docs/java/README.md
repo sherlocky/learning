@@ -440,3 +440,6 @@
   - fastthread：看见线程
     > [Java Thread Dump Analyzer](https://fastthread.io/)
   - JProfile：看见运行时的各种状态
+
+## Docker虚拟化
+* [性能优化 - Docker 容器中的 Java 内存使用分析](https://cloud.tencent.com/developer/article/1887538)
