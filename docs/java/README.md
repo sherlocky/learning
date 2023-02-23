@@ -25,6 +25,10 @@
 > 鉴于JDK偶数版和奇数版的区别(可参考：[JDK 版本号区别](//halo.sherlocky.com/archives/java#jdk-%E7%89%88%E6%9C%AC%E5%8F%B7%E5%8C%BA%E5%88%AB))，如果使用O记JDK8，应该选择8u251
 * [新时代JDK版本的选择](https://mp.weixin.qq.com/s?__biz=MzIzODYyNjkzNw==&mid=2247484056&idx=1&sn=a81a69f123d519014d03ec22c3c3cca4)
 * [AdoptOpenJDK下载](https://adoptopenjdk.net/) 
+* [IBM eclipse openj9](https://github.com/eclipse-openj9/openj9)
+  > 基于OpenJDK进行改造，内存占用较低
+  > jvm参数有一些区别，比如：没有参数：``-XX:MetaspaceSize``
+  > dump命令为：``jcmd 8 Dump.heap /root/heap-dump.phd``  （8为进程号）
 
 
 ## J2SE
