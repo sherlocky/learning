@@ -208,3 +208,7 @@
 
 ## NoSQL
 * [LSM树详解](https://zhuanlan.zhihu.com/p/181498475)
+
+## 实时数据同步 CDC
+* CDC 的全称是``Change Data Capture``，在广义的概念上，只要是能捕获数据变更的技术，我们都可以称之为 CDC。
+* [Flink CDC 2.0 正式发布，详解核心改进](https://developer.aliyun.com/article/786600)
