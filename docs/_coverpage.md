@@ -8,5 +8,6 @@
 * 不断完善中。。
 
 [GitHub](//github.com/sherlocky/learning/)
+[gitee](https://gitee.com/sherlocky/learning)
 [博客](//halo.sherlocky.com/)
 [戳我开始~](/interview/)
