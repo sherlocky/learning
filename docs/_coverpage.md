@@ -7,6 +7,6 @@
 * 后端资料为主
 * 不断完善中。。
 
-[GitHub](//github.com/y836097668/learning/)
+[GitHub](//github.com/sherlocky/learning/)
 [博客](//halo.sherlocky.com/)
 [戳我开始~](/interview/)
