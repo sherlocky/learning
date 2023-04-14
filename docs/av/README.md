@@ -14,7 +14,7 @@
   > 时间轴、字幕、波形。。
 
 ### srt
-格式示例（[示例下载](_media/demo.srt)）：
+格式示例（[示例下载](/_media/demo.srt ':ignore :target=_blank')）：
 ```bash
 1
 00:00:00,306 --> 00:00:00,844
@@ -33,7 +33,7 @@
 ```
 
 ### ass(AdvancedSubStationAlpha)/ssa(SubStationAlpha)
-格式示例（[示例下载](_media/demo.ass)）：
+格式示例（[示例下载](/_media/demo.ass ':ignore :target=_blank')）：
 ```
 [Script Info]
 ; // 此字幕由爱幕生成
@@ -58,7 +58,7 @@ Dialogue: 0,0:00:05.12,0:00:06.30,Default,NTP,0000,0000,0000,,像梦中的景色
 * 神器 Subtitle Edit
 
 ### H5 字幕``.vvt``
-格式示例[示例下载](_media/demo.vtt)
+格式示例[示例下载](/_media/demo.vtt ':ignore :target=_blank')
 ```bash
 WEBVTT
 
