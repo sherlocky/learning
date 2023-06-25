@@ -27,6 +27,24 @@ pause
 * win10 开启开启卓越性能电源方案（需要PowerShell管理员）
 > ``powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61``
 
+### Windows 下播放器
+> 主要参考：https://www.v2ex.com/t/951012#reply176
+- [potplayer](https://potplayer.daum.net/) UI完整，使用简洁，功能全面
+  > 黑历史：使用了ffmpeg开源代码，然而不遵循开源协议
+  > 新版有广告，并且会上报播放记录等隐私
+
+  - [禁止 PotPlayer 广告、发送数据(WINDOWS 11)](https://go123.live/blocking-connection-from-potplayer-in-windows-firewall/)
+  - [PotPlayer + LAV Filters + XySubFilter + MadVR配置指南](https://blog.csdn.net/sigmarising/article/details/105700625)
+  - [K-Lite Codec Pack](https://codecguide.com/download_k-lite_codec_pack_mega.htm)
+- [mpv](https://mpv.io/installation/) 功能强大，可繁可简，高度可配置文件(还有mac版) 
+  > [mpv + uosc极简UI](https://github.com/tomasklaen/uosc)
+- [mpc-hc](https://github.com/clsid2/mpc-hc) 开源，其他作者基于停更后的mpc继续维护的 
+- [mpc-be](https://github.com/Aleksoid1978/MPC-BE) mpc原作者之一出走后维护的项目
+
+## macOS
+* [Awesome Mac](https://wangchujiang.com/awesome-mac/index.zh.html)
+* [从 Windows 到 macOS - Sherlock - 个人博客](https://halo.sherlocky.com/archives/macos)
+
 ## Office
 * [PDF转PowerPoint](https://www.pdfpai.com/pdf-to-powerpoint)
 
