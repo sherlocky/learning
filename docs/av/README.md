@@ -81,6 +81,7 @@ WEBVTT
 * HTML5 Video视频支持外挂字幕，文件后缀名是``.vtt``，称为 WebVTT (Web Video Text Tracks) 格式，专门的web字幕格式。
   > 使用很简单，用一个``<track>``元素即可，官方文档：https://w3c.github.io/webvtt/
   > CSS中有专门的伪元素``::cue``可以控制字幕的样式
+* [Web API 接口参考 - Web 视频文本轨格式（WebVTT）](https://developer.mozilla.org/zh-CN/docs/Web/API/WebVTT_API#webvtt_cue)
 * ``.vtt``文件的MIME type是``text/vtt``，在Chrome和safari浏览器下，是可以无障碍加载显示的。通常我们保存在电脑中的外挂字幕都不是 vtt 而是，常见的如 srt 格式。
 * [WebVTT字幕格式](https://www.cnblogs.com/tocy/p/subtitle-format-webvtt.html)
 * [SubRip to WebVTT converter](https://atelier.u-sub.net/srt2vtt/)
