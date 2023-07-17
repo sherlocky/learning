@@ -87,6 +87,9 @@
   * [mysql的断电恢复能力](https://www.jianshu.com/p/a32762bb11be)
 
   * [MySQL不会丢失数据的秘密，就藏在它的 7种日志里](https://mp.weixin.qq.com/s/-v6CHvvAwtuznG-bzZKQ0w)
+
+### MVVC
+  * [相见恨晚，MVCC 这么理解，早就通关了](https://mp.weixin.qq.com/s?__biz=MzkwNzI0MzQ2NQ==&mid=2247490423&idx=1&sn=d14308144d96cfca19aaa9582ff0435e&chksm=c0dd61d1f7aae8c721a9096b3cc6a8ff9a3a223dbc3607af236531078c2d22e7b2133a227c7f&scene=21#wechat_redirect)
  
 ## 分库分表
   * [数据库分库分表](http://www.cnblogs.com/405845829qq/p/7552736.html)
