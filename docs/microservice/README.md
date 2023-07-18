@@ -75,6 +75,9 @@
 ## 分布式存储
 * [分布式 MinIO（开源对象存储服务）](https://docs.min.io/cn/distributed-minio-quickstart-guide.html)
 
+## 日志收集
+* [轻量级日志收集方案 Loki+Promtail+Grafana（简称LPG）](https://juejin.cn/post/7008424451704356872)
+
 ## Docker 容器化
 * [Docker — 从入门到实践](https://vuepress.mirror.docker-practice.com/)
 * [Dockerfile RUN，CMD，ENTRYPOINT命令区别](https://www.jianshu.com/p/f0a0f6a43907)
