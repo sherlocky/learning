@@ -8,6 +8,7 @@
 * [消息队列](mq/)
 * [微服务/分布式](microservice/)
 * [Web](web/)
+* 操作系统(os/)
 * [架构](arch/)
 * [算法](algorithm/)
 * [大数据](bigdata/)
