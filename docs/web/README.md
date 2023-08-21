@@ -74,6 +74,9 @@ https://www.ietf.org/rfc/rfc1034.txt
 
 * [CentOS7 Certbot 自动更新 Let's Encrypt SSL 证书(Nginx,https)](https://halo.sherlocky.com/archives/centos7-certbot-nginx-ssl)
 
+## WebSocket
+* [WebSocket API安全风险解读](https://www.anquanke.com/post/id/289510)
+
 ### CORS
   * [后端工程师的「跨域」之旅](https://mp.weixin.qq.com/s/dgwyeTyE7tmLzC_iyNh7Hw)
 
