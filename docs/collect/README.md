@@ -1,5 +1,8 @@
 # 神器收藏
 
+## 代码截图
+* [一键生成代码截图](https://quanxin.org/code-snapshot)
+
 ## 代码比对
 * [Linux 下 9 种优秀的代码比对工具推荐](https://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=2666546845&idx=2&sn=a8a638a300311344509770c1c3a8cd75)
 
