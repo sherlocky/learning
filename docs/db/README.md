@@ -212,6 +212,36 @@
       return DateUtil.format(new DateTime(), DatePattern.PURE_DATE_FORMAT);
   }
   ```
+### ES bulk reject
+* [写入拒绝或查询拒绝问题如何解决？
+](https://cloud.tencent.com/document/product/845/56274)
+  > 解决方案
+  > 1. 设置分片大小
+  > 分片大小可以通过 index 模板下的 number_of_shards 参数进行配置（模板创建完成后，再次新创建索引时生效，老的索引不能调整）。
+  > 2. 调整分片数据不均匀
+  > 
+* [Elasticsearch分片均衡的情况下，还会出现热写造成的bulk reject？](https://cloud.tencent.com/developer/article/1882973)
+
+### ES 段合并 (segment merge)
+* [关于 Elasticsearch 段合并，这一篇说透了！](https://juejin.cn/post/6950104483049242631)
+  > 可以减少索引段的数量并提高检索速度；
+  > 可以减少索引的容量（文档数） -- 段合并会移除被标记为已删除的那些文档
+  >
+  > 在速度慢的系统中，段合并会显著影响性能。
+* [Elasticsearch 性能调优：段合并(Segment merge) ](https://www.cnblogs.com/8765h/p/14514684.html)
+
+### ``ES`` VS ``Loki``
+- [不对全文内容进行索引的Loki到底优秀在哪里，可以占据一部分日志监控领域](https://zhuanlan.zhihu.com/p/371510010)
+  > 优点：
+  > 1.低索引开销
+  >   loki和es最大的不同是 loki只对标签进行索引而不对内容索引，这样做可以大幅降低索引资源开销(es无论你查不查，巨大的索引开销必须时刻承担)
+  > 2.并发查询+使用cache
+  >   同时为了弥补没有全文索引带来的查询降速使用，Loki将把查询分解成较小的分片，可以理解为并发的grep
+  > 3.和prometheus采用相同的标签，对接alertmanager
+  >   Loki和Prometheus之间的标签一致是Loki的超级能力之一
+  > 4.使用grafana作为前端
+
+- [ELK、Loki日志方案比较](https://www.ctyun.cn/developer/article/418138645577797)
 
 ## NoSQL
 * [LSM树详解](https://zhuanlan.zhihu.com/p/181498475)
