@@ -56,6 +56,10 @@
 * 标量子查询：就是返回单一值的子查询
  > 由于返回的是单一的值，因此标量子查询的返回值可以用在 = 或者 <> 这样需要单一值的比较运算符之中。这也正是标量子查询的优势所在。
 
+## Hash Join
+* [MySQL8 的 Hash join 算法](https://zhuanlan.zhihu.com/p/94065716)
+  > ![](https://pic1.zhimg.com/v2-e0df14d3667389fb92cd78eae4b2e1f8_r.jpg)
+
 ## 索引
   * [如何理解并正确使用MySql索引](https://my.oschina.net/feinik/blog/1305784)
   * [[慢查优化]建索引时注意字段选择性 & 范围查询注意组合索引的字段顺序](https://my.oschina.net/zhengyun/blog/162985) 
