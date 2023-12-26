@@ -232,14 +232,15 @@
 
 ### ``ES`` VS ``Loki``
 - [不对全文内容进行索引的Loki到底优秀在哪里，可以占据一部分日志监控领域](https://zhuanlan.zhihu.com/p/371510010)
-  > 优点：
-  > 1.低索引开销
-  >   loki和es最大的不同是 loki只对标签进行索引而不对内容索引，这样做可以大幅降低索引资源开销(es无论你查不查，巨大的索引开销必须时刻承担)
-  > 2.并发查询+使用cache
-  >   同时为了弥补没有全文索引带来的查询降速使用，Loki将把查询分解成较小的分片，可以理解为并发的grep
-  > 3.和prometheus采用相同的标签，对接alertmanager
-  >   Loki和Prometheus之间的标签一致是Loki的超级能力之一
-  > 4.使用grafana作为前端
+  > 优点：  
+  > 
+  > 1.低索引开销  
+  >   loki和es最大的不同是 loki只对标签进行索引而不对内容索引，这样做可以大幅降低索引资源开销(es无论你查不查，巨大的索引开销必须时刻承担)  
+  > 2.并发查询+使用cache  
+  >   同时为了弥补没有全文索引带来的查询降速使用，Loki将把查询分解成较小的分片，可以理解为并发的grep  
+  > 3.和prometheus采用相同的标签，对接alertmanager  
+  >   Loki和Prometheus之间的标签一致是Loki的超级能力之一  
+  > 4.使用grafana作为前端  
 
 - [ELK、Loki日志方案比较](https://www.ctyun.cn/developer/article/418138645577797)
 
