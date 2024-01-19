@@ -9,6 +9,7 @@
 * [群晖 NAS 之 Docker Nginx 反向代理](https://halo.sherlocky.com/archives/nas-docker-nginx)
 * [群晖 NAS 下 CentOS7 虚拟机挂载主机磁盘](https://halo.sherlocky.com/archives/qun-hui-nas-xu-ni-ji-gua-zai-zhu-ji-ci-pan)
 * [群晖 NAS Docker 容器镜像加速](https://halo.sherlocky.com/archives/qun-hui-nas-docker-rong-qi-jing-xiang-jia-su)
+* [使用 Rocky Linux 打造家用 NAS 系统](https://rockylinux.cn/notes/strong-shi-yong-rocky-linux-da-zao-jia-yong-nas-xi-tong.html)
 
 ## 博客
 * [给自己博客添加 Elasticsearch 实现全文搜索](https://halo.sherlocky.com/archives/docker-es)
