@@ -102,17 +102,19 @@
 
   * [sharding JDBC --> sharding sphere](https://shardingsphere.apache.org/document/current/cn/quick-start/sharding-jdbc-quick-start/)
   * [芋道 Spring Boot 分库分表入门](http://www.iocoder.cn/Spring-Boot/sharding-datasource/)
-  > - Sharding-JDBC 采用无中心化架构，适用于 Java 开发的高性能的轻量级 OLTP 应用。
-  > - Sharding-Proxy 提供静态入口以及异构语言的支持，适用于 OLAP 应用以及对分片数据库进行管理和运维的场景。
+    > - Sharding-JDBC 采用无中心化架构，适用于 Java 开发的高性能的轻量级 OLTP 应用。
+    > - Sharding-Proxy 提供静态入口以及异构语言的支持，适用于 OLAP 应用以及对分片数据库进行管理和运维的场景。
   
-  > Sharding-JDBC ，相比 Sharding-Proxy 来说，是基于 client 模式，无需经过 proxy 一层的性能损耗，也不用考虑 proxy 的高可用，
-  > 所以对于 Java 项目来说，更加被推荐。目前，阿里、京东、美团等公司，都采用 client 模式的分库分表中间件。
-  > Sharding-JDBC 是 Client 端级别，MyCAT 是 Server 级别。
-  > - 京东：采用 client 模式的读写分离和分库分表。
-  > - 美团：采用 client 模式的读写分离和分库分表。
-  > - 陌陌：采用 client 模式的读写分离和分库分表。
+    > Sharding-JDBC ，相比 Sharding-Proxy 来说，是基于 client 模式，无需经过 proxy 一层的性能损耗，也不用考虑 proxy 的高可用，
+    > 所以对于 Java 项目来说，更加被推荐。目前，阿里、京东、美团等公司，都采用 client 模式的分库分表中间件。
+    > Sharding-JDBC 是 Client 端级别，MyCAT 是 Server 级别。
+    > - 京东：采用 client 模式的读写分离和分库分表。
+    > - 美团：采用 client 模式的读写分离和分库分表。
+    > - 陌陌：采用 client 模式的读写分离和分库分表。
   
   * [**Sharding-JDBC 源码分析**](http://www.iocoder.cn/categories/Sharding-JDBC/?self)
+  * [分而治之--浅谈分库分表及实践之路 | 京东云技术团队](https://blog.csdn.net/jdcdev_/article/details/130983844)
+  * [一种轻量分表方案](https://mp.weixin.qq.com/s/ZDnQUI7yT9kK9Q5wlU0SZg)
 
 ## 读写分离
   * [芋道 Spring Boot 多数据源（读写分离）入门](http://www.iocoder.cn/Spring-Boot/dynamic-datasource/?self)
