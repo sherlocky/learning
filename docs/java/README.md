@@ -31,6 +31,14 @@
   - [阿里龙井 Alibaba Dragonwell OpenJDK](https://github.com/dragonwell-project/dragonwell8)
     > 提供 Java 8 和 Java 11 两个版本，支持 x64 和 arm 架构。  
     > [Alibaba Dragonwell 下载镜像地址](https://github.com/dragonwell-project/dragonwell8/wiki/%E4%B8%8B%E8%BD%BD%E9%95%9C%E5%83%8F(Mirrors-for-download))
+    > 
+    > 主要有两个版本：标准版(Standard Edition)和扩展版(Extended Edition)。
+    > 
+    > **标准版(Standard Edition)**：基于OpenJDK，包含了许多增强功能，包括bug修复，安全补丁，工具支持等。它完全遵循Java SE标准，主要用于一般的使用场景。
+    > 
+    > **扩展版(Extended Edition)**：在标准版的基础上增加了大量定制特性，主要面向云计算环境进行优化。这些特性已在阿里巴巴的生产环境中得到大规模验证。例如，它包括了诸多特色功能，如JWarmup等。此版本适用于需要使用这些特性，或在阿里云环境中进行Java开发的场景。
+    > 
+    > 选择哪个版本主要取决于你的具体需求，如果你需要在云环境中进行Java开发，或需要使用阿里巴巴定制的特性，那么扩展版可能更适合你。反之，如果你的需求相对普通，那么标准版可能更能满足你的要求。
 * [IBM eclipse openj9](https://github.com/eclipse-openj9/openj9)
   > 基于OpenJDK进行改造，内存占用较低
 
