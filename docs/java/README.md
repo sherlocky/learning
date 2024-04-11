@@ -26,13 +26,18 @@
   > 鉴于JDK偶数版和奇数版的区别(可参考：[JDK 版本号区别](//halo.sherlocky.com/archives/java#jdk-%E7%89%88%E6%9C%AC%E5%8F%B7%E5%8C%BA%E5%88%AB))，如果使用O记JDK8，应该选择8u251
 * [新时代JDK版本的选择](https://mp.weixin.qq.com/s?__biz=MzIzODYyNjkzNw==&mid=2247484056&idx=1&sn=a81a69f123d519014d03ec22c3c3cca4)
 * [我应该使用哪个版本的 JDK？](https://juejin.cn/post/7205162789156732986)
-* [AdoptOpenJDK下载](https://adoptopenjdk.net/) 
+* [AdoptOpenJDK下载](https://adoptopenjdk.net/)
+* 【国产化】JDK选择
+  - [阿里龙井 Alibaba Dragonwell OpenJDK](https://github.com/dragonwell-project/dragonwell8)
+    > 提供 Java 8 和 Java 11 两个版本，支持 x64 和 arm 架构。  
+    > [Alibaba Dragonwell 下载镜像地址](https://github.com/dragonwell-project/dragonwell8/wiki/%E4%B8%8B%E8%BD%BD%E9%95%9C%E5%83%8F(Mirrors-for-download))
 * [IBM eclipse openj9](https://github.com/eclipse-openj9/openj9)
   > 基于OpenJDK进行改造，内存占用较低
 
   - [ibm-semeru-runtimes](https://developer.ibm.com/languages/java/semeru-runtimes/downloads)
     >  openj9是以前ibm不要的项目，搞砸了，丢给eclipse去搞。 
     > 现在慢慢改好了，改好了之后就拿回去，自己搞了，继续做成ibm版本的java。
+    > Docker镜像地址：[ibm-semeru-runtimes](https://hub.docker.com/_/ibm-semeru-runtimes)
 
   - openk9 jvm 参数
     > jvm参数有一些区别，比如：没有参数：``-XX:MetaspaceSize``
