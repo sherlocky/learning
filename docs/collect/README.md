@@ -1,5 +1,9 @@
 # 神器收藏
 
+## 在线小工具
+- https://uutool.cn/
+- https://tools.sherlocky.com/
+
 ## 代码截图
 * [一键生成代码截图](https://quanxin.org/code-snapshot)
 
