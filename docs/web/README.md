@@ -74,6 +74,9 @@ https://www.ietf.org/rfc/rfc1034.txt
 
 * [CentOS7 Certbot 自动更新 Let's Encrypt SSL 证书(Nginx,https)](https://halo.sherlocky.com/archives/centos7-certbot-nginx-ssl)
 
+### CLOSE_WAIT
+* [浅谈CLOSE_WAIT](https://cloud.tencent.com/developer/article/1918110)
+
 ## WebSocket
 * [WebSocket API安全风险解读](https://www.anquanke.com/post/id/289510)
 
