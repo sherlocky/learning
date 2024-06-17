@@ -27,7 +27,11 @@
 * [新时代JDK版本的选择](https://mp.weixin.qq.com/s?__biz=MzIzODYyNjkzNw==&mid=2247484056&idx=1&sn=a81a69f123d519014d03ec22c3c3cca4)
 * [我应该使用哪个版本的 JDK？](https://juejin.cn/post/7205162789156732986)
 * [AdoptOpenJDK下载](https://adoptopenjdk.net/)
+  > 清华镜像地址 https://mirrors.tuna.tsinghua.edu.cn/Adoptium/8/jdk/
 * 【国产化】JDK选择
+  - 华为 毕昇JDK
+    > https://www.hikunpeng.com/developer/devkit/download/jdk
+    > 只有Linux版
   - [阿里龙井 Alibaba Dragonwell OpenJDK](https://github.com/dragonwell-project/dragonwell8)
     > 提供 Java 8 和 Java 11 两个版本，支持 x64 和 arm 架构。  
     > [Alibaba Dragonwell 下载镜像地址](https://github.com/dragonwell-project/dragonwell8/wiki/%E4%B8%8B%E8%BD%BD%E9%95%9C%E5%83%8F(Mirrors-for-download))
