@@ -12,6 +12,9 @@
 * [RBAC权限管理（基于角色的访问控制方法）](https://my.oschina.net/zjllovecode/blog/1601002)
 * [SpringBoot-RBAC用户角色权限](https://springboot.plus/guide/rbac.html)
 
+## 规则引擎
+* [规则引擎框架liteflow](https://liteflow.cc/pages/5816c5/)
+
 ## 搜索引擎
 * [倒排索引/全文搜索基本原理](https://www.cnblogs.com/gered/p/9561710.html)
 
@@ -60,3 +63,4 @@
 ## WiFi
 - [WiFi6E](https://info.support.huawei.com/info-finder/encyclopedia/zh/WiFi+6E.html)
   > ![](https://ghost.oss.sherlocky.com/halo/wifi6e.png)
+  > ![](https://ghost.oss.sherlocky.com/halo/wifi7.png)
