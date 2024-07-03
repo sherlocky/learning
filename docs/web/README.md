@@ -116,6 +116,7 @@ https://www.ietf.org/rfc/rfc1034.txt
 * [HTTP/3 QUIC协议](https://mp.weixin.qq.com/s/mHPEOho5F1pmNSWUAXQ9QA)
   > QUIC（Quick UDP Internet Connections，快速 UDP 网络连接
   > ![QUIC协议](https://ghost.oss.sherlocky.com/halo/http3_1589801866231.png)
+  > [HTTP/3 强势来袭](https://www.xiaolincoding.com/network/2_http/http3.html)
 * [在Nginx中支持HTTP3.0/QUIC](https://zhuanlan.zhihu.com/p/159100819)
 * [NGINX官方对QUIC和HTTP/3的支持的技术预览介绍](https://www.nginx.com/blog/introducing-technology-preview-nginx-support-for-quic-http-3/)
   > 支持QUIC的Nginx分支：https://hg.nginx.org/nginx-quic/shortlog/quic ，基于mainline 1.19.x 版本开的分支，目前处于Beta版质量，不应用于生产。
