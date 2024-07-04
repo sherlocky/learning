@@ -22,8 +22,32 @@
 ## 家庭影院
 
 ### 回音壁
-* 什么是音频回传(ARC)功能？
-  > 如回音壁与电视机均支持ARC功能，将回音壁与电视机连接时，ARC功能可以免去使用额外复合音频线或光纤线缆的必要。
+* [如何使用Sound Bar播放Dolby Atmos格式的音频](https://www.sony.com/zh-cn/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a5000/articles/00194917)
+  > 连接到与 HDMI 兼容的电视 （eARC)  
+  >
+  > 当Sound Bar连接到HDMI（eARC/ARC）端口时，您可以播放以下内容：
+  > 
+  > - 电视播放的Dolby Atmos格式的内容
+  > - 从播放设备（如蓝光光盘播放器）播放的Dolby Atmos格式内容  
+  >
+  > 连接方式：
+  > 
+  > - 使用 HDMI 线缆（D）连接 Sound Bar的HDMI OUT eARC/ARC 端口和电视的 HDMI IN eARC/ARC端口。
+  > - 使用 HDMI 线缆（E）连接播放设备的 HDMI 输出端口和电视或Sound Bar的HDMI IN 端口。
+  > 注意： 您可以将HDMI 线缆(E) 连接到Sound Bar的 HDMI IN 端口或者电视的 HDMI IN 端口, 但请注意不要同时连接两个端口。
+  > ![image](https://github.com/sherlocky/learning/assets/8652013/b0f9ee23-49b4-41e4-828e-0b04f07f0c99)
+  >
+  > - A: Sound Bar
+  > - B: 电视
+  > - C: 蓝光光盘播放器
+  > - D: HDMI电缆（支持以太网）
+  > - E: HDMI 电缆
+
+* [什么是音频回传(ARC)功能？](https://www.sony.com/zh-cn/electronics/support/articles/00012943?showHeaderFooter=false)
+  > eARC是由HDMI 2.1标准化的新功能，除了支持现有ARC（Audio Return Channel）所支持的音频格式，还支持最新的音频格式。
+  > 使用HDMI线缆连接系统和兼容eARC的电视机，即可欣赏无法用ARC传输的Dolby Atmos - Dolby TrueHD和DTS:X等对象音频内容，或多声道LPCM内容。  
+  > 
+  > 如回音壁与电视机均支持ARC功能，将回音壁与电视机连接时，ARC功能可以免去使用额外复合音频线或光纤线缆的必要。  
   >
   > 使用HDMI®线缆将兼容ARC的回音壁与兼容ARC的电视机连接，可以实现以下操作：
   > 
