@@ -24,11 +24,15 @@
 ### 回音壁
 * 什么是音频回传(ARC)功能？
   > 如回音壁与电视机均支持ARC功能，将回音壁与电视机连接时，ARC功能可以免去使用额外复合音频线或光纤线缆的必要。
+  >
   > 使用HDMI®线缆将兼容ARC的回音壁与兼容ARC的电视机连接，可以实现以下操作：
-  > 1、将音频从电视机发送到回音壁。
-  > 2、观看和收听来自源设备的电影和其他内容，其信号可通过回音壁在电视上播放。
   > 
-  > 使用支持ARC的HDMI 线连接电视机与音频设备的HDMI ARC端口。NOTE: 没有贴符高速度的低质量HDMI是没有ARC功能的。
+  > - 1、将音频从电视机发送到回音壁。
+  > - 2、观看和收听来自源设备的电影和其他内容，其信号可通过回音壁在电视上播放。 
+  > 
+  > 使用支持ARC的HDMI 线连接电视机与音频设备的HDMI ARC端口。
+  > 
+  > NOTE: 没有贴符高速度的低质量HDMI是没有ARC功能的。
   > 
   > ![image](https://github.com/sherlocky/learning/assets/8652013/bc6be903-abb1-4934-8ace-3cb10e6adf99)
   > 
@@ -43,9 +47,10 @@
     >
     > ![image](https://github.com/sherlocky/learning/assets/8652013/2a17638d-5ebc-47f0-b0c8-ce171e2f3048)
     > 
-    > A: Sound Bar (背部)
-    > B: HDMI  (ARC)
-    > C: HDMI 线
+    > - A: Sound Bar (背部)
+    > - B: HDMI  (ARC)
+    > - C: HDMI 线
+    > 
     > 注意: 如果电视机的HDMI接口支持ARC，则会有ARC的标识，如果连接的HDMI 没有此标识，则就不支持ARC功能。
   - 2、如果电视机的HDMI接口不支持ARC但有光纤接口
     > 2.1 有些电视机型号有HDMI接口但不支持ARC功能，可以先使用HDMI线连接电视机的HDMI接口至Sound bar的TV out ARC接口，然后再使用光纤线连接电视机的光纤接口至Sound bar的Optical in接口（为了听到电视机的声音，此为必要步骤）。
