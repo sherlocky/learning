@@ -87,6 +87,9 @@
 ### 常见问题
 * [openjdk-alpine镜像下 awt 报 NPE 问题](https://www.freesion.com/article/3610667141/)
 
+### K8S
+* [k8s网络延迟排查与优化实战分享](https://mp.weixin.qq.com/s/0sX3w0cMnXUWld_SVQ0LcA)
+
 ## Rancher
 * [Rancher部署](https://www.kancloud.cn/owenwangwen/open-capacity-platform/1048305)
 
