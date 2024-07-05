@@ -2,6 +2,20 @@
 ## 图解网络
 * [图解网络](https://www.xiaolincoding.com/network/)
 
+## 五元组
+五元组是一个通信术语，英文名称为five-tuple,或5-tuple，通常指由**源Ip (source IP), 源端口(source port),目标Ip (destination IP), 目标端口(destination port),4层通信协议 (the layer 4 protocol)**等5个字段来表示一个会话。
+
+**五元组规则包含：源IP地址、源端口、目的IP地址、目的端口、传输层协议。**
+
+> 通常使用5元组来标识一个数据包属于哪个会话，在数据包查重和流量对比时会使用较多，在网络分析领域也经常会涉及到。
+> 类似的还有：
+> 4元组即用4个维度来确定唯一连接，这4个维度分别是源Ip (source IP), 源端口(source port),目标Ip (destination IP), 目标端口(destination port)。
+> 7元组即用7个字段来确定网络流量，即源Ip (source IP), 源端口(source port),目标Ip (destination IP), 目标端口(destination port),4层通信协议 (the layer 4 protocol),服务类型(ToS byte)，接口索引(Input logical interface (ifIndex))
+
+### 一个端口多个连接
+- 一个端口能建立多个TCP连接（五元组不同即可），一个端口同一时间只能bind给一个SOCKET。就是同一时间一个端口只可能有一个监听线程(监听listen之前要bind)。
+- UPD本身就是无连接的。所以不存在什么多个UDP连接。只是，服务端接收UDP数据需要bind一个端口。一个SOCKET只能绑定到一个端口。
+
 ## 性能&高并发
 * [理解 QPS、TPS、RT、并发数、吞吐量...](https://mp.weixin.qq.com/s/v0r-bZ_KVT9dLV_r7bNbjA)
 > QPS = 并发数 / RT  
