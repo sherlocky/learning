@@ -131,3 +131,6 @@ https://www.ietf.org/rfc/rfc1034.txt
 ## gor
 * [gor实现线上HTTP流量复制压测引流](https://www.cnblogs.com/qmfsun/p/11598763.html)
 * [【github】buger/goreplay](https://github.com/buger/goreplay)
+
+## 打印（代理） HTTP 请求
+* [Corgi - 打印 HTTP 请求](https://github.com/ddrpa/corgi)
