@@ -132,5 +132,9 @@ https://www.ietf.org/rfc/rfc1034.txt
 * [gor实现线上HTTP流量复制压测引流](https://www.cnblogs.com/qmfsun/p/11598763.html)
 * [【github】buger/goreplay](https://github.com/buger/goreplay)
 
-## 打印（代理） HTTP 请求
+## 网络诊断调试
 * [Corgi - 打印 HTTP 请求](https://github.com/ddrpa/corgi)
+* [Traefik's Whoami：一款轻巧且强大的网络调试工具](https://github.com/traefik/whoami)
+  > 支持Docker部署
+  > 在软件开发和运维中，理解请求在网络中的流动是至关重要的。这款小巧但功能强大的服务提供了一个简单的API接口，用于展示当前连接的信息，帮助开发者进行网络和负载均衡器的调试。
+  > Whoami服务简单地响应HTTP请求，返回客户端的IP地址、User-Agent、服务器时间等信息，这对于诊断和测试网络配置非常有用。
