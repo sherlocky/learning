@@ -5,6 +5,7 @@
 * [这才是真正的Git——Git内部原理](https://juejin.im/post/5df1fc42518825127a036b03)
 * [图解Git](https://marklodato.github.io/visual-git-guide/index-zh-cn.html)
 * [【Git】rebase 用法小结 - 简书](https://www.jianshu.com/p/4a8f4af4e803)
+* [你合并代码用 merge 还是用 rebase ?](https://mp.weixin.qq.com/s/SRdfXUDRaj9aQKRzbz9BWQ)
 * [Git ~和^的区别 - 简书](https://www.jianshu.com/p/6ce13ce46d8b)
 
 ## GitHub
