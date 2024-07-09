@@ -49,7 +49,7 @@
     > 
     > 选择哪个版本主要取决于你的具体需求，如果你需要在云环境中进行Java开发，或需要使用阿里巴巴定制的特性，那么扩展版可能更适合你。反之，如果你的需求相对普通，那么标准版可能更能满足你的要求。
 * [IBM eclipse openj9](https://github.com/eclipse-openj9/openj9)
-  > 基于OpenJDK进行改造，内存占用较低
+  > 基于OpenJDK进行改造，OpenJ9的特点就是性能：低内存占用，快速启动，高吞吐。
 
   - [ibm-semeru-runtimes](https://developer.ibm.com/languages/java/semeru-runtimes/downloads)
     >  openj9是以前ibm不要的项目，搞砸了，丢给eclipse去搞。 
