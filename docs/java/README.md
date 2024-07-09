@@ -31,8 +31,6 @@
   > - [Java SE 8 Archive Downloads (JDK 8u211 and later)](https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html)
 * [新时代JDK版本的选择](https://mp.weixin.qq.com/s?__biz=MzIzODYyNjkzNw==&mid=2247484056&idx=1&sn=a81a69f123d519014d03ec22c3c3cca4)
 * [我应该使用哪个版本的 JDK？](https://juejin.cn/post/7205162789156732986)
-* [AdoptOpenJDK下载](https://adoptopenjdk.net/)
-  > 清华镜像地址 https://mirrors.tuna.tsinghua.edu.cn/Adoptium/8/jdk/
 * 【国产化】JDK选择
   - 华为 毕昇JDK
     > https://www.hikunpeng.com/developer/devkit/download/jdk
@@ -48,6 +46,22 @@
     > **扩展版(Extended Edition)**：在标准版的基础上增加了大量定制特性，主要面向云计算环境进行优化。这些特性已在阿里巴巴的生产环境中得到大规模验证。例如，它包括了诸多特色功能，如JWarmup等。此版本适用于需要使用这些特性，或在阿里云环境中进行Java开发的场景。
     > 
     > 选择哪个版本主要取决于你的具体需求，如果你需要在云环境中进行Java开发，或需要使用阿里巴巴定制的特性，那么扩展版可能更适合你。反之，如果你的需求相对普通，那么标准版可能更能满足你的要求。
+* [AdoptOpenJDK下载](https://adoptopenjdk.net/)
+  > 已经更名为 Adoptium
+  > 清华镜像地址 https://mirrors.tuna.tsinghua.edu.cn/Adoptium/
+* HotSpot VS OpenJ9
+  > AdoptOpenJDK 是一个由社区驱动的项目，它基于 GPL 开源协议，以免费软件的形式提供社区版 OpenJDK 二进制包。
+  > AdoptOpenJDK 中提供了两种虚拟机，即 HotSpot 和 OpenJ9。
+  > 
+  > HotSpot 是来自 OpenJDK 社区的虚拟机，它是目前使用最广泛的虚拟机（也是OpenJDK默认使用的虚拟机），也被用于 Oracle 的 JDK，适合所有工作负载。
+  > 而 OpenJ9 则来自 Eclipse 社区，是一款企业级虚拟机，具有低内存占用和快速启动的特点，被用于 IBM 的 JDK，同样适合运行各种工作负载。
+  >
+  > 然而，随着发展，AdoptOpenJDK 项目进行了迁移和调整。
+  > 现在，Eclipse Temurin 项目提供了基于 Hotspot 虚拟机的 OpenJDK 二进制文件，而 IBM 则以 IBM Semeru Runtimes 的家族名称生产基于 OpenJ9 的二进制文件，包括开放版和认证版，它们本质上相同，但在不同的许可证下发布。
+  > 如果你需要使用包含 HotSpot 虚拟机的 OpenJDK，可以选择 Eclipse Temurin 或其他提供相应版本的来源。
+  > 如果你想使用包含 OpenJ9 虚拟机的 OpenJDK，则可以下载 IBM Semeru 版本（认证或不认证的都可以）。
+  > 需要注意的是，从法律角度来说，OpenJ9 已捐献给了 Eclipse 基金会，与 IBM 已没有直接关系。
+  > IBM 为避免法律麻烦推出了认证版本，该认证版本和非认证版本的代码和结构完全相同，可能在提供的支持方面有所差异，对于开发人员而言，在使用上基本没有区别。
 * [IBM eclipse openj9](https://github.com/eclipse-openj9/openj9)
   > 基于OpenJDK进行改造，OpenJ9的特点就是性能：低内存占用，快速启动，高吞吐。
   > 通过将 HotSpot 更换为 OpenJ9，内存占用能降低至少 60%，而启动时间也能快 40% 以上，效果立竿见影。
@@ -57,7 +71,10 @@
     >  openj9是以前ibm不要的项目，搞砸了，丢给eclipse去搞。 
     > 现在慢慢改好了，改好了之后就拿回去，自己搞了，继续做成ibm版本的java。
     > Docker镜像地址：[ibm-semeru-runtimes](https://hub.docker.com/_/ibm-semeru-runtimes)
-
+    >
+    > 上游 AdoptOpenJDK 已经更名为 Adoptium，Adoptium 不再提供 OpenJ9 的实现
+    > 清华镜像站提供了单独的镜像地址：[github-release/ibmruntimes](https://mirrors.tuna.tsinghua.edu.cn/github-release/ibmruntimes/)
+    
   - [有了HotSpot JVM为什么还需要OpenJ9？](https://segmentfault.com/a/1190000043384478)
 
   - openj9 jvm 参数
@@ -72,8 +89,6 @@
   - dump分析
     > 须使用IBM Semeru Runtimes Java 17 JDK + （支持DTFJ） 的MAT才能打开 
     > https://www.ibm.com/support/pages/eclipse-memory-analyzer-tool-dtfj-and-ibm-extensions
-
-
 
 ## J2SE
   * [Java 编程思想（中文版）在线](https://lingcoder.github.io/OnJava8/#/sidebar)
