@@ -41,7 +41,8 @@
  * [数据库连接池到底应该设多大？这篇文章可能会颠覆你的认知](https://www.jianshu.com/p/a8f653fc0c54)
 
 ## 规范
-* [【值得收藏】一份非常完整的Mysql规范](https://www.jianshu.com/p/d7d57b6fb7dd)
+* [阿里巴巴MySQL建表规范](https://mp.weixin.qq.com/s/Kif4yvRJGO68jXPErxwNXw)
+* [阿里巴巴SQL强制规范，MySQL篇](https://mp.weixin.qq.com/s/h58L7XxIq5MibmGN-GAHCQ)
 * [58同城MySql38条军规](http://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651959906&idx=1&sn=2cbdc66cfb5b53cf4327a1e0d18d9b4a)
 * [面试官问，为什么建议MySQL列属性尽量用 NOT NULL ？](https://mp.weixin.qq.com/s?__biz=MzIwMzY1OTU1NQ==&mid=2247486868&idx=1&sn=b3b17886e89f696c2a0e4aa593329554)
 
