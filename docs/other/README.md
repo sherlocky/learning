@@ -35,6 +35,20 @@
 
 ## 支付
 * [Spring MVC+Spring+MyBatis实现支付宝扫码支付功能（图文详解）](https://mp.weixin.qq.com/s?__biz=MzU0MzQ5MDA0Mw==&mid=2247488039&idx=1&sn=9bb5ba8db210fabf0871e9997152984d)
+* [浅析微信支付](https://yclimb.gitbook.io/wxpay)
+* [一文搞懂“订单、账单、支付单”关系](https://mp.weixin.qq.com/s/LwfnSxsF-yQ5fDez-AA9Yw)
+  > ![image](https://github.com/user-attachments/assets/cfd49831-bd9d-416a-bb5b-a75b4fd90896)
+  > 在交易核心有3个单据，分别是**订单、账单、账单支付记录**，他们之间是一对多对多的关系.
+  > 券系统核销了该券：核销记录与账单支付记录之间建立了关联.
+  > 一笔支付可能会请求渠道多次，因此我们还会建立一个支付请求的明细，支付单和支付请求之间是1对多的关系。
+  > 
+  > 在支付核心会产生2类单据： 
+  > - 一类是正向支付的支付单和支付请求明细； 
+  > - 第二类是退款单和退款请求明细
+  >
+  > 逆向订单退款就容易多了，因为逆向是正向的反方向，所以涉及到的依然是3个核心，依然是上述的单据维度，只不过单据变成了逆向单，
+  > 即**订单变成了退单，账单变成了退款账单、账单支付记录变成了账单退款记录、支付单变成了退款单**等。
+
 
 ## Android
 * [你逃不掉的APK安装原理](https://www.jianshu.com/p/d2a550a953e0)
