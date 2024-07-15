@@ -35,8 +35,8 @@
 
 ## 支付
 * [Spring MVC+Spring+MyBatis实现支付宝扫码支付功能（图文详解）](https://mp.weixin.qq.com/s?__biz=MzU0MzQ5MDA0Mw==&mid=2247488039&idx=1&sn=9bb5ba8db210fabf0871e9997152984d)
-* [浅析微信支付](https://yclimb.gitbook.io/wxpay)
-* [一文搞懂“订单、账单、支付单”关系](https://mp.weixin.qq.com/s/LwfnSxsF-yQ5fDez-AA9Yw)
+* [【纯干货】浅析微信支付](https://yclimb.gitbook.io/wxpay)
+* [【干货】一文搞懂“订单、账单、支付单”关系](https://mp.weixin.qq.com/s/LwfnSxsF-yQ5fDez-AA9Yw)
   > ![image](https://github.com/user-attachments/assets/cfd49831-bd9d-416a-bb5b-a75b4fd90896)
   > 在交易核心有3个单据，分别是**订单、账单、账单支付记录**，他们之间是一对多对多的关系.
   > 券系统核销了该券：核销记录与账单支付记录之间建立了关联.
