@@ -141,6 +141,8 @@ https://www.ietf.org/rfc/rfc1034.txt
 
 ## ``IPv4`` VS ``IPv6``
 * [为什么 IPv6 难以取代 IPv4](https://mp.weixin.qq.com/s/Aut6e6duxkCZ4f4mZcD2-g)
+* [【博客】IPv6](https://halo.sherlocky.com/archives/ipv6)
+* [IPv6 工具箱使用](https://ipw.cn/doc/)
 
 ## gor
 * [gor实现线上HTTP流量复制压测引流](https://www.cnblogs.com/qmfsun/p/11598763.html)
