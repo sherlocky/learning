@@ -13,6 +13,7 @@
 * [群晖 NAS 下 CentOS7 虚拟机挂载主机磁盘](https://halo.sherlocky.com/archives/qun-hui-nas-xu-ni-ji-gua-zai-zhu-ji-ci-pan)
 * [群晖 NAS Docker 容器镜像加速](https://halo.sherlocky.com/archives/qun-hui-nas-docker-rong-qi-jing-xiang-jia-su)
 * [使用 Rocky Linux 打造家用 NAS 系统](https://rockylinux.cn/notes/strong-shi-yong-rocky-linux-da-zao-jia-yong-nas-xi-tong.html)
+* [群晖三方套件源](https://halo.sherlocky.com/archives/frp-shi-xian-wai-wang-fang-wen-qun-hui-nas#%E7%BE%A4%E6%99%96%E4%B8%89%E6%96%B9%E5%A5%97%E4%BB%B6%E6%BA%90)
 
 ## 博客
 * [~~给自己博客添加 Elasticsearch 实现全文搜索~~](https://halo.sherlocky.com/archives/docker-es)
