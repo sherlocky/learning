@@ -127,7 +127,6 @@ https://www.ietf.org/rfc/rfc1034.txt
 ### ``TLS`` VS ``DTLS``
   > ![](https://ghost.oss.sherlocky.com/halo/TLS_DTLS.png)
   
-  
 ## HTTP3 
 * [HTTP/3 QUIC协议](https://mp.weixin.qq.com/s/mHPEOho5F1pmNSWUAXQ9QA)
   > QUIC（Quick UDP Internet Connections，快速 UDP 网络连接
@@ -138,6 +137,16 @@ https://www.ietf.org/rfc/rfc1034.txt
   > 支持QUIC的Nginx分支：https://hg.nginx.org/nginx-quic/shortlog/quic ，基于mainline 1.19.x 版本开的分支，目前处于Beta版质量，不应用于生产。
   > 以及部署说明：https://quic.nginx.org/readme.html
   > 测试你的站点是否支持 quic 服务：https://http3check.net/
+
+## DNS
+> 美国已经利用先发优势主导的根服务器治理体系控制全球互联网长达30年了，根服务器负责互联网最顶级的域名解析，被称为互联网的“中枢神经”。
+> 由美国一手构建起来的IPv4体系，在全球部署13台根服务器，唯一主根部署在美国，其余12台辅根中9台在美国、2台在欧洲、1台在日本。
+>
+> 下一代互联网国家工程中心牵头发起的“雪人计划”在全球完成25台IPv6(互联网协议第六版)根服务器架设。
+> 中国部署了其中的4台，由1台主根服务器和3台辅根服务器组成。打破了中国过去没有根服务器的困境。
+
+- [IPv6 DNS](https://halo.sherlocky.com/archives/ipv6#34-ipv6-dns)
+- [DoH 与 DoT 说明](https://halo.sherlocky.com/archives/ipv6#33-doh-%E4%B8%8E-dot-%E8%AF%B4%E6%98%8E)
 
 ## ``IPv4`` VS ``IPv6``
 * [为什么 IPv6 难以取代 IPv4](https://mp.weixin.qq.com/s/Aut6e6duxkCZ4f4mZcD2-g)
