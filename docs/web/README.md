@@ -144,7 +144,15 @@ https://www.ietf.org/rfc/rfc1034.txt
 >
 > 下一代互联网国家工程中心牵头发起的“雪人计划”在全球完成25台IPv6(互联网协议第六版)根服务器架设。
 > 中国部署了其中的4台，由1台主根服务器和3台辅根服务器组成。打破了中国过去没有根服务器的困境。
-
+- IPv4 DNS
+  - Google 公共 DNS
+    - ``8.8.8.8``
+    - ``114.114.114.114``
+  - 腾讯 ``119.29.29.29``
+  - 阿里
+    > 24年9月30日免费版开始限速了
+    - ``223.5.5.5``
+    - ``223.6.6.6``
 - [IPv6 DNS](https://halo.sherlocky.com/archives/ipv6#34-ipv6-dns)
 - [DoH 与 DoT 说明](https://halo.sherlocky.com/archives/ipv6#33-doh-%E4%B8%8E-dot-%E8%AF%B4%E6%98%8E)
 
