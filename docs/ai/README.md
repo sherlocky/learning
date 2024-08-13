@@ -5,6 +5,9 @@
 
 * [antlr4](https://github.com/antlr/antlr4)
 
+## 神经网络
+* [人人都能搞定的大模型原理 - 神经网络](https://mp.weixin.qq.com/s?__biz=MzUxNjI3NTg4Mg==&mid=2247483844&idx=1&sn=a63d5d5b825b96ad7b9b342ef7b8ad64)
+
 ## AI 算法
 * [Stylized Neural Painting 为艺术而生的算法](https://github.com/jiupinjia/stylized-neural-painting)
   > [算法根据我们提供的图片，自动一笔一划地创作油画](https://mp.weixin.qq.com/s/qtNei4A7Zgr4qBDbKnnyXg)  
