@@ -14,6 +14,8 @@
 
 ## 规则引擎
 * [规则引擎框架liteflow](https://liteflow.cc/pages/5816c5/)
+* [OptaPlanner 基本概念 - 规划问题， 约束，方案](https://cloud.tencent.com/developer/article/1500049)
+* [动态规划-背包问题(01背包、完全背包、多重背包)](https://cloud.tencent.com/developer/article/1697983)
 
 ## 搜索引擎
 * [倒排索引/全文搜索基本原理](https://www.cnblogs.com/gered/p/9561710.html)
