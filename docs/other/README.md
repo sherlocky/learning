@@ -6,8 +6,9 @@
 ## 文件上传
 
 ### 分片上传
-* [tus 断点续传](https://tus.io/)
-  > https://github.com/tus/tus-java-client
+* [Tus协议 断点续传](https://tus.io/)
+  > - [基于Tus协议的文件上传流程](https://food-billboard.github.io/2020/12/28/%E5%9F%BA%E4%BA%8ETus%E5%8D%8F%E8%AE%AE%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%B5%81%E7%A8%8B/)
+  > - [Tus Java 客户端](https://github.com/tus/tus-java-client)
 
 ## 命名
 * [命名备忘录](https://mp.weixin.qq.com/s/yOgv9H3qc3Ok2Ga2PSi21g)
