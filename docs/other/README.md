@@ -3,6 +3,12 @@
 * [干货收藏 | Java程序员必备的一些流程图](https://mp.weixin.qq.com/s/oTE_hbJtI_n6XTx9jj8w9A)
 * [牛人自制“神器”，2017 最新 Web 开发者成长路线图](https://www.oschina.net/news/82966/web-developer-roadmap-in-2017?winzoom=1)
 
+## 文件上传
+
+### 分片上传
+* [tus 断点续传](https://tus.io/)
+  > https://github.com/tus/tus-java-client
+
 ## 命名
 * [命名备忘录](https://mp.weixin.qq.com/s/yOgv9H3qc3Ok2Ga2PSi21g)
   > [naming-cheatsheet](https://github.com/kettanaito/naming-cheatsheet)
