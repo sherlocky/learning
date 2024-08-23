@@ -21,3 +21,6 @@
 ## 推荐系统
 * [推荐一个国人开源的推荐系统 gorse: Go Recommender System Engine](https://mp.weixin.qq.com/s/j_tNX6W4A-LKCmwM_Bc98g)
   > https://github.com/zhenghaoz/gorse
+
+## 大模型 LLM
+* [掌握Prompt写作技巧：写出完美Prompt的秘籍](https://mp.weixin.qq.com/s/NsRY_hEUSEZbubWYK1_1RQ)
