@@ -3,6 +3,13 @@
 ## 缓存算法
 * [LFU的基本原理与实现](https://www.cnblogs.com/wyq178/p/11790015.html)
 
+## 缓存框架
+* [阿里巴巴开源的通用缓存访问框架JetCache](https://github.com/alibaba/jetcache)
+  > 支持的缓存系统包括:
+  > - Caffeine（基于本地内存）
+  > - LinkedHashMap（基于本地内存，JetCache自己实现的简易LRU缓存）
+  > - Redis（含jedis、lettuce、spring-data、redisson几种访问方式）
+
 ## 本地缓存
 * [【本地缓存之王】Caffeine高性能设计剖析](https://albenw.github.io/posts/a4ae1aa2/)
 * 本地缓存不放敏感变更数据，Maybe 可以通过配置中心异步通知的方式更新本地缓存？
@@ -41,6 +48,9 @@
 * [Redis的bitmap从基础到业务](https://blog.csdn.net/ctwctw/article/details/105013817)
 * [SpringBoot2.x中使用Redis的bitmap结构（工具类）](https://www.jianshu.com/p/305e65de1b13)
 * [【ProcessOn】Redis—AKF服务拆分原则、CAP理论前置、数据一致性理论与方案](https://www.processon.com/view/5ede3fcc5653bb6963dcb62f)
+
+### 热Key
+* [基于Redis内核的热key统计实现方案｜得物技术](https://mp.weixin.qq.com/s/RWQzLZq6X7B5ThaKX6U4SQ)
 
 ### 一致性问题
 * [Redis缓存和MySQL数据一致性方案详解](https://mikechen.cc/3410.html)
