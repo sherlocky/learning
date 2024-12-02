@@ -9,3 +9,6 @@
 
 ## 超融合 虚拟化
 * [什么是超融合基础架构？](https://www.vmware.com/cn/products/hyper-converged-infrastructure.html)
+
+## 契约式设计
+* [代码千行不如架构图一张！论契约平台的设计与思考](https://mp.weixin.qq.com/s/tvfqfEddey_G4pJX9_XbYQ)
