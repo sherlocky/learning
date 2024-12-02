@@ -138,6 +138,35 @@
     > 原地址： [Mybatis常见面试题总结](https://blog.csdn.net/a745233700/article/details/80977133)
   * [Mybatis源码讲解（三）-- SqlSession](https://mp.weixin.qq.com/s?__biz=MzU3NzczMTAzMg==&mid=2247487402&idx=1&sn=f805e2141f2ef953bdb31218ef75a9ba)
   * [mybatis动态SQL与批量插入](https://juejin.im/post/5e959b355188257382099074)
+
+### [mybatis使用resultMap解决嵌套属性问题](https://juejin.cn/post/7324253082615463987)
+```java
+@Data
+public class SpuItemAttrGroupVo {
+    private String groupName;
+    private List<Attr> attrs;
+}
+@Data
+public class Attr {
+    private Long attrId;
+    private String attrName;   
+    private String attrValue;
+}
+```
+```xml
+<resultMap id="SpuItemAttrGroupVo" type="com.tomla.gomall.product.vo.SpuItemAttrGroupVo">
+    <result property="groupName" column="attr_group_name"></result>
+    <collection property="attrs" ofType="com.tomla.gomall.product.vo.Attr">
+        <result property="attrId" column="attr_id"></result>
+        <result property="attrName" column="attr_name"></result>
+        <result property="attrValue" column="attr_value"></result>
+    </collection>
+</resultMap>
+<select id="getSpuItemAttrGroupVo" resultMap="SpuItemAttrGroupVo">
+    <!--查询语句略-->
+</select>
+```
+
 ### MyBatis Plus
   * [【实验】mybatis批量插入方式的比较](https://mp.weixin.qq.com/s/-rfokXqRctRZatwZDmOT3g)
     > 少量插入请使用反复插入单条数据，方便。数量较多请使用批处理方式。
@@ -148,6 +177,7 @@
     > 参考：[案例](https://gitee.com/baomidou/mybatis-plus-samples/blob/master/mybatis-plus-sample-sql-injector/src/main/java/com/baomidou/samples/injector/base/MySqlInjector.java)
   * [MybatisPlus真正的批量插入（非循环单个）方法](https://blog.csdn.net/qq_18630487/article/details/111153883)
   * [mybatis-plus真正批量新增和更新](https://www.jianshu.com/p/df14fa887b85)
+  * [性能提升 2000%！揭秘 MyBatis-Plus 批量插入的终极优化技巧](https://mp.weixin.qq.com/s/bmqRiv_LwZRgZDfiZInJpA)
 
 ## wier 数据库分析系列博文
   * [DB——数据的读取和存储方式](https://my.oschina.net/u/1859679/blog/1581379)
