@@ -17,3 +17,9 @@
 
 ## Shell
 * [Shell、Bash、CMD、PowerShell 的区别](https://xmuli.tech/posts/d0c4daee/)
+
+## 监控
+* [那些鲜为人知但非常有用的 Linux 性能监控工具](https://mp.weixin.qq.com/s/VuMDHbJG10aQMivo3J0v_Q)
+  > - [nmon性能监控](http://nmon.sourceforge.net/)
+  > - [glances系统监控](https://github.com/nicolargo/glances)
+  > - 日志监控工具 multitail
