@@ -75,6 +75,9 @@
 ### Resource 
   * [SpringBoot读取Resource下文件的几种方式](https://www.jianshu.com/p/7d7e5e4e8ae3)
 
+### 常用内置方法
+  * [请不要自己写，Spring Boot非常实用的内置功能](https://mp.weixin.qq.com/s/9e1R9eVWNgy9M2qLENBg5Q)
+
 ## Spring Shiro
   * [并发登录人数控制——《跟我学Shiro》](https://www.iteye.com/blog/jinnianshilongnian-2039760)
   * [Shiro+JWT权限管理](https://springboot.plus/guide/shiro-jwt.html#shiro)
