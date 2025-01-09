@@ -127,7 +127,9 @@
   > MySQL第三方高可用架构：MHA 消耗资源大，健壮性强，前期投入大，后期维护成本小 （日志补偿）  
   可参考：[使用MHA实现MySQL主从复制高可用](https://blog.csdn.net/wzy0623/article/details/81304654)
 
-## MyBatis 
+## ORM 框架
+
+### MyBatis 
   * [别怕看源码,一张图搞定Mybatis的Mapper原理-肥朝](https://www.jianshu.com/p/419ce7b5c1ce)
     > ![MybatisMapper时序图](https://ghost.oss.sherlocky.com/FoB0EZUy5htr0RZ1Q7yoIfRIJ5Eu-halo)
   * [mybatis思维导图，让mybatis不再难懂（一）](https://my.oschina.net/u/3080373/blog/880501)
@@ -139,7 +141,7 @@
   * [Mybatis源码讲解（三）-- SqlSession](https://mp.weixin.qq.com/s?__biz=MzU3NzczMTAzMg==&mid=2247487402&idx=1&sn=f805e2141f2ef953bdb31218ef75a9ba)
   * [mybatis动态SQL与批量插入](https://juejin.im/post/5e959b355188257382099074)
 
-### [mybatis使用resultMap解决嵌套属性问题](https://juejin.cn/post/7324253082615463987)
+#### [mybatis使用resultMap解决嵌套属性问题](https://juejin.cn/post/7324253082615463987)
 ```java
 @Data
 public class SpuItemAttrGroupVo {
@@ -167,7 +169,7 @@ public class Attr {
 </select>
 ```
 
-### MyBatis Plus
+#### MyBatis Plus
   * [【实验】mybatis批量插入方式的比较](https://mp.weixin.qq.com/s/-rfokXqRctRZatwZDmOT3g)
     > 少量插入请使用反复插入单条数据，方便。数量较多请使用批处理方式。
     > （可以考虑以有需求的插入数据量20条左右为界吧，在我的测试和数据库环境下耗时都是百毫秒级的，方便最重要）。  
@@ -178,6 +180,20 @@ public class Attr {
   * [MybatisPlus真正的批量插入（非循环单个）方法](https://blog.csdn.net/qq_18630487/article/details/111153883)
   * [mybatis-plus真正批量新增和更新](https://www.jianshu.com/p/df14fa887b85)
   * [性能提升 2000%！揭秘 MyBatis-Plus 批量插入的终极优化技巧](https://mp.weixin.qq.com/s/bmqRiv_LwZRgZDfiZInJpA)
+
+### Jooq
+现代化的 Java SQL 框架；在性能、效率及开发体验上秒杀 Mybatis
+
+- [官方文档](https://www.jooq.org/doc/3.19/manual-single-page/#Overview)
+- [相关教程](https://jooq.diamondfsd.com/learn/section-1-how-to-start.html)
+- [jOOQ and Kotlin](https://www.jooq.org/doc/latest/manual/getting-started/jooq-and-kotlin/)
+
+### Jimmer
+一个重新思考、重新设计、重新构建的革命性 ORM 框架；颠覆你对整个 JVM 生态的使用体验。
+
+Jimmer的核心理念，在于任意形状的的数据结构作为一个整体进行读写操作，而非简单的处理实体对象。
+
+- [Jimmer官方文档]([Jimmer](https://babyfish-ct.github.io/jimmer-doc/zh/docs/overview/key-features))
 
 ## wier 数据库分析系列博文
   * [DB——数据的读取和存储方式](https://my.oschina.net/u/1859679/blog/1581379)
