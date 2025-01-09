@@ -78,14 +78,19 @@
 ### 常用内置方法
   * [请不要自己写，Spring Boot非常实用的内置功能](https://mp.weixin.qq.com/s/9e1R9eVWNgy9M2qLENBg5Q)
 
-## Spring Shiro
+### Spring Shiro
   * [并发登录人数控制——《跟我学Shiro》](https://www.iteye.com/blog/jinnianshilongnian-2039760)
   * [Shiro+JWT权限管理](https://springboot.plus/guide/shiro-jwt.html#shiro)
   
-## Spring Boot Admin
+### Spring Boot Admin
   * [使用 spring-boot-admin 对 Spring Boot 服务进行监控](http://www.ityouknow.com/springboot/2018/02/11/spring-boot-admin.html)
   * [spring-boot-admin](https://github.com/codecentric/spring-boot-admin)
-  
+
+### SpringBoot 脚手架
+- [RuoYi](https://doc.ruoyi.vip/ruoyi/)
+- [JeecgBoot](https://github.com/jeecgboot/jeecgboot)
+  > 4w+星，企业级低代码平台
+
 ## SpringCloud
   * [面试官：兄弟，说说 Spring Cloud 的核心架构原理吧](https://mp.weixin.qq.com/s?__biz=MzI4NDY5Mjc1Mg==&mid=2247489127&idx=2&sn=5cba4e2c5e38e7706691014ec9379665)
   * [一起来学SpringCloud -- 唐亚峰](https://blog.battcn.com/categories/SpringCloud/)
