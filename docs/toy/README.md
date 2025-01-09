@@ -14,6 +14,25 @@
 * [群晖 NAS Docker 容器镜像加速](https://halo.sherlocky.com/archives/qun-hui-nas-docker-rong-qi-jing-xiang-jia-su)
 * [使用 Rocky Linux 打造家用 NAS 系统](https://rockylinux.cn/notes/strong-shi-yong-rocky-linux-da-zao-jia-yong-nas-xi-tong.html)
 * [群晖三方套件源](https://halo.sherlocky.com/archives/frp-shi-xian-wai-wang-fang-wen-qun-hui-nas#%E7%BE%A4%E6%99%96%E4%B8%89%E6%96%B9%E5%A5%97%E4%BB%B6%E6%BA%90)
+* [【矿神】群晖第三方套件中心](https://spk.imnks.com/?arch=apollolake) 
+
+* [飞牛私有云 fnOS](https://www.fnnas.com/)
+* [开源NAS系统 Openmediavault（OMV）](https://www.openmediavault.org/download.html)
+* [懒猫微服NAS-专属 AI 私有云服务器](https://lazycat.cloud/product/LC-02)
+
+## All In One
+* [All in one入门之All in one和三种PVE、ESXI、Windows Server方案](https://www.cnblogs.com/alittlemc/p/16996277.html)
+* [玩转虚拟化 - Proxmox VE 安装及配置](https://cloud.tencent.com/developer/article/2359369)
+* [ImmortalWrt](https://downloads.immortalwrt.org/)
+
+## 智能家居
+* [Home Assistant部署](https://halo.sherlocky.com/archives/ha)
+* [Home Assistant官方文档](https://www.home-assistant.io/dashboards/)
+* [小米HA官方插件](https://github.com/XiaoMi/ha_xiaomi_home.git)
+  > 听说后续有3D版
+* [面板插件ha-component-kit](https://github.com/shannonhochkins/ha-component-kit?tab=readme-ov-file)
+* [酷家乐3D制作（可能收费）](https://www.kujiale.com/activities/gjjsy)
+
 
 ## 博客
 * [~~给自己博客添加 Elasticsearch 实现全文搜索~~](https://halo.sherlocky.com/archives/docker-es)
