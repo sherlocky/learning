@@ -22,6 +22,8 @@
 
 ## JDK 下载
 * 各种JAVA JDK的镜像分发：[injdk](https://www.injdk.cn/)
+* JDK包管理工具：[sdkman](https://sdkman.io/jdks)
+  > 类似的还有：JEnv和Jabba
 * [O记JDK下载](https://www.oracle.com/java/technologies/javase-downloads.html)
   > 华为镜像：https://repo.huaweicloud.com/java/jdk/
   > 鉴于JDK偶数版和奇数版的区别(可参考：[JDK 版本号区别](//halo.sherlocky.com/archives/java#jdk-%E7%89%88%E6%9C%AC%E5%8F%B7%E5%8C%BA%E5%88%AB))，如果使用O记JDK8，应该选择8u251
