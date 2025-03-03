@@ -3,6 +3,14 @@
 * [干货收藏 | Java程序员必备的一些流程图](https://mp.weixin.qq.com/s/oTE_hbJtI_n6XTx9jj8w9A)
 * [牛人自制“神器”，2017 最新 Web 开发者成长路线图](https://www.oschina.net/news/82966/web-developer-roadmap-in-2017?winzoom=1)
 
+## 在线协作
+> 例如：多人同时编辑一个 Excel 文件，在线方案可以用：Office 365、腾讯文档、钉钉、飞书、金山文档等
+> 核心是冲突解决算法，一般有两种 ot 和 crdt, google docs 用的 ot, 现在一般用 crdt, 开源的有 yjs, automerge 等等
+
+- [Y.js](https://chinabigpan.github.io/yjs-docs-zh-cn/routes/)
+  > 对共享数据进行强大抽象的 CRDT 框架
+  > CRDT 是 Conflict-free Replicated Data Type 即免冲突的可复制的数据类型，这种数据类型可以用于数据跨网络复制并且可以自动解决冲突达到一致。
+
 ## 文件上传
 
 ### 分片上传
