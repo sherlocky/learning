@@ -395,6 +395,15 @@
     >   - 2、实现多个线程开始执行任务的最大并行性。
     > - CyclicBarrier(循环栅栏)：CountDownLatch 的实现是基于 AQS 的，而 CycliBarrier 是基于 ReentrantLock(ReentrantLock 也属于 AQS 同步器)和 Condition 的。
   * [从ReentrantLock的实现看AQS的原理及应用](https://javaguide.cn/java/concurrent/reentrantlock.html#aqs-%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D)
+
+## ReentrantLock
+  * [Java ReentrantLock 冗余设计？](https://www.v2ex.com/t/1117217#reply7)
+    > 并发编程的经典优化方式：**快慢路径**
+    > 一般先走 Fast Path ，用 CAS 尝试快速获取资源；失败后，走 Slow Path ，可能会涉及到一些阻塞、沉睡、排队之类的操作。
+    > 
+    > 不算设计冗余，两次调用 compareAndSetState 都是为了在无竞争时快速成功。
+    > 第一次调用返回 false 意味着有竞争，此时进入 acquire 。在 acquire 里会根据 state 的值判断是否调用 compareAndSetState ，原因是这中间有可能从有竞争变为无竞争（ volatile ），此时快速成功就行了。
+    > state 的值>0 才是可重入锁/其它线程占用的情况，最后再做其它处理。
   
 ## 线程池  
   * [线程池没你想的那么简单](https://juejin.im/post/5ce1f3b6f265da1ba2522f62)
