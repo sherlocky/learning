@@ -318,6 +318,8 @@
   * [可重入锁](https://mp.weixin.qq.com/s/GDno-X1N8zc98h9MZ8_KoA)
   * [面试官：说一下公平锁和非公平锁的区别？](https://zhuanlan.zhihu.com/p/115543000)
     > 潦草的说非公平就是插队。
+    > （默认是非公平锁）
+    > 想要公平就得给构造器传值true：``ReentrantLock lock = new ReentrantLock(true);``
   
 ## 并发
   * [Java8 和 Java 9中并发工具的改变](https://colobu.com/2018/03/12/Concurrency-Utilities-Enhancements-in-Java-8-Java-9/)
