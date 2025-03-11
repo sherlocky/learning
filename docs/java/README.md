@@ -315,12 +315,7 @@
   * [使用 Google Guava Striped 实现基于 Key 的并发锁](https://yanbin.blog/google-guava-striped-key-based-fine-grain-locks/)
   * [Java 8的StampedLock](https://www.jdon.com/idea/java/java-8-stampedlock.html)
     > StampedLock要比ReentrantReadWriteLock更加廉价，也就是消耗比较小
-  * [可重入锁](https://mp.weixin.qq.com/s/GDno-X1N8zc98h9MZ8_KoA)
-  * [面试官：说一下公平锁和非公平锁的区别？](https://zhuanlan.zhihu.com/p/115543000)
-    > 潦草的说非公平就是插队。
-    > （默认是非公平锁）
-    > 想要公平就得给构造器传值true：``ReentrantLock lock = new ReentrantLock(true);``
-  
+      
 ## 并发
   * [Java8 和 Java 9中并发工具的改变](https://colobu.com/2018/03/12/Concurrency-Utilities-Enhancements-in-Java-8-Java-9/)
   * [浅析LongAdder](https://www.jianshu.com/p/22d38d5c8c2a)
@@ -401,7 +396,7 @@
     > - CyclicBarrier(循环栅栏)：CountDownLatch 的实现是基于 AQS 的，而 CycliBarrier 是基于 ReentrantLock(ReentrantLock 也属于 AQS 同步器)和 Condition 的。
   * [从ReentrantLock的实现看AQS的原理及应用](https://javaguide.cn/java/concurrent/reentrantlock.html#aqs-%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D)
 
-## ReentrantLock
+## ReentrantLock（是一个可重入的互斥锁）
   * [Java ReentrantLock 冗余设计？](https://www.v2ex.com/t/1117217#reply7)
     > 并发编程的经典优化方式：**快慢路径**
     > 一般先走 Fast Path ，用 CAS 尝试快速获取资源；失败后，走 Slow Path ，可能会涉及到一些阻塞、沉睡、排队之类的操作。
@@ -409,6 +404,15 @@
     > 不算设计冗余，两次调用 compareAndSetState 都是为了在无竞争时快速成功。
     > 第一次调用返回 false 意味着有竞争，此时进入 acquire 。在 acquire 里会根据 state 的值判断是否调用 compareAndSetState ，原因是这中间有可能从有竞争变为无竞争（ volatile ），此时快速成功就行了。
     > state 的值>0 才是可重入锁/其它线程占用的情况，最后再做其它处理。
+  * [可重入锁](https://mp.weixin.qq.com/s/GDno-X1N8zc98h9MZ8_KoA)
+    > 1、对于同一个线程，重入锁允许你反复获得通一把锁（而不会导致线程卡死），但是，申请和释放锁的次数必须一致
+    > 2、默认情况下，重入锁是非公平的，公平的重入锁性能差于非公平锁
+    > 3、默认情况下，重入锁是非公平的，公平的重入锁性能差于非公平锁
+    > 4、重入锁的伴生对象Condition提供了await()和singal()的功能，可以用于线程间消息通信
+  * [面试官：说一下公平锁和非公平锁的区别？](https://zhuanlan.zhihu.com/p/115543000)
+    > 潦草的说非公平就是插队。
+    > （默认是非公平锁，**维持公平竞争是以牺牲系统性能为代价的**）
+    > 想要公平就得给构造器传值true：``ReentrantLock lock = new ReentrantLock(true);``
   
 ## 线程池  
   * [线程池没你想的那么简单](https://juejin.im/post/5ce1f3b6f265da1ba2522f62)
