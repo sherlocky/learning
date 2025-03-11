@@ -315,6 +315,9 @@
   * [使用 Google Guava Striped 实现基于 Key 的并发锁](https://yanbin.blog/google-guava-striped-key-based-fine-grain-locks/)
   * [Java 8的StampedLock](https://www.jdon.com/idea/java/java-8-stampedlock.html)
     > StampedLock要比ReentrantReadWriteLock更加廉价，也就是消耗比较小
+  * [可重入锁](https://mp.weixin.qq.com/s/GDno-X1N8zc98h9MZ8_KoA)
+  * [面试官：说一下公平锁和非公平锁的区别？](https://zhuanlan.zhihu.com/p/115543000)
+    > 潦草的说非公平就是插队。
   
 ## 并发
   * [Java8 和 Java 9中并发工具的改变](https://colobu.com/2018/03/12/Concurrency-Utilities-Enhancements-in-Java-8-Java-9/)
