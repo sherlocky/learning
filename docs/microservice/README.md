@@ -78,6 +78,7 @@
 ## 日志收集
 * [轻量级日志收集方案 Loki+Promtail+Grafana（简称LPG）](https://juejin.cn/post/7008424451704356872)
 * [云原生可观测平台 OpenObserve 初体验](https://cloud.tencent.com/developer/article/2314683)
+* [打印高质量日志的10条军规](https://juejin.cn/post/7504572792357486631)
 
 ## Docker 容器化
 * [Docker — 从入门到实践](https://vuepress.mirror.docker-practice.com/)
