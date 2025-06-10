@@ -146,7 +146,8 @@
     > OpenJDK 17 发布地址：  
     > http://openjdk.java.net/projects/jdk/17/  
     > OpenJDK 17 下载地址：  
-    > https://jdk.java.net/17/  
+    > https://jdk.java.net/17/
+  * [JDK从8升级到21的问题集](https://mp.weixin.qq.com/s/qzV3a5qQEGdipHipyPYhDQ)
   
 ## 阿里巴巴
   * [【阿里巴巴-王超】消灭 Java 代码的“坏味道”](https://mp.weixin.qq.com/s?__biz=MzU4NzU0MDIzOQ==&mid=2247487714&idx=1&sn=8f9de656a4abe236b16415e6ecaa5f9d)
