@@ -74,6 +74,7 @@
 
 ## 分布式存储
 * [分布式 MinIO（开源对象存储服务）](https://docs.min.io/cn/distributed-minio-quickstart-guide.html)
+* [RustFS 是一个基于 Rust 语言开发的高性能分布式对象存储软件](https://github.com/rustfs/rustfs)
 
 ## 日志收集
 * [轻量级日志收集方案 Loki+Promtail+Grafana（简称LPG）](https://juejin.cn/post/7008424451704356872)
