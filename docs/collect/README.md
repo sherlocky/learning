@@ -14,6 +14,9 @@
 * [标准流程图符号和用法](https://www.edrawsoft.com/cn/flowchart-symbols.php)
 * [draw.io画图工具](https://app.diagrams.net/)
 * [ProcessOn在线画图工具](https://www.processon.com/)
+* [开源 白板 drawnix](https://github.com/plait-board/drawnix)
+  > 在线地址：https://drawnix.com/
+  > 其他免费在线白板：https://akams.cn/excalidraw/
 
 ## Windows
 * [MSDN, 我告诉你 - 系统、Office下载](https://msdn.itellyou.cn/)
