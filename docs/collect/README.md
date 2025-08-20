@@ -4,6 +4,18 @@
 - https://uutool.cn/
 - https://tools.sherlocky.com/
 
+## 开源输入法
+> RIME 其实是一个算法核心，要组成完整的客户端输入法，还需要输入法框架和输入方案，三者共同组成一个输入法。
+> 鼠须管(macOS)和小狼毫(Windows)，可以理解为是输入法框架和 RIME 算法核心的结合体，只需要安装方案，就可以使用。
+
+- [【鼠鬚管】Rime for macOS rime.im](https://github.com/rime/squirrel)
+- [Rime 配置：雾凇拼音 | 长期维护的简体词库](https://github.com/iDvel/rime-ice)
+- [Rime输入法安装脚本 集成 雾凇拼音配置](https://github.com/Mark24Code/rime-auto-deploy)
+- [薄荷方案 oh-my-rime](https://www.mintimate.cc/zh/guide/installRime.html)
+- [Rime 万象拼音输入方案](https://github.com/amzxyz/rime_wanxiang)
+- [Rime 输入法方案配置手册](https://xishansnow.github.io/posts/41ac964d.html)
+
+
 ## 代码截图
 * [一键生成代码截图](https://quanxin.org/code-snapshot)
 
