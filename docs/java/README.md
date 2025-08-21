@@ -140,6 +140,7 @@
     > 第三个长期支持版本是 JDK 21，时间为 2023 年 9 月（LTS 改成了 2 年一次，非 LTS 还是半年一次，下一次计划在 2022/03 发布）
   * [4.6 W 字总结！Java 11—Java 17特性详解](https://mp.weixin.qq.com/s/cIezaR_cqDi9WxxQNCCrBw)
   * [Java 17 升级指南（持续更新）](https://juejin.cn/post/7117531586232320031)
+  * [JDK 17 的神仙语法！让代码优雅到飞起~](https://mp.weixin.qq.com/s/OzXguIInD2cPTZ_1St8HKQ)
   * 下载地址
     > https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.zip  
     > https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz  
