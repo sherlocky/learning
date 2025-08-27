@@ -33,6 +33,8 @@
 * [面板插件ha-component-kit](https://github.com/shannonhochkins/ha-component-kit?tab=readme-ov-file)
 * [酷家乐3D制作（可能收费）](https://www.kujiale.com/activities/gjjsy)
 
+## 机壳
+* [铝合金外壳打印](https://www.jlcfa.com/)
 
 ## 博客
 * [~~给自己博客添加 Elasticsearch 实现全文搜索~~](https://halo.sherlocky.com/archives/docker-es)
