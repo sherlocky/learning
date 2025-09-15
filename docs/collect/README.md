@@ -93,5 +93,5 @@ pause
   > 本浏览器，默认不支持使用在线商店安装扩展。
   > 但是有方法可以解决
   > 首先打开：``chrome://flags/#extension-mime-request-handling``，选择：``Always prompt for install``，并重启。如果是这个选项，就跳过。
-  > 然后安装这个：``https://github.com/NeverDecaf/chromium-web-store/releases/download/v1.5.4.3/Chromium.Web.Store.crx``
+  > 然后安装这个：``[https://github.com/NeverDecaf/chromium-web-store/releases/download/v1.5.4.3/Chromium.Web.Store.crx](https://github.com/NeverDecaf/chromium-web-store/releases/download/v1.5.5/Chromium.Web.Store.crx)``
   > 装好这个拓展以后，就能在线安装其他插件了
