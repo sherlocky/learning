@@ -82,3 +82,16 @@ pause
  > 例如可获取故宫博物院数字藏品高清图片
  > [九成宫醴泉铭-宋拓本](https://www.dpm.org.cn/collection/impres/234127.html)
 - [使用开源项目：dezoomify](https://ok.daoing.com/he/dezoomify.html)
+
+## 开源浏览器
+- [ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium)
+  > ungoogled-chromium 是来自 GitHub 的开源项目，是 Chromium 的衍生版本。
+  > 它开源、免费、无广告，并且移除了所有来自 Google 的网络服务功能，包括自动更新功能，保证了隐私安全和浏览器性能。
+  > ungoogled-chromium 目前支持 Windows、MacOS、Linux 等平台。除了没有 Google 服务之外，其他功能体验上它和 Chrome 浏览器没啥区别。
+  > 为了保证更彻底的隐私安全，ungoogled-chromium 浏览器被关闭时会清除所有网站的 Cookie。
+  > 
+  > 本浏览器，默认不支持使用在线商店安装扩展。
+  > 但是有方法可以解决
+  > 首先打开：``chrome://flags/#extension-mime-request-handling``，选择：``Always prompt for install``，并重启。如果是这个选项，就跳过。
+  > 然后安装这个：``https://github.com/NeverDecaf/chromium-web-store/releases/download/v1.5.4.3/Chromium.Web.Store.crx``
+  > 装好这个拓展以后，就能在线安装其他插件了
