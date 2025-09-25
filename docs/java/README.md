@@ -539,3 +539,18 @@
 
 ## Docker虚拟化
 * [性能优化 - Docker 容器中的 Java 内存使用分析](https://cloud.tencent.com/developer/article/1887538)
+
+## 短UUID()
+> Nano ID 是一个小巧、安全、URL友好、唯一的 字符串ID生成器。
+> 字母表「0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz-」
+> 
+> 默认生成的ID长度为 21 位，理论上位数越短重复的概率会变高，业务可根据实际数据量评估使用的长度。  
+> 百度网盘的分享码，之前是8位的，现在是23位，阿里云盘分享码现在是11位。
+> 
+> 例如：  
+> https://pan.baidu.com/s/1gx6lExKKzzlNO3GgTR3HiA  
+> https://pan.baidu.com/s/1gDyW-UwOL0m-O1K9iv4XcQ  
+> https://www.aliyundrive.com/s/MAxkzodoMvA/  
+> http://gofile.me/6VsPG/XcEMYauMM  
+* [NanoId](https://github.com/ai/nanoid)
+* [NanoId Java实现](https://github.com/wosherco/jnanoid-enhanced)
