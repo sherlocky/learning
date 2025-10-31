@@ -149,6 +149,8 @@
     > OpenJDK 17 下载地址：  
     > https://jdk.java.net/17/
   * [JDK从8升级到21的问题集](https://mp.weixin.qq.com/s/qzV3a5qQEGdipHipyPYhDQ)
+  * [JDK1.8升级 JDK21 实践踩坑](https://zhuanlan.zhihu.com/p/1932057888936957751)
+  * [JDK8到JDK21新特性合集笔记](https://www.cnblogs.com/castamere/p/18920066)
   
 ## 阿里巴巴
   * [【阿里巴巴-王超】消灭 Java 代码的“坏味道”](https://mp.weixin.qq.com/s?__biz=MzU4NzU0MDIzOQ==&mid=2247487714&idx=1&sn=8f9de656a4abe236b16415e6ecaa5f9d)
