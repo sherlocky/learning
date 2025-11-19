@@ -34,20 +34,7 @@
 * [MSDN, 我告诉你 - 系统、Office下载](https://msdn.itellyou.cn/)
 * [Microsoft Visual C++ 2015-2019 Redistributable](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)
 * [Windows上优质&精选的最佳应用程序及工具列表](https://github.com/Awesome-Windows/Awesome/blob/master/README-cn.md)
-
 * [win10 家庭版下载文件时没有权限保存到某盘的解决方案的完美流程](https://blog.csdn.net/weixin_42997646/article/details/89414437)
-> win10 家庭版打开组策略方法（保存为.bat，管理员权限运行）
-
-```
-@echo off
-pushd "%~dp0" 
-dir /b C:\Windows\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientExtensions-Package~3*.mum >List.txt 
-dir /b C:\Windows\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientTools-Package~3*.mum >>List.txt 
-for /f %%i in ('findstr /i . List.txt 2^>nul') do dism /online /norestart /add-package:"C:\Windows\servicing\Packages\%%i" 
-pause
-```
-* win10 开启开启卓越性能电源方案（需要PowerShell管理员）
-> ``powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61``
 
 ### Windows 下播放器
 > 主要参考：https://www.v2ex.com/t/951012#reply176
