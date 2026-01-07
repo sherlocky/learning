@@ -541,6 +541,8 @@
 
 ## Reactor响应式编程
 - [响应式编程入门之 Project Reactor](https://zhuanlan.zhihu.com/p/439265017)
+  > 响应式编程基本流程
+  > https://ghost.oss.sherlocky.com/halo/2026/01/07/%E5%93%8D%E5%BA%94%E5%BC%8F%E7%BC%96%E7%A8%8B%E5%9F%BA%E6%9C%AC%E6%B5%81%E7%A8%8B.png
 
 ## Docker虚拟化
 * [性能优化 - Docker 容器中的 Java 内存使用分析](https://cloud.tencent.com/developer/article/1887538)
